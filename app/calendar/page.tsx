@@ -1,7 +1,8 @@
 import { Calendar as CalendarIcon } from 'lucide-react';
-import { events } from '@/lib/data/events';
+import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { EventCard } from '@/components/cards/EventCard';
 import { formatEventDate } from '@/lib/utils';
+import type { Event } from '@/lib/types';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -9,9 +10,12 @@ export const metadata: Metadata = {
   description: 'All Muslim community events in Teaneck, NJ — mosques, halaqas, classes, social events, and more.',
 };
 
+// Re-fetch mosque event feeds at most once per hour
+export const revalidate = 3600;
+
 // Group events by date
-function groupEventsByDate(evts: typeof events) {
-  const groups: Record<string, typeof events> = {};
+function groupEventsByDate(evts: Event[]) {
+  const groups: Record<string, Event[]> = {};
   for (const evt of evts) {
     if (!groups[evt.date]) groups[evt.date] = [];
     groups[evt.date].push(evt);
@@ -35,8 +39,11 @@ const EVENT_CATEGORIES = [
   { value: 'career', label: 'Career' },
 ];
 
-export default function CalendarPage() {
-  const sorted = [...events].sort((a, b) => a.date.localeCompare(b.date) || a.startTime.localeCompare(b.startTime));
+export default async function CalendarPage() {
+  const { events } = await fetchAllMosqueEvents();
+  const today = new Date().toISOString().slice(0, 10);
+  const upcoming = events.filter(evt => evt.date >= today);
+  const sorted = [...upcoming].sort((a, b) => a.date.localeCompare(b.date) || a.startTime.localeCompare(b.startTime));
   const grouped = groupEventsByDate(sorted);
   const dates = Object.keys(grouped).sort();
 

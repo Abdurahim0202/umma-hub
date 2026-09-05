@@ -109,10 +109,10 @@ export async function fetchDarulIslahEvents(): Promise<ImportResult> {
       audience: inferAudience(ve.summary, ve.description),
       isFeatured: false,
       tags: ['darul-islah', 'teaneck'],
-      sourceType: 'scraped',
+      sourceType: 'ical',
       sourceUrl: ve.url || FEED_URL,
       image: ve.image,
-      lastFetched: fetchedAt,
+      lastSyncedAt: fetchedAt,
     };
   });
 

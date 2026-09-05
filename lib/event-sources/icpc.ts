@@ -102,7 +102,7 @@ export async function fetchIcpcEvents(): Promise<ImportResult> {
     const eventDate = startMeta ? startMeta.slice(0, 10) : date;
 
     events.push({
-      id: `icpc-${Buffer.from(link || title).toString('base64').slice(0, 16)}`,
+      id: `icpc-${eventDate}-${Buffer.from(`${title}::${link}`).toString('base64').slice(0, 24)}`,
       title,
       description: desc || `Event at ${MOSQUE_NAME}. See website for details.`,
       organizationId: MOSQUE_ID,
@@ -118,9 +118,9 @@ export async function fetchIcpcEvents(): Promise<ImportResult> {
       audience: inferAudience(title, desc),
       isFeatured: false,
       tags: ['icpc', 'paterson'],
-      sourceType: 'scraped',
+      sourceType: 'rss',
       sourceUrl: link || FEED_URL,
-      lastFetched: fetchedAt,
+      lastSyncedAt: fetchedAt,
     });
   }
 

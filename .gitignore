@@ -33,3 +33,6 @@ pnpm-debug.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Archive backups — never commit, they blow past GitHub's 100MB limit
+*.zip

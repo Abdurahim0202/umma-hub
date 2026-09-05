@@ -100,7 +100,18 @@ export function EventCard({ event, variant = 'default', className }: EventCardPr
         <div className="mt-3 pt-3 border-t border-stone-100 flex items-center justify-between">
           <span className="text-xs text-stone-400">
             Source:{' '}
-            <span className="text-emerald-700 font-medium">{event.organizationName}</span>
+            {event.sourceUrl ? (
+              <a
+                href={event.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-700 font-medium hover:underline"
+              >
+                {event.organizationName}
+              </a>
+            ) : (
+              <span className="text-emerald-700 font-medium">{event.organizationName}</span>
+            )}
           </span>
           {event.registrationUrl && (
             <a
