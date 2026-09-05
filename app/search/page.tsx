@@ -47,7 +47,7 @@ export default function SearchPage() {
         <div>
           <h2 className="text-sm font-semibold uppercase tracking-wide text-stone-400 mb-3">MOSQUES</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {mosques.slice(0, 2).map((m, i) => <MosqueCard key={m.id} mosque={m} distanceMiles={[0.8, 1.2][i]} />)}
+            {mosques.slice(0, 2).map(m => <MosqueCard key={m.id} mosque={m} />)}
           </div>
         </div>
 

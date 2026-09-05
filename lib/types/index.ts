@@ -171,6 +171,14 @@ export interface Mosque extends Organization {
   parkingInfo?: string;
   wuduFacilities?: boolean;
   sistetsSection?: boolean;
+  // Google Places fields
+  placeId?: string;                 // Google Place ID — used as slug for Places-sourced mosques
+  directionsUrl?: string;           // Google Maps directions URL
+  rating?: number;                  // Google rating (display only — not prayer info)
+  reviewCount?: number;             // Number of Google reviews
+  distanceMiles?: number;           // Distance from reference mosque, for sorting
+  distanceLabel?: string;           // Human-readable label e.g. "Within 3 miles" or "Home Mosque"
+  isHomeMosque?: boolean;           // True for Darul Islah (reference mosque)
 }
 
 // ────────────────────────────────────────────────────────────

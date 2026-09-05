@@ -85,12 +85,8 @@ export default function ExplorePage() {
       <div>
         <h2 className="text-lg font-bold text-stone-900 mb-4">Nearby Mosques</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {mosques.map((mosque, i) => (
-            <MosqueCard
-              key={mosque.id}
-              mosque={mosque}
-              distanceMiles={[0.8, 1.2, 1.7][i]}
-            />
+          {mosques.map(mosque => (
+            <MosqueCard key={mosque.id} mosque={mosque} />
           ))}
         </div>
       </div>

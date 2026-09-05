@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Mosque Directory',
-  description: 'Find local mosques in Teaneck, NJ with prayer times, iqamah schedules, and programs.',
+  description: 'Find local mosques and Islamic centers near Teaneck, NJ — sorted by distance from Darul Islah.',
 };
 
 export default function MosquesPage() {
@@ -18,8 +18,9 @@ export default function MosquesPage() {
           Mosque Directory
         </h1>
         <p className="text-stone-500 text-sm">
-          Local mosques and Islamic centers in {' '}
-          <span className="text-emerald-700 font-medium">Teaneck, NJ</span>
+          Mosques and Islamic centers near{' '}
+          <span className="text-emerald-700 font-medium">Darul Islah, Teaneck NJ</span>
+          {' '}· sorted by distance
         </p>
       </div>
 
@@ -39,9 +40,9 @@ export default function MosquesPage() {
       {/* Stats */}
       <div className="grid grid-cols-3 gap-3 mb-6">
         {[
-          { label: 'Mosques', value: mosques.length },
+          { label: 'Mosques listed', value: mosques.length },
           { label: 'Verified', value: mosques.filter(m => m.verified).length },
-          { label: 'Jumu\'ah times', value: mosques.filter(m => m.jummahTimes).length },
+          { label: "With Jumu'ah times", value: mosques.filter(m => m.jummahTimes).length },
         ].map(stat => (
           <div key={stat.label} className="bg-white rounded-xl border border-stone-100 p-3 text-center shadow-sm">
             <p className="text-2xl font-bold text-emerald-600">{stat.value}</p>
@@ -50,14 +51,10 @@ export default function MosquesPage() {
         ))}
       </div>
 
-      {/* Mosque grid */}
+      {/* Mosque grid — already sorted by distance in the data file */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {mosques.map((mosque, i) => (
-          <MosqueCard
-            key={mosque.id}
-            mosque={mosque}
-            distanceMiles={[0.8, 1.2, 1.7][i] ?? Math.random() * 3}
-          />
+        {mosques.map(mosque => (
+          <MosqueCard key={mosque.id} mosque={mosque} />
         ))}
       </div>
     </div>
