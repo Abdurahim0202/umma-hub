@@ -10,11 +10,13 @@
 
 import type { Event } from '@/lib/types';
 import type { ImportResult } from './types';
+import { parse12HourTime, toZonedIso } from './tz';
 
 const FEED_URL = 'https://icpcnj.org/events/feed/';
 const MOSQUE_ID = 'icpc';
 const MOSQUE_NAME = 'Islamic Center of Passaic County';
 const MOSQUE_CITY = 'Paterson';
+const MOSQUE_TZ = 'America/New_York';
 
 /** Extract text content between XML tags */
 function xmlTag(xml: string, tag: string): string {
@@ -31,6 +33,15 @@ function parseRssDate(raw: string): string {
     if (!isNaN(d.getTime())) return d.toISOString().slice(0, 10);
   } catch { /* ignore */ }
   return new Date().toISOString().slice(0, 10);
+}
+
+/** Build a zoned ISO instant from ICPC's `mec:startDate` ("2026-09-05") + `mec:startHour` ("5:00 pm"), if both are present and parseable. */
+function mecDateTime(dateStr: string, hourStr: string): string | null {
+  const dateMatch = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  const time = hourStr ? parse12HourTime(hourStr) : null;
+  if (!dateMatch || !time) return null;
+  const [, y, m, d] = dateMatch;
+  return toZonedIso(Number(y), Number(m), Number(d), time.hour, time.minute, MOSQUE_TZ);
 }
 
 function mapCategory(title: string, desc: string): Event['category'] {
@@ -92,14 +103,25 @@ export async function fetchIcpcEvents(): Promise<ImportResult> {
     const link    = xmlTag(item, 'link') || xmlTag(item, 'guid');
     const desc    = xmlTag(item, 'description').replace(/<[^>]+>/g, '').trim();
     const pubDate = xmlTag(item, 'pubDate') || xmlTag(item, 'dc:date');
-    const date    = parseRssDate(pubDate);
+    const image   = item.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1];
+
+    const mecStartDate = xmlTag(item, 'mec:startDate');
+    const mecStartHour = xmlTag(item, 'mec:startHour');
+    const mecEndDate   = xmlTag(item, 'mec:endDate');
+    const mecEndHour   = xmlTag(item, 'mec:endHour');
+
+    const fallbackDate = parseRssDate(pubDate);
+    const eventDate = mecStartDate.match(/^\d{4}-\d{2}-\d{2}/) ? mecStartDate.slice(0, 10) : fallbackDate;
 
     if (!title) continue;
-    if (date < today) continue; // skip past events
+    if (eventDate < today) continue; // skip past events
 
-    // Try to find event-specific date from Modern Events Calendar meta
-    const startMeta = xmlTag(item, 'mec:start_date') || xmlTag(item, 'tribe_start_date');
-    const eventDate = startMeta ? startMeta.slice(0, 10) : date;
+    // Prefer ICPC's structured Modern Events Calendar start/end time fields.
+    // When a specific time genuinely isn't published, mark the event as
+    // all-day rather than fabricating a midnight-to-midnight time range.
+    const startIso = mecDateTime(mecStartDate, mecStartHour);
+    const endIso = mecDateTime(mecEndDate || mecStartDate, mecEndHour);
+    const allDay = !startIso;
 
     events.push({
       id: `icpc-${eventDate}-${Buffer.from(`${title}::${link}`).toString('base64').slice(0, 24)}`,
@@ -111,15 +133,17 @@ export async function fetchIcpcEvents(): Promise<ImportResult> {
       city: MOSQUE_CITY,
       latitude: 40.9175704,
       longitude: -74.1403532,
-      startTime: eventDate + 'T00:00:00',
-      endTime:   eventDate + 'T23:59:00',
+      startTime: startIso ?? eventDate + 'T00:00:00',
+      endTime: endIso ?? undefined,
       date: eventDate,
+      allDay,
       category: mapCategory(title, desc),
       audience: inferAudience(title, desc),
       isFeatured: false,
       tags: ['icpc', 'paterson'],
       sourceType: 'rss',
       sourceUrl: link || FEED_URL,
+      image,
       lastSyncedAt: fetchedAt,
     });
   }

@@ -214,6 +214,7 @@ export interface Event {
   startTime: string;    // ISO string
   endTime?: string;
   date: string;         // "YYYY-MM-DD"
+  allDay?: boolean;      // true when no specific time is known/applicable — render as "All day" rather than a fabricated range
   category: EventCategory;
   audience: EventAudience;
   image?: string;

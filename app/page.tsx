@@ -1,27 +1,100 @@
 import Link from 'next/link';
-import { Search, Mosque, Calendar, BookOpen, Megaphone, MessageCircle, Users, ChevronRight, ArrowRight } from 'lucide-react';
+import { Search, ChevronRight, ArrowRight } from 'lucide-react';
 import { format } from 'date-fns';
 import { APP_CONFIG } from '@/lib/config';
-import { events, getTodayEvents, getFeaturedEvents } from '@/lib/data/events';
+import { ymdInTz } from '@/lib/utils';
+import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { mosques } from '@/lib/data/mosques';
-import { announcements, resources, forumPosts } from '@/lib/data/community';
+import { forumPosts } from '@/lib/data/community';
 import { EventCard } from '@/components/cards/EventCard';
 import { MosqueCard } from '@/components/cards/MosqueCard';
-import { AnnouncementCard } from '@/components/cards/AnnouncementCard';
 import { ResourceCard } from '@/components/cards/ResourceCard';
 import { CommunityPost } from '@/components/cards/CommunityPost';
+import type { Event, Resource } from '@/lib/types';
 
-export default function HomePage() {
-  const todayEvents = getTodayEvents();
-  const upcomingEvents = events.slice(3, 9);
-  const featuredEvents = getFeaturedEvents().slice(0, 3);
-  const todayStr = format(new Date(), 'EEEE, MMMM d, yyyy');
+export const revalidate = 3600;
+
+function isRealDescription(desc: string): boolean {
+  return desc.length > 60 && !desc.startsWith('Event at');
+}
+
+function resourceCategoryFor(cat: Event['category']): Resource['category'] {
+  switch (cat) {
+    case 'quran': return 'quran';
+    case 'youth': return 'youth';
+    case 'food': return 'food';
+    case 'volunteer': return 'volunteer';
+    case 'career': return 'career';
+    case 'halaqa': return 'islamic_studies';
+    default: return 'education';
+  }
+}
+
+/** Recurring weekly classes/programs, detected directly from the real event
+ *  feed (any title+mosque combo appearing 2+ times among upcoming events) —
+ *  genuine ongoing community programs, not invented ones. */
+function deriveRecurringPrograms(upcoming: Event[], limit: number): Resource[] {
+  const groups = new Map<string, Event[]>();
+  for (const e of upcoming) {
+    const key = `${e.organizationId}::${e.title.trim().toLowerCase()}`;
+    const list = groups.get(key);
+    if (list) list.push(e);
+    else groups.set(key, [e]);
+  }
+  return [...groups.values()]
+    .filter(list => list.length >= 2)
+    .sort((a, b) => b.length - a.length)
+    .slice(0, limit)
+    .map(list => {
+      const e = list[0];
+      return {
+        // Base64-encode the title rather than slugifying it — a slug regex
+        // that only keeps [a-z0-9] silently collapses non-Latin titles
+        // (Arabic, etc.) to an empty string, causing duplicate React keys.
+        id: `program-${e.organizationId}-${Buffer.from(e.title, 'utf-8').toString('base64').slice(0, 20)}`,
+        title: e.title,
+        description: isRealDescription(e.description)
+          ? e.description
+          : `Recurring program at ${e.organizationName}.`,
+        organizationId: e.organizationId,
+        organizationName: e.organizationName,
+        category: resourceCategoryFor(e.category),
+        address: e.address,
+        city: e.city,
+        website: e.sourceUrl,
+        schedule: `Recurring — ${list.length} upcoming sessions`,
+        tags: e.tags,
+      };
+    });
+}
+
+export default async function HomePage() {
+  const { events } = await fetchAllMosqueEvents();
+  const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
+  const todayLabel = format(new Date(), 'EEEE, MMMM d, yyyy');
+
+  const upcoming = [...events]
+    .filter(e => e.date >= todayStr)
+    .sort((a, b) => a.date.localeCompare(b.date) || a.startTime.localeCompare(b.startTime));
+
+  const todayEvents = upcoming.filter(e => e.date === todayStr);
+  const laterEvents = upcoming.filter(e => e.date > todayStr);
+  const upcomingNearYou = laterEvents.slice(0, 6);
+
+  // "From Our Mosques" spotlight — real posts with genuine, substantial
+  // descriptions (e.g. an actual registration announcement), not the
+  // generic placeholder text we fall back to when a feed has no description.
+  // A spotlighted event may also appear in Today/Upcoming above — that's
+  // fine, it's a different framing (promotional post vs. plain schedule).
+  const spotlightEvents = upcoming.filter(e => isRealDescription(e.description)).slice(0, 3);
+
+  const recurringPrograms = deriveRecurringPrograms(upcoming, 6);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-10 fade-in-up">
 
       {/* ─── HERO SECTION ─────────────────────────────────────── */}
-      <section className="pattern-bg rounded-3xl bg-gradient-to-br from-emerald-600 via-emerald-700 to-teal-800 text-white p-6 sm:p-10 relative overflow-hidden">
+      <section className="rounded-3xl bg-linear-to-br from-emerald-600 via-emerald-700 to-teal-800 text-white p-6 sm:p-10 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -31,7 +104,7 @@ export default function HomePage() {
           <div className="flex items-center gap-2 text-white/90 text-sm mb-3">
             <span>📍 {APP_CONFIG.cityFull}</span>
             <span>·</span>
-            <span>{todayStr}</span>
+            <span>{todayLabel}</span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-2 leading-tight">
             Your Muslim community,<br className="hidden sm:block" /> all in one place.
@@ -40,15 +113,15 @@ export default function HomePage() {
             Events, prayer times, mosque directory, resources, and community for {APP_CONFIG.cityFull}.
           </p>
           {/* Search bar */}
-          <div className="flex items-center gap-3 bg-white rounded-2xl px-4 py-3 shadow-lg max-w-lg">
+          <Link
+            href="/search"
+            className="flex items-center gap-3 bg-white rounded-2xl px-4 py-3 shadow-lg max-w-lg hover:shadow-xl transition-shadow"
+          >
             <Search className="w-5 h-5 text-stone-400 flex-shrink-0" />
-            <input
-              type="text"
-              placeholder="Search events, mosques, classes, resources..."
-              className="flex-1 bg-transparent text-stone-700 placeholder-stone-400 text-sm outline-none"
-              readOnly
-            />
-          </div>
+            <span className="flex-1 text-left text-stone-400 text-sm">
+              Search events, mosques, classes, resources...
+            </span>
+          </Link>
         </div>
       </section>
 
@@ -78,7 +151,7 @@ export default function HomePage() {
         <div className="flex items-center justify-between mb-4">
           <div>
             <h2 className="text-xl font-bold text-stone-900">Happening Today</h2>
-            <p className="text-sm text-stone-600">{todayStr}</p>
+            <p className="text-sm text-stone-600">{todayLabel}</p>
           </div>
           <Link href="/calendar" className="flex items-center gap-1 text-sm text-emerald-600 font-medium hover:text-emerald-800">
             See all <ChevronRight className="w-4 h-4" />
@@ -107,11 +180,18 @@ export default function HomePage() {
             See all <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {upcomingEvents.map(event => (
-            <EventCard key={event.id} event={event} />
-          ))}
-        </div>
+        {upcomingNearYou.length === 0 ? (
+          <div className="bg-stone-50 rounded-2xl p-8 text-center text-stone-400">
+            <p className="text-lg mb-1">No upcoming events found</p>
+            <p className="text-sm">Check back soon — mosque calendars update regularly.</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {upcomingNearYou.map(event => (
+              <EventCard key={event.id} event={event} />
+            ))}
+          </div>
+        )}
       </section>
 
       {/* ─── FROM YOUR MOSQUES ───────────────────────────────── */}
@@ -129,34 +209,54 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── COMMUNITY ANNOUNCEMENTS ─────────────────────────── */}
+      {/* ─── FROM OUR MOSQUES (real posts) ───────────────────── */}
       <section>
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-bold text-stone-900">Community Announcements</h2>
-          <Link href="/announcements" className="flex items-center gap-1 text-sm text-emerald-600 font-medium hover:text-emerald-800">
-            See all <ChevronRight className="w-4 h-4" />
+          <div>
+            <h2 className="text-xl font-bold text-stone-900">From Our Mosques</h2>
+            <p className="text-sm text-stone-600">Real posts pulled directly from mosque calendars</p>
+          </div>
+          <Link href="/calendar" className="flex items-center gap-1 text-sm text-emerald-600 font-medium hover:text-emerald-800">
+            See all events <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {announcements.slice(0, 4).map(ann => (
-            <AnnouncementCard key={ann.id} announcement={ann} />
-          ))}
-        </div>
+        {spotlightEvents.length === 0 ? (
+          <div className="bg-stone-50 rounded-2xl p-8 text-center text-stone-400">
+            <p className="text-lg mb-1">Nothing to spotlight right now</p>
+            <p className="text-sm">Check the calendar for everything currently scheduled.</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {spotlightEvents.map(event => (
+              <EventCard key={event.id} event={event} />
+            ))}
+          </div>
+        )}
       </section>
 
-      {/* ─── COMMUNITY RESOURCES ─────────────────────────────── */}
+      {/* ─── COMMUNITY RESOURCES (recurring real programs) ───── */}
       <section>
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-bold text-stone-900">Community Resources</h2>
+          <div>
+            <h2 className="text-xl font-bold text-stone-900">Community Resources</h2>
+            <p className="text-sm text-stone-600">Ongoing classes and programs, detected from recurring mosque events</p>
+          </div>
           <Link href="/resources" className="flex items-center gap-1 text-sm text-emerald-600 font-medium hover:text-emerald-800">
             See all <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {resources.filter(r => r.isFeatured).slice(0, 3).map(resource => (
-            <ResourceCard key={resource.id} resource={resource} />
-          ))}
-        </div>
+        {recurringPrograms.length === 0 ? (
+          <div className="bg-stone-50 rounded-2xl p-8 text-center text-stone-400">
+            <p className="text-lg mb-1">No recurring programs found yet</p>
+            <p className="text-sm">These populate automatically once a mosque&apos;s feed shows a repeating class.</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {recurringPrograms.map(resource => (
+              <ResourceCard key={resource.id} resource={resource} />
+            ))}
+          </div>
+        )}
       </section>
 
       {/* ─── COMMUNITY DISCUSSIONS ───────────────────────────── */}

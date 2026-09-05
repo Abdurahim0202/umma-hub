@@ -105,6 +105,7 @@ export async function fetchDarulIslahEvents(): Promise<ImportResult> {
       startTime: ve.dtstart,
       endTime: ve.dtend,
       date,
+      allDay: ve.allDay,
       category: mapCategory(ve.categories || ''),
       audience: inferAudience(ve.summary, ve.description),
       isFeatured: false,

@@ -1,9 +1,13 @@
 import { notFound } from 'next/navigation';
 import { MapPin, Phone, Globe, Clock, CheckCircle, Calendar, ExternalLink, Navigation, Star, Home } from 'lucide-react';
 import { mosques } from '@/lib/data/mosques';
-import { getEventsByOrg } from '@/lib/data/events';
+import { fetchAllMosqueEvents } from '@/lib/event-sources';
+import { ymdInTz } from '@/lib/utils';
+import { APP_CONFIG } from '@/lib/config';
 import { EventCard } from '@/components/cards/EventCard';
 import type { Metadata } from 'next';
+
+export const revalidate = 3600;
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -37,7 +41,12 @@ export default async function MosqueDetailPage(props: Props) {
   const mosque = mosques.find(m => m.slug === params.slug);
   if (!mosque) notFound();
 
-  const mosqueEvents = getEventsByOrg(mosque.id).slice(0, 4);
+  const { events } = await fetchAllMosqueEvents();
+  const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
+  const mosqueEvents = events
+    .filter(e => e.organizationId === mosque.id && e.date >= todayStr)
+    .sort((a, b) => a.date.localeCompare(b.date) || a.startTime.localeCompare(b.startTime))
+    .slice(0, 4);
 
   const directionsUrl =
     mosque.directionsUrl ??
@@ -47,7 +56,7 @@ export default async function MosqueDetailPage(props: Props) {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
 
       {/* Cover */}
-      <div className="h-48 sm:h-64 rounded-3xl bg-gradient-to-br from-emerald-600 via-emerald-700 to-teal-800 flex items-center justify-center mb-6 relative overflow-hidden">
+      <div className="h-48 sm:h-64 rounded-3xl bg-linear-to-br from-emerald-600 via-emerald-700 to-teal-800 flex items-center justify-center mb-6 relative overflow-hidden">
         <span className="text-7xl">🕌</span>
 
         {mosque.isHomeMosque && (
@@ -142,7 +151,7 @@ export default async function MosqueDetailPage(props: Props) {
 
           {/* Prayer / Iqamah */}
           <div className="bg-white rounded-2xl border border-stone-100 shadow-sm overflow-hidden">
-            <div className="bg-gradient-to-r from-emerald-600 to-teal-700 px-4 py-3">
+            <div className="bg-linear-to-r from-emerald-600 to-teal-700 px-4 py-3">
               <h2 className="text-white font-semibold flex items-center gap-2">
                 <Clock className="w-4 h-4" />
                 Prayer Times
@@ -194,7 +203,7 @@ export default async function MosqueDetailPage(props: Props) {
 
           {/* Jumu'ah Times */}
           <div className="bg-white rounded-2xl border border-stone-100 shadow-sm overflow-hidden">
-            <div className="bg-gradient-to-r from-amber-500 to-amber-600 px-4 py-3">
+            <div className="bg-linear-to-r from-amber-500 to-amber-600 px-4 py-3">
               <h2 className="text-white font-semibold">Jumu&apos;ah</h2>
             </div>
             {mosque.jummahTimes ? (

@@ -43,7 +43,7 @@ export function MosqueCard({ mosque, variant = 'default', className }: MosqueCar
       {/* Entire upper section navigates to detail page */}
       <Link href={`/mosques/${mosque.slug}`} className="flex-1">
         {/* Cover */}
-        <div className="h-32 bg-gradient-to-br from-emerald-600 to-teal-700 relative flex items-center justify-center">
+        <div className="h-32 bg-linear-to-br from-emerald-600 to-teal-700 relative flex items-center justify-center">
           <span className="text-5xl">🕌</span>
 
           {mosque.isHomeMosque && (
@@ -78,17 +78,12 @@ export function MosqueCard({ mosque, variant = 'default', className }: MosqueCar
             <span>{mosque.address}, {mosque.city}, {mosque.state}</span>
           </div>
 
-          {/* Phone — clickable */}
+          {/* Phone — plain text here; the actual tel: link lives in the
+              action row below so it isn't nested inside the card's <Link> */}
           {mosque.phone && (
             <div className="flex items-center gap-1.5 text-xs text-stone-500 mb-1">
               <Phone className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
-              <a
-                href={`tel:${mosque.phone}`}
-                onClick={e => e.stopPropagation()}
-                className="hover:text-emerald-700 transition-colors"
-              >
-                {mosque.phone}
-              </a>
+              <span>{mosque.phone}</span>
             </div>
           )}
 
@@ -137,6 +132,16 @@ export function MosqueCard({ mosque, variant = 'default', className }: MosqueCar
 
       {/* Action buttons — outside the Link to prevent nested <a> */}
       <div className="px-4 pb-4 pt-0 flex gap-2">
+        {mosque.phone && (
+          <a
+            href={`tel:${mosque.phone}`}
+            onClick={e => e.stopPropagation()}
+            className="flex-1 flex items-center justify-center gap-1.5 text-xs font-medium bg-emerald-50 text-emerald-700 hover:bg-emerald-100 rounded-lg py-2 transition-colors"
+          >
+            <Phone className="w-3.5 h-3.5" />
+            Call
+          </a>
+        )}
         <a
           href={mosque.directionsUrl ?? `https://www.google.com/maps/dir/?api=1&destination=${mosque.latitude},${mosque.longitude}`}
           target="_blank"

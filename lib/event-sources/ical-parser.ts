@@ -3,6 +3,8 @@
  * No external dependencies — parses VEVENT blocks into plain objects.
  */
 
+import { tzOffsetForDate } from './tz';
+
 export interface VEvent {
   uid: string;
   summary: string;
@@ -28,11 +30,11 @@ function unfold(text: string): string {
  * Parse a DTSTART/DTEND value into an ISO string.
  * Handles:
  *   DTSTART;VALUE=DATE:20260905         → "2026-09-05T00:00:00"
- *   DTSTART;TZID=America/New_York:20260905T054500 → "2026-09-05T05:45:00"
+ *   DTSTART;TZID=America/New_York:20260905T054500 → "2026-09-05T05:45:00-04:00"
  *   DTSTART:20260905T054500Z            → "2026-09-05T05:45:00Z"
  */
 function parseIcalDate(line: string): { iso: string; allDay: boolean } {
-  const allDay = line.includes('VALUE=DATE') && !line.includes('T');
+  const tzidMatch = line.match(/TZID=([^:;]+)/i);
   // Extract value after the last colon
   const raw = line.replace(/^[^:]+:/, '').trim();
 
@@ -42,11 +44,19 @@ function parseIcalDate(line: string): { iso: string; allDay: boolean } {
     return { iso, allDay: true };
   }
   if (/^\d{8}T\d{6}Z?$/.test(raw)) {
-    const iso =
-      `${raw.slice(0, 4)}-${raw.slice(4, 6)}-${raw.slice(6, 8)}` +
-      `T${raw.slice(9, 11)}:${raw.slice(11, 13)}:${raw.slice(13, 15)}` +
-      (raw.endsWith('Z') ? 'Z' : '');
-    return { iso, allDay: false };
+    const year = Number(raw.slice(0, 4));
+    const month = Number(raw.slice(4, 6));
+    const day = Number(raw.slice(6, 8));
+    const datePart = `${raw.slice(0, 4)}-${raw.slice(4, 6)}-${raw.slice(6, 8)}`;
+    const timePart = `${raw.slice(9, 11)}:${raw.slice(11, 13)}:${raw.slice(13, 15)}`;
+
+    if (raw.endsWith('Z')) {
+      return { iso: `${datePart}T${timePart}Z`, allDay: false };
+    }
+    // Floating local time — attach the real UTC offset for the given TZID
+    // (falls back to America/New_York, since that's every mosque we source from)
+    const offset = tzOffsetForDate(year, month, day, tzidMatch?.[1] ?? 'America/New_York');
+    return { iso: `${datePart}T${timePart}${offset}`, allDay: false };
   }
   // Fallback
   return { iso: raw, allDay: false };

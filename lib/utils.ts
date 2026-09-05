@@ -1,6 +1,7 @@
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import { format, formatDistanceToNow, isToday, isTomorrow, parseISO } from 'date-fns';
+import { format, formatDistanceToNow, parseISO } from 'date-fns';
+import { APP_CONFIG } from '@/lib/config';
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -8,17 +9,43 @@ export function cn(...inputs: ClassValue[]) {
 
 // ────────────────────────────────────────────────────────────
 // Date & Time Utilities
+//
+// All events come from mosques in APP_CONFIG.timezone. Event times must
+// always render in that zone regardless of the timezone the server
+// process happens to run in (dev machine vs. production), so these use
+// Intl with an explicit `timeZone` rather than date-fns' system-local
+// formatting.
 // ────────────────────────────────────────────────────────────
 
+/** "YYYY-MM-DD" for a given instant, as seen in `tz`. */
+export function ymdInTz(date: Date, tz: string): string {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: tz,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date);
+  const get = (type: string) => parts.find(p => p.type === type)?.value ?? '';
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}
+
 export function formatEventDate(dateStr: string): string {
-  const date = parseISO(dateStr);
-  if (isToday(date)) return 'Today';
-  if (isTomorrow(date)) return 'Tomorrow';
-  return format(date, 'EEEE, MMMM d');
+  const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
+  const tomorrowStr = ymdInTz(new Date(Date.now() + 24 * 60 * 60 * 1000), APP_CONFIG.timezone);
+  if (dateStr === todayStr) return 'Today';
+  if (dateStr === tomorrowStr) return 'Tomorrow';
+  // dateStr is a plain calendar date (no time component) — its weekday/
+  // month/day don't depend on timezone, so plain date-fns formatting is safe here.
+  return format(parseISO(dateStr + 'T00:00:00'), 'EEEE, MMMM d');
 }
 
 export function formatEventTime(isoStr: string): string {
-  return format(parseISO(isoStr), 'h:mm a');
+  return new Intl.DateTimeFormat('en-US', {
+    timeZone: APP_CONFIG.timezone,
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+  }).format(parseISO(isoStr));
 }
 
 export function formatRelativeTime(isoStr: string): string {

@@ -42,7 +42,7 @@ export default function PrayerTimesPage() {
       </div>
 
       {/* Calculated adhan times card */}
-      <div className="bg-gradient-to-br from-emerald-600 via-emerald-700 to-teal-800 rounded-3xl p-6 text-white mb-6 shadow-lg">
+      <div className="bg-linear-to-br from-emerald-600 via-emerald-700 to-teal-800 rounded-3xl p-6 text-white mb-6 shadow-lg">
         <div className="flex items-center justify-between mb-4">
           <div>
             <h2 className="font-bold text-lg">Calculated Prayer Times</h2>

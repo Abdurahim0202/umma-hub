@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { Calendar, Clock, MapPin, Users, ExternalLink } from 'lucide-react';
 import type { Event } from '@/lib/types';
+import { EventPoster } from './EventPoster';
 import {
   cn,
   formatEventDate,
@@ -27,7 +27,9 @@ export function EventCard({ event, variant = 'default', className }: EventCardPr
         {/* Time column */}
         <div className="text-right flex-shrink-0 w-20">
           <p className="text-xs text-stone-500">{formatEventDate(event.date)}</p>
-          <p className="text-sm font-semibold text-stone-800">{formatEventTime(event.startTime)}</p>
+          <p className="text-sm font-semibold text-stone-800">
+            {event.allDay ? 'All day' : formatEventTime(event.startTime)}
+          </p>
         </div>
         {/* Divider */}
         <div className="w-px bg-emerald-200 self-stretch flex-shrink-0" />
@@ -50,8 +52,8 @@ export function EventCard({ event, variant = 'default', className }: EventCardPr
         className
       )}
     >
-      {/* Category bar */}
-      <div className="h-1 bg-emerald-500" />
+      {/* Poster image, when the source provided one */}
+      {event.image ? <EventPoster src={event.image} /> : <div className="h-1 bg-emerald-500" />}
 
       <div className="p-4">
         {/* Header */}
@@ -82,11 +84,17 @@ export function EventCard({ event, variant = 'default', className }: EventCardPr
             <span className="font-medium text-stone-700">{formatEventDate(event.date)}</span>
             <span>·</span>
             <Clock className="w-3.5 h-3.5 flex-shrink-0" />
-            <span>{formatEventTime(event.startTime)}</span>
-            {event.endTime && (
+            {event.allDay ? (
+              <span>All day</span>
+            ) : (
               <>
-                <span>–</span>
-                <span>{formatEventTime(event.endTime)}</span>
+                <span>{formatEventTime(event.startTime)}</span>
+                {event.endTime && (
+                  <>
+                    <span>–</span>
+                    <span>{formatEventTime(event.endTime)}</span>
+                  </>
+                )}
               </>
             )}
           </div>

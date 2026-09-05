@@ -21,7 +21,7 @@ export default function ProfilePage() {
     <div className="max-w-2xl mx-auto px-4 sm:px-6 py-6">
 
       {/* Profile header */}
-      <div className="bg-gradient-to-br from-emerald-600 to-teal-700 rounded-3xl p-6 text-white text-center mb-6">
+      <div className="bg-linear-to-br from-emerald-600 to-teal-700 rounded-3xl p-6 text-white text-center mb-6">
         <div className="w-20 h-20 rounded-full bg-white/20 flex items-center justify-center mx-auto mb-3">
           <User className="w-10 h-10 text-white" />
         </div>
