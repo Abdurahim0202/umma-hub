@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { MessageCircle, TrendingUp, Clock, Star, PlusCircle, LogIn, Loader2 } from 'lucide-react';
 import Link from 'next/link';
@@ -16,6 +16,18 @@ const COMMUNITIES = [
 ];
 
 export default function CommunityPage() {
+  return (
+    <Suspense fallback={
+      <div className="flex items-center justify-center py-24 text-stone-400">
+        <Loader2 className="w-6 h-6 animate-spin" />
+      </div>
+    }>
+      <CommunityPageContent />
+    </Suspense>
+  );
+}
+
+function CommunityPageContent() {
   const searchParams = useSearchParams();
   const sort     = (searchParams.get('sort') as 'hot' | 'new' | 'top') || 'hot';
   const category = searchParams.get('category') ?? undefined;

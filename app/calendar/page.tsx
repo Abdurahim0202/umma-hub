@@ -1,8 +1,6 @@
 import { Calendar as CalendarIcon } from 'lucide-react';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
-import { EventCard } from '@/components/cards/EventCard';
-import { formatEventDate } from '@/lib/utils';
-import type { Event } from '@/lib/types';
+import { CalendarBrowser } from '@/components/calendar/CalendarBrowser';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -13,39 +11,12 @@ export const metadata: Metadata = {
 // Re-fetch mosque event feeds at most once per hour
 export const revalidate = 3600;
 
-// Group events by date
-function groupEventsByDate(evts: Event[]) {
-  const groups: Record<string, Event[]> = {};
-  for (const evt of evts) {
-    if (!groups[evt.date]) groups[evt.date] = [];
-    groups[evt.date].push(evt);
-  }
-  return groups;
-}
-
-const EVENT_CATEGORIES = [
-  { value: 'all', label: 'All Events' },
-  { value: 'jummah', label: "Jumu'ah" },
-  { value: 'halaqa', label: 'Halaqa' },
-  { value: 'quran', label: 'Quran' },
-  { value: 'education', label: 'Education' },
-  { value: 'youth', label: 'Youth' },
-  { value: 'sisters', label: 'Sisters' },
-  { value: 'social', label: 'Social' },
-  { value: 'sports', label: 'Sports' },
-  { value: 'volunteer', label: 'Volunteer' },
-  { value: 'fundraiser', label: 'Fundraiser' },
-  { value: 'food', label: 'Food' },
-  { value: 'career', label: 'Career' },
-];
-
 export default async function CalendarPage() {
   const { events } = await fetchAllMosqueEvents();
   const today = new Date().toISOString().slice(0, 10);
-  const upcoming = events.filter(evt => evt.date >= today);
-  const sorted = [...upcoming].sort((a, b) => a.date.localeCompare(b.date) || a.startTime.localeCompare(b.startTime));
-  const grouped = groupEventsByDate(sorted);
-  const dates = Object.keys(grouped).sort();
+  const upcoming = events
+    .filter(evt => evt.date >= today)
+    .sort((a, b) => a.date.localeCompare(b.date) || a.startTime.localeCompare(b.startTime));
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
@@ -60,49 +31,7 @@ export default async function CalendarPage() {
         </p>
       </div>
 
-      {/* Category filter chips */}
-      <div className="flex gap-2 overflow-x-auto pb-2 mb-6 scrollbar-hide">
-        {EVENT_CATEGORIES.map(cat => (
-          <button
-            key={cat.value}
-            className="flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium border border-stone-200 bg-white text-stone-600 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 transition-colors first:bg-emerald-600 first:text-white first:border-emerald-600"
-          >
-            {cat.label}
-          </button>
-        ))}
-      </div>
-
-      {/* Events by date */}
-      <div className="space-y-8">
-        {dates.map(date => (
-          <div key={date}>
-            {/* Date header */}
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-emerald-600 text-white rounded-xl px-3 py-1 text-sm font-semibold">
-                {formatEventDate(date)}
-              </div>
-              <div className="flex-1 h-px bg-stone-200" />
-              <span className="text-xs text-stone-400">{grouped[date].length} events</span>
-            </div>
-
-            {/* Events grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {grouped[date].map(event => (
-                <EventCard key={event.id} event={event} />
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Empty state if no events */}
-      {dates.length === 0 && (
-        <div className="text-center py-16 text-stone-400">
-          <CalendarIcon className="w-12 h-12 mx-auto mb-3 opacity-30" />
-          <p className="text-lg font-medium">No events found</p>
-          <p className="text-sm">Try adjusting your filters</p>
-        </div>
-      )}
+      <CalendarBrowser events={upcoming} />
     </div>
   );
 }

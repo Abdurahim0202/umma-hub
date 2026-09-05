@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { getPosts } from '@/lib/firebase/community';
 import { CommunityPost } from '@/components/cards/CommunityPost';
 import type { ForumPost } from '@/lib/types';
@@ -30,7 +31,7 @@ export function HomeCommunitySection() {
   if (posts.length === 0) {
     return (
       <p className="text-sm text-stone-400 py-4 text-center">
-        No community posts yet. <a href="/community/new" className="text-emerald-600 hover:underline">Start the conversation!</a>
+        No community posts yet. <Link href="/community/new" className="text-emerald-600 hover:underline">Start the conversation!</Link>
       </p>
     );
   }

@@ -218,3 +218,10 @@ export async function createProfile(data: {
     createdAt:   serverTimestamp(),
   });
 }
+
+export async function updateProfile(
+  userId: string,
+  data: Partial<{ city: string; interests: string[]; displayName: string }>,
+): Promise<void> {
+  await updateDoc(doc(db, 'profiles', userId), data);
+}

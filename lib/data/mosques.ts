@@ -19,6 +19,7 @@ export const mosques: Mosque[] = [
     name: 'Darul Islah',
     slug: 'darul-islah',
     type: 'mosque',
+    coverImage: '/mosques/darul-islah.jpg',
     description:
       'Darul Islah is the home mosque and community hub for Ummah Hub. Located in Teaneck, NJ, it serves as the reference point for all distance calculations and offers daily prayers, Friday khutbahs, educational programs, and community services.',
     shortDescription: 'Home mosque · Teaneck, NJ community hub.',
@@ -156,6 +157,7 @@ export const mosques: Mosque[] = [
     name: 'Islamic Center of Passaic County',
     slug: 'icpc',
     type: 'islamic_center',
+    coverImage: '/mosques/icpc.jpg',
     description:
       'The Islamic Center of Passaic County (ICPC) in Paterson is one of the largest Islamic centers in northern NJ, offering daily prayers, education, and social services.',
     shortDescription: 'Major Islamic center in Paterson, NJ.',
@@ -210,6 +212,7 @@ export const mosques: Mosque[] = [
     name: 'Muslim Community Center of Paramus (The Fusion)',
     slug: 'mcc-paramus',
     type: 'islamic_center',
+    coverImage: '/mosques/mcc-paramus.jpg',
     description:
       'The Muslim Community Center of Paramus, known as The Fusion, offers a vibrant community space with daily prayers, youth programs, and social events for families in Bergen County.',
     shortDescription: 'Family-focused Islamic center in Paramus, NJ.',

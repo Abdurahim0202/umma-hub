@@ -3,7 +3,7 @@ import { MapPin, Phone, Globe, Clock, CheckCircle, Calendar, ExternalLink, Navig
 import { mosques } from '@/lib/data/mosques';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
-import { ymdInTz } from '@/lib/utils';
+import { cn, ymdInTz } from '@/lib/utils';
 import { APP_CONFIG } from '@/lib/config';
 import { EventCard } from '@/components/cards/EventCard';
 import type { Metadata } from 'next';
@@ -58,8 +58,18 @@ export default async function MosqueDetailPage(props: Props) {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
 
       {/* Cover */}
-      <div className="h-48 sm:h-64 rounded-3xl bg-linear-to-br from-emerald-600 via-emerald-700 to-teal-800 flex items-center justify-center mb-6 relative overflow-hidden">
-        <span className="text-7xl">🕌</span>
+      <div
+        className={cn(
+          'h-48 sm:h-64 rounded-3xl flex items-center justify-center mb-6 relative overflow-hidden',
+          !mosque.coverImage && 'bg-linear-to-br from-emerald-600 via-emerald-700 to-teal-800'
+        )}
+      >
+        {mosque.coverImage ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={mosque.coverImage} alt={mosque.name} className="absolute inset-0 w-full h-full object-cover" />
+        ) : (
+          <span className="text-7xl">🕌</span>
+        )}
 
         {mosque.isHomeMosque && (
           <div className="absolute top-4 left-4 bg-amber-400 rounded-full px-3 py-1 flex items-center gap-1.5 shadow-sm">

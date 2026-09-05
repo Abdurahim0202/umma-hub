@@ -43,8 +43,18 @@ export function MosqueCard({ mosque, variant = 'default', className }: MosqueCar
       {/* Entire upper section navigates to detail page */}
       <Link href={`/mosques/${mosque.slug}`} className="flex-1">
         {/* Cover */}
-        <div className="h-32 bg-linear-to-br from-emerald-600 to-teal-700 relative flex items-center justify-center">
-          <span className="text-5xl">🕌</span>
+        <div
+          className={cn(
+            'h-32 relative flex items-center justify-center',
+            !mosque.coverImage && 'bg-linear-to-br from-emerald-600 to-teal-700'
+          )}
+        >
+          {mosque.coverImage ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={mosque.coverImage} alt={mosque.name} className="absolute inset-0 w-full h-full object-cover" />
+          ) : (
+            <span className="text-5xl">🕌</span>
+          )}
 
           {mosque.isHomeMosque && (
             <div className="absolute top-3 left-3 bg-amber-400 rounded-full px-2 py-0.5 flex items-center gap-1">

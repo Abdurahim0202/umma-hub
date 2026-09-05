@@ -89,9 +89,25 @@ export function AnnouncementCard({ announcement, className }: AnnouncementCardPr
         )}
 
         {/* Footer */}
-        <div className="mt-3 flex items-center text-xs text-stone-400">
-          <Clock className="w-3 h-3 mr-1" />
-          {formatRelativeTime(announcement.postedAt)}
+        <div className="mt-3 flex items-center justify-between text-xs text-stone-400">
+          {announcement.postedAt ? (
+            <span className="flex items-center">
+              <Clock className="w-3 h-3 mr-1" />
+              {formatRelativeTime(announcement.postedAt)}
+            </span>
+          ) : (
+            <span />
+          )}
+          {announcement.sourceUrl && (
+            <a
+              href={announcement.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-600 hover:text-emerald-800 font-medium"
+            >
+              Source: {announcement.organizationName}
+            </a>
+          )}
         </div>
       </div>
     </div>

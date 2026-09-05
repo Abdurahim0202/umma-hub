@@ -87,14 +87,6 @@ export function ResourceCard({ resource, className }: ResourceCardProps) {
       <div className="mt-3 pt-3 border-t border-stone-100 flex items-center justify-between">
         <p className="text-xs text-stone-400">{resource.city}</p>
         <div className="flex gap-2">
-          {resource.contactEmail && (
-            <a
-              href={`mailto:${resource.contactEmail}`}
-              className="text-xs text-emerald-600 hover:text-emerald-800 font-medium"
-            >
-              Contact
-            </a>
-          )}
           {resource.website && (
             <a
               href={resource.website}

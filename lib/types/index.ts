@@ -243,7 +243,7 @@ export interface Announcement {
   category: AnnouncementCategory;
   title: string;
   body: string;
-  postedAt: string;
+  postedAt?: string;    // omit rather than guess when the source doesn't expose a real posted date
   isUrgent: boolean;
   sourceUrl?: string;
   // Janazah-specific (optional)
