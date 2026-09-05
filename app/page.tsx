@@ -6,11 +6,10 @@ import { ymdInTz } from '@/lib/utils';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { mosques } from '@/lib/data/mosques';
 import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
-import { getPosts } from '@/app/actions/community';
+import { HomeCommunitySection } from '@/app/HomeCommunitySection';
 import { EventCard } from '@/components/cards/EventCard';
 import { MosqueCard } from '@/components/cards/MosqueCard';
 import { ResourceCard } from '@/components/cards/ResourceCard';
-import { CommunityPost } from '@/components/cards/CommunityPost';
 import type { Event, Resource } from '@/lib/types';
 
 export const revalidate = 3600;
@@ -70,10 +69,9 @@ function deriveRecurringPrograms(upcoming: Event[], limit: number): Resource[] {
 }
 
 export default async function HomePage() {
-  const [{ events }, liveMosques, communityPosts] = await Promise.all([
+  const [{ events }, liveMosques] = await Promise.all([
     fetchAllMosqueEvents(),
     withLiveDarulIslahTimes(mosques),
-    getPosts({ sort: 'hot', limit: 4 }).catch(() => []),
   ]);
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
   const todayLabel = format(new Date(), 'EEEE, MMMM d, yyyy');
@@ -272,11 +270,8 @@ export default async function HomePage() {
             See all <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
-        <div className="space-y-3">
-          {communityPosts.slice(0, 4).map(post => (
-            <CommunityPost key={post.id} post={post} />
-          ))}
-        </div>
+        {/* Client component — loads latest Firestore posts on the client */}
+        <HomeCommunitySection />
         <div className="mt-4 text-center">
           <Link
             href="/community"

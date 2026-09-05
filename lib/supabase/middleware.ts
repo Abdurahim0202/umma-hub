@@ -1,36 +1,11 @@
-import { createServerClient } from '@supabase/ssr';
+/**
+ * DEPRECATED — Supabase has been replaced with Firebase.
+ * This stub exists so any lingering import sites compile without errors.
+ * The real middleware is in middleware.ts (a simple NextResponse.next passthrough).
+ */
+
 import { type NextRequest, NextResponse } from 'next/server';
 
-/**
- * Refreshes the Supabase session on every request so the server-side
- * auth cookie stays valid. Must be called from middleware.ts.
- */
 export async function updateSession(request: NextRequest) {
-  let supabaseResponse = NextResponse.next({ request });
-
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        getAll() {
-          return request.cookies.getAll();
-        },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value }) =>
-            request.cookies.set(name, value),
-          );
-          supabaseResponse = NextResponse.next({ request });
-          cookiesToSet.forEach(({ name, value, options }) =>
-            supabaseResponse.cookies.set(name, value, options),
-          );
-        },
-      },
-    },
-  );
-
-  // Refresh the session — do NOT remove this line.
-  await supabase.auth.getUser();
-
-  return supabaseResponse;
+  return NextResponse.next({ request });
 }

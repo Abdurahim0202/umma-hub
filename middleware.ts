@@ -1,8 +1,13 @@
-import { type NextRequest } from 'next/server';
-import { updateSession } from '@/lib/supabase/middleware';
+/**
+ * Middleware — Firebase Auth doesn't use server-side session cookies
+ * (the Firebase JS SDK handles auth state client-side via IndexedDB/localStorage).
+ * No session refresh is needed here, so we pass through all requests.
+ */
 
-export async function middleware(request: NextRequest) {
-  return await updateSession(request);
+import { type NextRequest, NextResponse } from 'next/server';
+
+export function middleware(request: NextRequest) {
+  return NextResponse.next({ request });
 }
 
 export const config = {
