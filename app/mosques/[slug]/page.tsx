@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { MapPin, Phone, Globe, Clock, CheckCircle, Calendar, ExternalLink, Navigation, Star, Home } from 'lucide-react';
 import { mosques } from '@/lib/data/mosques';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
+import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
 import { ymdInTz } from '@/lib/utils';
 import { APP_CONFIG } from '@/lib/config';
 import { EventCard } from '@/components/cards/EventCard';
@@ -38,7 +39,8 @@ const PRAYER_ROWS = [
 
 export default async function MosqueDetailPage(props: Props) {
   const params = await props.params;
-  const mosque = mosques.find(m => m.slug === params.slug);
+  const liveMosques = await withLiveDarulIslahTimes(mosques);
+  const mosque = liveMosques.find(m => m.slug === params.slug);
   if (!mosque) notFound();
 
   const { events } = await fetchAllMosqueEvents();

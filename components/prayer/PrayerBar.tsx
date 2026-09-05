@@ -3,6 +3,7 @@
 import { DEFAULT_PRAYER_TIMES } from '@/lib/config';
 import { getNextPrayer, formatMinutesUntil } from '@/lib/utils';
 import { Clock } from 'lucide-react';
+import type { PrayerTime } from '@/lib/types';
 
 const PRAYER_DISPLAY = [
   { key: 'fajr', label: 'Fajr' },
@@ -12,8 +13,12 @@ const PRAYER_DISPLAY = [
   { key: 'isha', label: 'Isha' },
 ] as const;
 
-export function PrayerBar() {
-  const next = getNextPrayer(DEFAULT_PRAYER_TIMES);
+interface PrayerBarProps {
+  prayerTimes?: PrayerTime;
+}
+
+export function PrayerBar({ prayerTimes = DEFAULT_PRAYER_TIMES }: PrayerBarProps) {
+  const next = getNextPrayer(prayerTimes);
 
   return (
     <div className="prayer-bar-gradient text-white">
@@ -37,7 +42,7 @@ export function PrayerBar() {
                       isNext ? 'text-yellow-300 prayer-pulse' : 'text-white'
                     }`}
                   >
-                    {DEFAULT_PRAYER_TIMES[key as keyof typeof DEFAULT_PRAYER_TIMES]}
+                    {prayerTimes[key as keyof PrayerTime]}
                   </span>
                 </div>
               );

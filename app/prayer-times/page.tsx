@@ -1,7 +1,10 @@
 import { Clock, MapPin, Info } from 'lucide-react';
 import { mosques } from '@/lib/data/mosques';
 import { DEFAULT_PRAYER_TIMES } from '@/lib/config';
+import { fetchDarulIslahPrayerTimes, toPrayerTime, withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
 import type { Metadata } from 'next';
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Prayer Times',
@@ -25,7 +28,16 @@ const IQAMAH_PRAYERS = [
   { key: 'isha', label: 'Isha' },
 ] as const;
 
-export default function PrayerTimesPage() {
+export default async function PrayerTimesPage() {
+  const [prayerResult, mosquesWithLiveTimes] = await Promise.all([
+    fetchDarulIslahPrayerTimes(),
+    withLiveDarulIslahTimes(mosques),
+  ]);
+  const liveAdhan = prayerResult.status === 'ok' && prayerResult.today
+    ? toPrayerTime(prayerResult.today)
+    : null;
+  const adhanTimes = liveAdhan ?? DEFAULT_PRAYER_TIMES;
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6">
 
@@ -41,12 +53,14 @@ export default function PrayerTimesPage() {
         </div>
       </div>
 
-      {/* Calculated adhan times card */}
+      {/* Adhan times card */}
       <div className="bg-linear-to-br from-emerald-600 via-emerald-700 to-teal-800 rounded-3xl p-6 text-white mb-6 shadow-lg">
         <div className="flex items-center justify-between mb-4">
           <div>
-            <h2 className="font-bold text-lg">Calculated Prayer Times</h2>
-            <p className="text-emerald-200 text-xs">ISNA method · Teaneck, NJ</p>
+            <h2 className="font-bold text-lg">{liveAdhan ? 'Today’s Prayer Times' : 'Calculated Prayer Times'}</h2>
+            <p className="text-emerald-200 text-xs">
+              {liveAdhan ? 'Live from Darul Islah · Teaneck, NJ' : 'ISNA method (estimated) · Teaneck, NJ'}
+            </p>
           </div>
           <div className="bg-white/20 rounded-xl px-3 py-1.5 text-xs text-white flex items-center gap-1">
             <Info className="w-3 h-3" />
@@ -58,14 +72,16 @@ export default function PrayerTimesPage() {
           {PRAYERS.map(({ key, label }) => (
             <div key={key} className="text-center bg-white/10 rounded-xl px-2 py-3">
               <p className="text-emerald-200 text-xs uppercase tracking-wide mb-1">{label}</p>
-              <p className="font-bold text-sm">{DEFAULT_PRAYER_TIMES[key]}</p>
+              <p className="font-bold text-sm">{adhanTimes[key]}</p>
             </div>
           ))}
         </div>
 
         <p className="text-emerald-200 text-xs mt-4 flex items-center gap-1">
           <Info className="w-3 h-3 flex-shrink-0" />
-          These are calculated adhan times. Iqamah (congregation) times vary by mosque — see below.
+          {liveAdhan
+            ? 'These are adhan times as published by Darul Islah today. Iqamah (congregation) times vary by mosque — see below.'
+            : 'These are estimated adhan times. Iqamah (congregation) times vary by mosque — see below.'}
         </p>
       </div>
 
@@ -87,7 +103,7 @@ export default function PrayerTimesPage() {
           </div>
 
           {/* Rows */}
-          {mosques.map(mosque => (
+          {mosquesWithLiveTimes.map(mosque => (
             <div
               key={mosque.id}
               className="grid items-center px-4 py-4 border-b border-stone-100 last:border-0 hover:bg-stone-50 transition-colors"
@@ -123,8 +139,10 @@ export default function PrayerTimesPage() {
       <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-sm text-amber-800 flex gap-2">
         <Info className="w-4 h-4 flex-shrink-0 mt-0.5 text-amber-600" />
         <p>
-          Prayer times shown are based on standard calculation and placeholder iqamah data.
-          Always verify with the mosque directly. Iqamah times will be updated once real schedules are provided.
+          {liveAdhan
+            ? 'Adhan and iqamah times for Darul Islah are pulled live from darulislah.org/salah. Other mosques don’t publish a live schedule yet, so their iqamah times aren’t shown.'
+            : 'Live prayer times were unavailable, so estimated adhan times are shown instead.'}
+          {' '}Always verify with the mosque directly.
         </p>
       </div>
     </div>

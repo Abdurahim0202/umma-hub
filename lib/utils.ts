@@ -178,7 +178,7 @@ export function parseTimeToMinutes(timeStr: string): number {
   return h * 60 + minutes;
 }
 
-export function getNextPrayer(prayerTimes: Record<string, string>): {
+export function getNextPrayer(prayerTimes: Pick<import('@/lib/types').PrayerTime, 'fajr' | 'dhuhr' | 'asr' | 'maghrib' | 'isha'>): {
   name: string;
   time: string;
   minutesUntil: number;

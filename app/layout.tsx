@@ -5,6 +5,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { MobileNav } from '@/components/layout/MobileNav';
 import { PrayerBar } from '@/components/prayer/PrayerBar';
 import { APP_CONFIG } from '@/lib/config';
+import { fetchDarulIslahPrayerTimes, toPrayerTime } from '@/lib/prayer-sources/darul-islah';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -17,16 +18,21 @@ export const metadata: Metadata = {
   keywords: ['Muslim community', 'Teaneck', 'masjid', 'Islamic events', 'prayer times', 'halal'],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const prayerResult = await fetchDarulIslahPrayerTimes();
+  const prayerTimes = prayerResult.status === 'ok' && prayerResult.today
+    ? toPrayerTime(prayerResult.today)
+    : undefined;
+
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-stone-50 text-stone-900 antialiased">
         <Navbar />
-        <PrayerBar />
+        <PrayerBar prayerTimes={prayerTimes} />
         <main className="min-h-screen pb-20 md:pb-0">
           {children}
         </main>

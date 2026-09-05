@@ -5,6 +5,7 @@ import { APP_CONFIG } from '@/lib/config';
 import { ymdInTz } from '@/lib/utils';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { mosques } from '@/lib/data/mosques';
+import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
 import { forumPosts } from '@/lib/data/community';
 import { EventCard } from '@/components/cards/EventCard';
 import { MosqueCard } from '@/components/cards/MosqueCard';
@@ -69,7 +70,10 @@ function deriveRecurringPrograms(upcoming: Event[], limit: number): Resource[] {
 }
 
 export default async function HomePage() {
-  const { events } = await fetchAllMosqueEvents();
+  const [{ events }, liveMosques] = await Promise.all([
+    fetchAllMosqueEvents(),
+    withLiveDarulIslahTimes(mosques),
+  ]);
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
   const todayLabel = format(new Date(), 'EEEE, MMMM d, yyyy');
 
@@ -203,7 +207,7 @@ export default async function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {mosques.map(mosque => (
+        {liveMosques.map(mosque => (
             <MosqueCard key={mosque.id} mosque={mosque} />
           ))}
         </div>
