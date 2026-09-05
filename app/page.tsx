@@ -28,7 +28,7 @@ export default function HomePage() {
           }}
         />
         <div className="relative z-10">
-          <div className="flex items-center gap-2 text-emerald-200 text-sm mb-3">
+          <div className="flex items-center gap-2 text-white/90 text-sm mb-3">
             <span>📍 {APP_CONFIG.cityFull}</span>
             <span>·</span>
             <span>{todayStr}</span>
@@ -36,7 +36,7 @@ export default function HomePage() {
           <h1 className="text-3xl sm:text-4xl font-bold mb-2 leading-tight">
             Your Muslim community,<br className="hidden sm:block" /> all in one place.
           </h1>
-          <p className="text-emerald-100 text-base sm:text-lg mb-6 max-w-xl">
+          <p className="text-emerald-50 text-base sm:text-lg mb-6 max-w-xl font-medium">
             Events, prayer times, mosque directory, resources, and community for {APP_CONFIG.cityFull}.
           </p>
           {/* Search bar */}
@@ -78,7 +78,7 @@ export default function HomePage() {
         <div className="flex items-center justify-between mb-4">
           <div>
             <h2 className="text-xl font-bold text-stone-900">Happening Today</h2>
-            <p className="text-sm text-stone-500">{todayStr}</p>
+            <p className="text-sm text-stone-600">{todayStr}</p>
           </div>
           <Link href="/calendar" className="flex items-center gap-1 text-sm text-emerald-600 font-medium hover:text-emerald-800">
             See all <ChevronRight className="w-4 h-4" />
@@ -185,14 +185,14 @@ export default function HomePage() {
       {/* ─── CTA FOOTER ──────────────────────────────────────── */}
       <section className="bg-stone-900 rounded-3xl p-8 text-center text-white">
         <p className="text-2xl font-bold mb-2">One community. One platform.</p>
-        <p className="text-stone-400 mb-6 max-w-md mx-auto">
+        <p className="text-stone-300 mb-6 max-w-md mx-auto">
           Stop scrolling through WhatsApp groups and Instagram pages. Everything for the {APP_CONFIG.cityFull} Muslim community is right here.
         </p>
         <div className="flex items-center justify-center gap-3 flex-wrap">
           <Link href="/calendar" className="bg-emerald-600 text-white px-6 py-2.5 rounded-xl font-medium hover:bg-emerald-500 transition-colors">
             Browse Events
           </Link>
-          <Link href="/mosques" className="bg-white/10 text-white px-6 py-2.5 rounded-xl font-medium hover:bg-white/20 transition-colors">
+          <Link href="/mosques" className="bg-emerald-700 text-white px-6 py-2.5 rounded-xl font-medium hover:bg-emerald-600 transition-colors border border-emerald-500">
             Find Mosques
           </Link>
         </div>
