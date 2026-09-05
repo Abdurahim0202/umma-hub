@@ -1,0 +1,270 @@
+https://masjidalaisha.org/feed/
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Masjid Al Aisha</title>
+	<atom:link href="https://masjidalaisha.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https://masjidalaisha.org</link>
+	<description>Muslim Cultural Center of Bergen County</description>
+	<lastBuildDate>Wed, 18 Nov 2020 15:09:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.0.4</generator>
+
+<image>
+	<url>https://masjidalaisha.org/wp-content/uploads/2025/05/cropped-OrangeMasjidAlAisha512x512-32x32.png</url>
+	<title>Masjid Al Aisha</title>
+	<link>https://masjidalaisha.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Gender Equality and Justice in Islam</title>
+		<link>https://masjidalaisha.org/gender-equality-and-justice-in-islam/</link>
+					<comments>https://masjidalaisha.org/gender-equality-and-justice-in-islam/#comments</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:53:53 +0000</pubDate>
+				<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[justice]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=189</guid>
+
+					<description><![CDATA[Leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/gender-equality-and-justice-in-islam/feed/</wfw:commentRss>
+			<slash:comments>6</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Freedom and Islam</title>
+		<link>https://masjidalaisha.org/freedom-and-islam/</link>
+					<comments>https://masjidalaisha.org/freedom-and-islam/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:52:02 +0000</pubDate>
+				<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[Soul Purifshahation]]></category>
+		<category><![CDATA[freedom]]></category>
+		<category><![CDATA[islam]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=187</guid>
+
+					<description><![CDATA[Inceptos sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Inceptos sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/freedom-and-islam/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>10 Things you are Missing if you don’t Understand the Quran</title>
+		<link>https://masjidalaisha.org/10-things-you-are-missing-if-you-dont-understand-the-quran/</link>
+					<comments>https://masjidalaisha.org/10-things-you-are-missing-if-you-dont-understand-the-quran/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:49:53 +0000</pubDate>
+				<category><![CDATA[Important]]></category>
+		<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[Quran]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=185</guid>
+
+					<description><![CDATA[Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/10-things-you-are-missing-if-you-dont-understand-the-quran/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>8 Things to Strengthen the Husband-Wife Relationship in Islam</title>
+		<link>https://masjidalaisha.org/8-things-to-strengthen-the-husband-wife-relationship-in-islam/</link>
+					<comments>https://masjidalaisha.org/8-things-to-strengthen-the-husband-wife-relationship-in-islam/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:49:26 +0000</pubDate>
+				<category><![CDATA[Family Life]]></category>
+		<category><![CDATA[Important]]></category>
+		<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Marriage Advice]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[relationship]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=183</guid>
+
+					<description><![CDATA[Phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/8-things-to-strengthen-the-husband-wife-relationship-in-islam/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>12 Rights of a Muslim Wife upon Her Husband</title>
+		<link>https://masjidalaisha.org/12-rights-of-a-muslim-wife-upon-her-husband/</link>
+					<comments>https://masjidalaisha.org/12-rights-of-a-muslim-wife-upon-her-husband/#comments</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:49:03 +0000</pubDate>
+				<category><![CDATA[Family Life]]></category>
+		<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Marriage Advice]]></category>
+		<category><![CDATA[family]]></category>
+		<category><![CDATA[relationship]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=181</guid>
+
+					<description><![CDATA[Inceptos sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Inceptos sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/12-rights-of-a-muslim-wife-upon-her-husband/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Importance of Lailatul Qadr (The Night of Decree)</title>
+		<link>https://masjidalaisha.org/importance-of-lailatul-qadr-the-night-of-decree/</link>
+					<comments>https://masjidalaisha.org/importance-of-lailatul-qadr-the-night-of-decree/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:47:44 +0000</pubDate>
+				<category><![CDATA[Important]]></category>
+		<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[Special Months & Times]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=179</guid>
+
+					<description><![CDATA[Wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/importance-of-lailatul-qadr-the-night-of-decree/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Make Quran Learning Effective For Kids</title>
+		<link>https://masjidalaisha.org/how-to-make-quran-learning-effective-for-kids/</link>
+					<comments>https://masjidalaisha.org/how-to-make-quran-learning-effective-for-kids/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:46:26 +0000</pubDate>
+				<category><![CDATA[Family Life]]></category>
+		<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[family]]></category>
+		<category><![CDATA[kids]]></category>
+		<category><![CDATA[Quran]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=177</guid>
+
+					<description><![CDATA[Phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh,&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/how-to-make-quran-learning-effective-for-kids/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>The Search for Inner Peace</title>
+		<link>https://masjidalaisha.org/the-search-for-inner-peace/</link>
+					<comments>https://masjidalaisha.org/the-search-for-inner-peace/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:44:40 +0000</pubDate>
+				<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Soul Purifshahation]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[Quran]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=175</guid>
+
+					<description><![CDATA[Sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/the-search-for-inner-peace/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How Islamic inventors changed the world</title>
+		<link>https://masjidalaisha.org/how-islamic-inventors-changed-the-world/</link>
+					<comments>https://masjidalaisha.org/how-islamic-inventors-changed-the-world/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:42:04 +0000</pubDate>
+				<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[inventors]]></category>
+		<category><![CDATA[knowledge]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=173</guid>
+
+					<description><![CDATA[Inceptos sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Inceptos sodales phasellus wisi feugiat leo, tellus vitae, erat ligula. Aliquet ac, elementum enim suscipit porttitor molestie commodo, feugiat magnis. Quam dui quis quam morbi potenti sodales, dapibus litora integer diam urna, sapien eu, a sagittis ligula est urna nunc, eos nibh mus aliquam massa mi iaculis. Massa id in faucibus nibh, convallis amet, enim laboriosam, phasellus facilisis magna. Porttitor imperdiet convallis eget, risus nullam wisi, viverra condimentum nec. Neque morbi, sit nisl libero duis quis, faucibus nibh. Ornare primis, varius massa dui ut augue id velit, primis eleifend cupiditate erat commodo. Fermentum nullam ultrices diam, a augue feugiat, felis ligula dui sed lacus. Vivamus a, tenetur dolor. Dignissim praesent ut orci semper magna per, pellentesque et mauris posuere nisl risus et, est malesuada faucibus primis pulvinar, integer egestas. Ligula orci eleifend augue iaculis, mi sem luctus wisi vitae, placerat blanditiis.<br />
+Lacus id ullamcorper enim eu, montes nam est quis phasellus ut, mauris nullam mi ut, volutpat duis semper feugiat quam sed. Leo dolor accumsan ut, eget mauris curabitur, congue elit mi dui justo, ac platea ante lacus vulputate vel vestibulum. At vel purus amet porttitor. Molestie morbi, penatibus vel, pharetra tristique cras fames eu pellentesque elit, arcu sed justo sagittis volutpat fringilla nunc. Vehicula ac vestibulum enim lacus, volutpat suscipit tincidunt ipsum. Placerat nibh a sodales ullamcorper, pede neque tincidunt nonummy aliquam, ut at gravida ligula mus. Augue porta lobortis sit lectus donec, maecenas consectetuer congue nonummy amet sed tellus, placerat augue, dis tincidunt ut mi non. Inceptos sapien pretium dolores, sed nullam felis. Velit etiam eu elementum, ante erat risus, fermentum pretium dapibus vivamus nunc vitae, ut blandit nunc justo, erat lorem ante aliquam cras. Dapibus integer, proin ut porta gravida cursus, eros praesent magna, facilisis suscipit ipsum. Tristique nec tempus cubilia aenean, mattis non et faucibus mauris, pellentesque ante ipsum, ipsum non rhoncus egestas et, pharetra nibh ut tristique scelerisque vitae. Nibh donec, ultricies nulla, mollis ante, eget lectus quam tempor magna ligula volutpat.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/how-islamic-inventors-changed-the-world/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>We Pray for a World of Peace</title>
+		<link>https://masjidalaisha.org/we-pray-for-a-world-of-peace/</link>
+					<comments>https://masjidalaisha.org/we-pray-for-a-world-of-peace/#respond</comments>
+		
+		<dc:creator><![CDATA[hpcasper@yahoo.com]]></dc:creator>
+		<pubDate>Tue, 11 Jul 2017 14:37:32 +0000</pubDate>
+				<category><![CDATA[Islamic Identity]]></category>
+		<category><![CDATA[Knowledge]]></category>
+		<category><![CDATA[Soul Purifshahation]]></category>
+		<category><![CDATA[islam]]></category>
+		<category><![CDATA[peace]]></category>
+		<guid isPermaLink="false">https://masjidalaisha.org/?p=170</guid>
+
+					<description><![CDATA[Odio nunc quisque, libero convallis orci ultricies lorem, adipiscing sint hendrerit ullamcorper aliquet convallis dolor, est eu turpis curabitur, id mi pellentesque dolor. Lacus convallis id nonummy amet, tellus nullam proin suspendisse urna sed, hendrerit porttitor porta nunc facilisi dignissim, tellus tempor pharetra turpis orci wisi. Turpis diam, purus ut&#8230;]]></description>
+										<content:encoded><![CDATA[<p>Odio nunc quisque, libero convallis orci ultricies lorem, adipiscing sint hendrerit ullamcorper aliquet convallis dolor, est eu turpis curabitur, id mi pellentesque dolor. Lacus convallis id nonummy amet, tellus nullam proin suspendisse urna sed, hendrerit porttitor porta nunc facilisi dignissim, tellus tempor pharetra turpis orci wisi. Turpis diam, purus ut cras nibh, pellentesque amet fringilla. Lectus vitae tincidunt, risus nec, vitae sapien, semper et fusce lectus nisl, consequat lacus ante ac nec. Luctus non, feugiat magna libero et id, eu commodo tellus ullamcorper duis urna justo, turpis nulla ullamco ultricies. Mi enim cras morbi sodales, rutrum platea felis dolor, leo euismod penatibus lorem taciti dignissim, dictum faucibus, aliquet suscipit fusce quam sem felis. Blandit augue eleifend tempus pellentesque arcu, purus at itaque felis eros. Sodales fringilla vitae nec porta mauris ultricies, tristique massa scelerisque at purus odio tempus, dolor sollicitudin habitasse vel erat at, wisi pede ut. Malesuada nunc nam. Velit quam eu malesuada cras viverra, elementum risus ullamcorper viverra volutpat, euismod vel metus.<br />
+Scelerisque et mauris lectus lectus, et euismod blandit sapien. Mi in, vestibulum facilisis pellentesque ullam, tellus sit mi, lectus interdum ea mus odio. Amet ante erat. Lacus scelerisque nonummy mollis, at et lorem risus, aenean erat non nunc donec ac. Tempus ridiculus tempor lobortis nam, suscipit augue. Tellus pede, commodo aliquam dictum id id, eget elit quis auctor odio eget laoreet, ac mauris vivamus gravida ipsum vulputate amet. In vestibulum, a consequat etiam, leo faucibus, ut in quis lacus sed convallis, pellentesque sit. Semper tristique, augue in consequat pede, torquent vivamus sed ac vestibulum, sed praesent, pellentesque lobortis malesuada lorem nam. Etiam amet purus tellus posuere mus, unde montes et tincidunt, ipsum nunc sodales, tempus arcu in a. Sit blandit, metus venenatis dis id tellus volutpat orci, ut at orci nunc interdum, tincidunt a varius eu ultricies accumsan nec, euismod ligula id mi nullam eleifend.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://masjidalaisha.org/we-pray-for-a-world-of-peace/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

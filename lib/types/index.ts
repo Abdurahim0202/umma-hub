@@ -348,3 +348,62 @@ export interface SearchResults {
   announcements: Announcement[];
   posts: ForumPost[];
 }
+
+// ────────────────────────────────────────────────────────────
+// Supabase DB Row Types
+// These mirror the actual table schemas in Supabase.
+// ────────────────────────────────────────────────────────────
+
+export interface DbProfile {
+  id:           string;
+  email:        string | null;
+  display_name: string;
+  city:         string | null;
+  avatar_url:   string | null;
+  interests:    string[];
+  role:         'member' | 'admin' | 'mosque_admin';
+  created_at:   string;
+}
+
+export interface DbPost {
+  id:         string;
+  user_id:    string;
+  title:      string;
+  body:       string;
+  category:   string;
+  is_pinned:  boolean;
+  tags:       string[];
+  created_at: string;
+  updated_at: string;
+}
+
+export interface DbComment {
+  id:                string;
+  post_id:           string;
+  user_id:           string;
+  body:              string;
+  parent_comment_id: string | null;
+  created_at:        string;
+}
+
+export interface DbVote {
+  id:         string;
+  post_id:    string;
+  user_id:    string;
+  value:      1 | -1;
+  created_at: string;
+}
+
+export interface DbBookmark {
+  id:         string;
+  post_id:    string;
+  user_id:    string;
+  created_at: string;
+}
+
+export interface DbFollow {
+  id:         string;
+  user_id:    string;
+  mosque_id:  string;
+  created_at: string;
+}

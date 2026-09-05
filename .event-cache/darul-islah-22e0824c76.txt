@@ -1,0 +1,435 @@
+https://www.darulislah.org/events/list/?eventDisplay=past&ical=1
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Darul Islah | Muslim Society of Bergen County - ECPv6.17.4//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Darul Islah | Muslim Society of Bergen County
+X-ORIGINAL-URL:https://www.darulislah.org
+X-WR-CALDESC:Events for Darul Islah | Muslim Society of Bergen County
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-Robots-Tag:noindex
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20250309T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20251102T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T060000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20270314T070000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20271107T060000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T130000
+DTSTAMP:20250902T201934Z
+CREATED:20250902T201934Z
+LAST-MODIFIED:20250902T201934Z
+UID:10001854-1788609600-1788613200@www.darulislah.org
+SUMMARY:Sisters' Tajweed Class
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-tajweed-class/2026-09-05/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sisters-Tajweed-Class-7.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260904T190000
+DTEND;TZID=America/New_York:20260904T200000
+DTSTAMP:20260326T145420Z
+CREATED:20260217T203504Z
+LAST-MODIFIED:20260326T145420Z
+UID:10001593-1788548400-1788552000@www.darulislah.org
+SUMMARY:Sisters' Halaqa
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-halaqa-2/2026-09-04/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sr.-Sherins-Halaqa-Real-Estate-Flyer-11.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260904T170000
+DTEND;TZID=America/New_York:20260904T183000
+DTSTAMP:20250911T163418Z
+CREATED:20250911T163416Z
+LAST-MODIFIED:20250911T163418Z
+UID:10002115-1788541200-1788546600@www.darulislah.org
+SUMMARY:DI Juniors (Girls)
+DESCRIPTION:
+URL:https://www.darulislah.org/events/di-juniors-girls-2/2026-09-04/
+CATEGORIES:Masjid Events
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260904T130000
+DTEND;TZID=America/New_York:20260904T150000
+DTSTAMP:20250902T175229Z
+CREATED:20250902T175228Z
+LAST-MODIFIED:20250902T175229Z
+UID:10000289-1788526800-1788534000@www.darulislah.org
+SUMMARY:Jummah
+DESCRIPTION:
+URL:https://www.darulislah.org/events/jummah-3/2026-09-04/
+CATEGORIES:Masjid Events
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260902T193000
+DTEND;TZID=America/New_York:20260902T200000
+DTSTAMP:20260326T145414Z
+CREATED:20260217T203400Z
+LAST-MODIFIED:20260326T145414Z
+UID:10001332-1788377400-1788379200@www.darulislah.org
+SUMMARY:Sh. Waleed's Post Maghrib Khatira
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sh-waleeds-post-maghrib-khatira-2-2/2026-09-02/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Weekdays-With-Sheikh-2.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260830T054500
+DTEND;TZID=America/New_York:20260830T063000
+DTSTAMP:20250902T180641Z
+CREATED:20250902T175939Z
+LAST-MODIFIED:20250902T180641Z
+UID:10000809-1788068700-1788071400@www.darulislah.org
+SUMMARY:Journey through the Quran
+DESCRIPTION:Fajr Khatirah with Imam Saeed Qureshi
+URL:https://www.darulislah.org/events/journey-through-the-quran/2026-08-30/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/04/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260829T120000
+DTEND;TZID=America/New_York:20260829T130000
+DTSTAMP:20250902T201934Z
+CREATED:20250902T201934Z
+LAST-MODIFIED:20250902T201934Z
+UID:10001853-1788004800-1788008400@www.darulislah.org
+SUMMARY:Sisters' Tajweed Class
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-tajweed-class/2026-08-29/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sisters-Tajweed-Class-7.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260829T054500
+DTEND;TZID=America/New_York:20260829T183000
+DTSTAMP:20260326T145434Z
+CREATED:20260217T203709Z
+LAST-MODIFIED:20260326T145434Z
+UID:10000549-1787982300-1788028200@www.darulislah.org
+SUMMARY:Journey Through the Hadith
+DESCRIPTION:
+URL:https://www.darulislah.org/events/journey-through-the-hadith-2/2026-08-29/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260828T190000
+DTEND;TZID=America/New_York:20260828T200000
+DTSTAMP:20260326T145420Z
+CREATED:20260217T203504Z
+LAST-MODIFIED:20260326T145420Z
+UID:10001592-1787943600-1787947200@www.darulislah.org
+SUMMARY:Sisters' Halaqa
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-halaqa-2/2026-08-28/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sr.-Sherins-Halaqa-Real-Estate-Flyer-11.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260828T170000
+DTEND;TZID=America/New_York:20260828T183000
+DTSTAMP:20250911T163418Z
+CREATED:20250911T163416Z
+LAST-MODIFIED:20250911T163418Z
+UID:10002114-1787936400-1787941800@www.darulislah.org
+SUMMARY:DI Juniors (Girls)
+DESCRIPTION:
+URL:https://www.darulislah.org/events/di-juniors-girls-2/2026-08-28/
+CATEGORIES:Masjid Events
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260828T130000
+DTEND;TZID=America/New_York:20260828T150000
+DTSTAMP:20260825T215551Z
+CREATED:20260825T215550Z
+LAST-MODIFIED:20260825T215551Z
+UID:10000288-1787922000-1787929200@www.darulislah.org
+SUMMARY:Jummah
+DESCRIPTION:
+URL:https://www.darulislah.org/events/jummah-3-27/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2026/08/Jummah-2026-30.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260831
+DTSTAMP:20260825T215804Z
+CREATED:20260825T215803Z
+LAST-MODIFIED:20260825T215804Z
+UID:10003124-1787875200-1788134399@www.darulislah.org
+SUMMARY:Clothing Drive for Pakistan
+DESCRIPTION:Darul Islah is partnering with Helping Hand for Relief and Development (HHRD) to collect brand new or like-new clothing and essential items for families in need in Pakistan. \n📍 Darul Islah Masjid\n320 Fabry Terrace\, Teaneck\, NJ 07666 \n📅 Drop-Off Times:\n* Friday\, August 28: 4 PM–7 PM\n* Saturday\, August 29: 10 AM–6 PM\n* Sunday\, August 30: 10 AM–4 PM (or until capacity is reached) \n👕 Clothing\, shoes\, bedding\, school supplies\, personal care items\, toys\, and more are being accepted. Please review the flyer for accepted items and packing instructions. \n🤝 Volunteers are also needed! Scan the QR code on the flyer to sign up. \nMay Allah accept your generosity and make it a means of relief for those in need. Ameen.
+URL:https://www.darulislah.org/events/clothing-drive-for-pakistan/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/jpeg:https://www.darulislah.org/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-11-at-10.54.55-PM.jpeg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260826T193000
+DTEND;TZID=America/New_York:20260826T200000
+DTSTAMP:20260326T145414Z
+CREATED:20260217T203400Z
+LAST-MODIFIED:20260326T145414Z
+UID:10001331-1787772600-1787774400@www.darulislah.org
+SUMMARY:Sh. Waleed's Post Maghrib Khatira
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sh-waleeds-post-maghrib-khatira-2-2/2026-08-26/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Weekdays-With-Sheikh-2.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260824T000000
+DTEND;TZID=America/New_York:20260903T000000
+DTSTAMP:20250822T040117Z
+CREATED:20250822T040117Z
+LAST-MODIFIED:20250822T040117Z
+UID:10000217-1787529600-1788393600@www.darulislah.org
+SUMMARY:Summer Break 2
+DESCRIPTION:
+URL:https://www.darulislah.org/events/summer-break-2/
+CATEGORIES:Evening School Calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260823T054500
+DTEND;TZID=America/New_York:20260823T063000
+DTSTAMP:20250902T180641Z
+CREATED:20250902T175939Z
+LAST-MODIFIED:20250902T180641Z
+UID:10000808-1787463900-1787466600@www.darulislah.org
+SUMMARY:Journey through the Quran
+DESCRIPTION:Fajr Khatirah with Imam Saeed Qureshi
+URL:https://www.darulislah.org/events/journey-through-the-quran/2026-08-23/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/04/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260822T120000
+DTEND;TZID=America/New_York:20260822T130000
+DTSTAMP:20250902T201934Z
+CREATED:20250902T201934Z
+LAST-MODIFIED:20250902T201934Z
+UID:10001852-1787400000-1787403600@www.darulislah.org
+SUMMARY:Sisters' Tajweed Class
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-tajweed-class/2026-08-22/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sisters-Tajweed-Class-7.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260822T054500
+DTEND;TZID=America/New_York:20260822T183000
+DTSTAMP:20260326T145434Z
+CREATED:20260217T203709Z
+LAST-MODIFIED:20260326T145434Z
+UID:10000548-1787377500-1787423400@www.darulislah.org
+SUMMARY:Journey Through the Hadith
+DESCRIPTION:
+URL:https://www.darulislah.org/events/journey-through-the-hadith-2/2026-08-22/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260821T190000
+DTEND;TZID=America/New_York:20260821T200000
+DTSTAMP:20260326T145420Z
+CREATED:20260217T203504Z
+LAST-MODIFIED:20260326T145420Z
+UID:10001591-1787338800-1787342400@www.darulislah.org
+SUMMARY:Sisters' Halaqa
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-halaqa-2/2026-08-21/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sr.-Sherins-Halaqa-Real-Estate-Flyer-11.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260821T170000
+DTEND;TZID=America/New_York:20260821T183000
+DTSTAMP:20250911T163418Z
+CREATED:20250911T163416Z
+LAST-MODIFIED:20250911T163418Z
+UID:10002113-1787331600-1787337000@www.darulislah.org
+SUMMARY:DI Juniors (Girls)
+DESCRIPTION:
+URL:https://www.darulislah.org/events/di-juniors-girls-2/2026-08-21/
+CATEGORIES:Masjid Events
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260821T130000
+DTEND;TZID=America/New_York:20260821T150000
+DTSTAMP:20250902T175229Z
+CREATED:20250902T175228Z
+LAST-MODIFIED:20250902T175229Z
+UID:10000287-1787317200-1787324400@www.darulislah.org
+SUMMARY:Jummah
+DESCRIPTION:
+URL:https://www.darulislah.org/events/jummah-3/2026-08-21/
+CATEGORIES:Masjid Events
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260819T193000
+DTEND;TZID=America/New_York:20260819T200000
+DTSTAMP:20260326T145414Z
+CREATED:20260217T203400Z
+LAST-MODIFIED:20260326T145414Z
+UID:10001330-1787167800-1787169600@www.darulislah.org
+SUMMARY:Sh. Waleed's Post Maghrib Khatira
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sh-waleeds-post-maghrib-khatira-2-2/2026-08-19/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Weekdays-With-Sheikh-2.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260816T054500
+DTEND;TZID=America/New_York:20260816T063000
+DTSTAMP:20250902T180641Z
+CREATED:20250902T175939Z
+LAST-MODIFIED:20250902T180641Z
+UID:10000807-1786859100-1786861800@www.darulislah.org
+SUMMARY:Journey through the Quran
+DESCRIPTION:Fajr Khatirah with Imam Saeed Qureshi
+URL:https://www.darulislah.org/events/journey-through-the-quran/2026-08-16/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/04/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260815T120000
+DTEND;TZID=America/New_York:20260815T130000
+DTSTAMP:20250902T201934Z
+CREATED:20250902T201934Z
+LAST-MODIFIED:20250902T201934Z
+UID:10001851-1786795200-1786798800@www.darulislah.org
+SUMMARY:Sisters' Tajweed Class
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-tajweed-class/2026-08-15/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sisters-Tajweed-Class-7.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260815T054500
+DTEND;TZID=America/New_York:20260815T183000
+DTSTAMP:20260326T145434Z
+CREATED:20260217T203709Z
+LAST-MODIFIED:20260326T145434Z
+UID:10000547-1786772700-1786818600@www.darulislah.org
+SUMMARY:Journey Through the Hadith
+DESCRIPTION:
+URL:https://www.darulislah.org/events/journey-through-the-hadith-2/2026-08-15/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260814T190000
+DTEND;TZID=America/New_York:20260814T200000
+DTSTAMP:20260326T145420Z
+CREATED:20260217T203504Z
+LAST-MODIFIED:20260326T145420Z
+UID:10001590-1786734000-1786737600@www.darulislah.org
+SUMMARY:Sisters' Halaqa
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-halaqa-2/2026-08-14/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sr.-Sherins-Halaqa-Real-Estate-Flyer-11.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260814T170000
+DTEND;TZID=America/New_York:20260814T183000
+DTSTAMP:20250911T163418Z
+CREATED:20250911T163416Z
+LAST-MODIFIED:20250911T163418Z
+UID:10002112-1786726800-1786732200@www.darulislah.org
+SUMMARY:DI Juniors (Girls)
+DESCRIPTION:
+URL:https://www.darulislah.org/events/di-juniors-girls-2/2026-08-14/
+CATEGORIES:Masjid Events
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260814T130000
+DTEND;TZID=America/New_York:20260814T150000
+DTSTAMP:20260813T034658Z
+CREATED:20260813T034643Z
+LAST-MODIFIED:20260813T034658Z
+UID:10000286-1786712400-1786719600@www.darulislah.org
+SUMMARY:Jummah
+DESCRIPTION:
+URL:https://www.darulislah.org/events/jummah-3-26/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2026/08/Jummah-2026-28.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260812T193000
+DTEND;TZID=America/New_York:20260812T200000
+DTSTAMP:20260326T145414Z
+CREATED:20260217T203400Z
+LAST-MODIFIED:20260326T145414Z
+UID:10001329-1786563000-1786564800@www.darulislah.org
+SUMMARY:Sh. Waleed's Post Maghrib Khatira
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sh-waleeds-post-maghrib-khatira-2-2/2026-08-12/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Weekdays-With-Sheikh-2.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260809T054500
+DTEND;TZID=America/New_York:20260809T063000
+DTSTAMP:20250902T180641Z
+CREATED:20250902T175939Z
+LAST-MODIFIED:20250902T180641Z
+UID:10000806-1786254300-1786257000@www.darulislah.org
+SUMMARY:Journey through the Quran
+DESCRIPTION:Fajr Khatirah with Imam Saeed Qureshi
+URL:https://www.darulislah.org/events/journey-through-the-quran/2026-08-09/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/04/Fajr-Khatiras-1.png
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20260808T120000
+DTEND;TZID=America/New_York:20260808T130000
+DTSTAMP:20250902T201934Z
+CREATED:20250902T201934Z
+LAST-MODIFIED:20250902T201934Z
+UID:10001850-1786190400-1786194000@www.darulislah.org
+SUMMARY:Sisters' Tajweed Class
+DESCRIPTION:
+URL:https://www.darulislah.org/events/sisters-tajweed-class/2026-08-08/
+CATEGORIES:Masjid Events
+ATTACH;FMTTYPE=image/png:https://www.darulislah.org/wp-content/uploads/2025/09/Sisters-Tajweed-Class-7.png
+END:VEVENT
+END:VCALENDAR

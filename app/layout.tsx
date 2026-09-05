@@ -6,6 +6,7 @@ import { MobileNav } from '@/components/layout/MobileNav';
 import { PrayerBar } from '@/components/prayer/PrayerBar';
 import { APP_CONFIG } from '@/lib/config';
 import { fetchDarulIslahPrayerTimes, toPrayerTime } from '@/lib/prayer-sources/darul-islah';
+import { AuthProvider } from '@/providers/AuthProvider';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
@@ -24,19 +25,21 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const prayerResult = await fetchDarulIslahPrayerTimes();
-  const prayerTimes = prayerResult.status === 'ok' && prayerResult.today
+  const prayerTimes  = prayerResult.status === 'ok' && prayerResult.today
     ? toPrayerTime(prayerResult.today)
     : undefined;
 
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-stone-50 text-stone-900 antialiased">
-        <Navbar />
-        <PrayerBar prayerTimes={prayerTimes} />
-        <main className="min-h-screen pb-20 md:pb-0">
-          {children}
-        </main>
-        <MobileNav />
+        <AuthProvider>
+          <Navbar />
+          <PrayerBar prayerTimes={prayerTimes} />
+          <main className="min-h-screen pb-20 md:pb-0">
+            {children}
+          </main>
+          <MobileNav />
+        </AuthProvider>
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ import { ymdInTz } from '@/lib/utils';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { mosques } from '@/lib/data/mosques';
 import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
-import { forumPosts } from '@/lib/data/community';
+import { getPosts } from '@/app/actions/community';
 import { EventCard } from '@/components/cards/EventCard';
 import { MosqueCard } from '@/components/cards/MosqueCard';
 import { ResourceCard } from '@/components/cards/ResourceCard';
@@ -70,9 +70,10 @@ function deriveRecurringPrograms(upcoming: Event[], limit: number): Resource[] {
 }
 
 export default async function HomePage() {
-  const [{ events }, liveMosques] = await Promise.all([
+  const [{ events }, liveMosques, communityPosts] = await Promise.all([
     fetchAllMosqueEvents(),
     withLiveDarulIslahTimes(mosques),
+    getPosts({ sort: 'hot', limit: 4 }).catch(() => []),
   ]);
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
   const todayLabel = format(new Date(), 'EEEE, MMMM d, yyyy');
@@ -272,7 +273,7 @@ export default async function HomePage() {
           </Link>
         </div>
         <div className="space-y-3">
-          {forumPosts.slice(0, 4).map(post => (
+          {communityPosts.slice(0, 4).map(post => (
             <CommunityPost key={post.id} post={post} />
           ))}
         </div>

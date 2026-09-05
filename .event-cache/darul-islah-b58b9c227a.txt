@@ -1,0 +1,179 @@
+https://www.darulislah.org/events/feed/
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Events from September 5 &#8211; September 12 &#8211; Darul Islah | Muslim Society of Bergen County</title>
+	<atom:link href="https://www.darulislah.org/events/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.darulislah.org</link>
+	<description></description>
+	<lastBuildDate>Tue, 25 Aug 2026 21:58:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1</generator>
+
+<image>
+	<url>https://www.darulislah.org/wp-content/uploads/2026/03/cropped-favicon_reversed-02-32x32.png</url>
+	<title>Events from September 5 &#8211; September 12 &#8211; Darul Islah | Muslim Society of Bergen County</title>
+	<link>https://www.darulislah.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">243372373</site>	<item>
+		<title>Hackathon</title>
+		<link>https://www.darulislah.org/events/hackathon/</link>
+		
+		<dc:creator><![CDATA[comm]]></dc:creator>
+		<pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/?post_type=tribe_events&#038;p=7396</guid>
+
+					<description><![CDATA[🚀 Registration is now open for the 2nd Annual Darul Islah Hackathon! Join us for another exciting day of innovation, collaboration, and creativity, inshaAllah. Whether you’re a student, developer, designer, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>🚀 Registration is now open for the 2nd Annual Darul Islah Hackathon!</p>
+<p>Join us for another exciting day of innovation, collaboration, and creativity, inshaAllah. Whether you’re a student, developer, designer, or simply interested in technology, we invite you to be part of this amazing experience.</p>
+<p>Register today and stay updated with event details:</p>
+<p>🌐 https://hack.darulislah.org/<br />
+📸 https://www.instagram.com/hackDarulIslah</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">7396</post-id>	</item>
+		<item>
+		<title>Journey Through the Hadith</title>
+		<link>https://www.darulislah.org/events/journey-through-the-hadith-2/2026-09-05/</link>
+		
+		<dc:creator><![CDATA[comm]]></dc:creator>
+		<pubDate>Sat, 05 Sep 2026 09:45:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/events/journey-through-the-hadith-2/2025-09-06/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10000550</post-id>	</item>
+		<item>
+		<title>Journey through the Quran</title>
+		<link>https://www.darulislah.org/events/journey-through-the-quran/2026-09-06/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 06 Sep 2026 09:45:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/event/journey-through-the-quran-2/</guid>
+
+					<description><![CDATA[Fajr Khatirah with Imam Saeed Qureshi]]></description>
+										<content:encoded><![CDATA[<p>Fajr Khatirah with Imam Saeed Qureshi</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10000810</post-id>	</item>
+		<item>
+		<title>Sh. Waleed&#8217;s Post Maghrib Khatira</title>
+		<link>https://www.darulislah.org/events/sh-waleeds-post-maghrib-khatira-2-2/2026-09-09/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 09 Sep 2026 23:30:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/events/sh-waleeds-post-maghrib-khatira-3/2025-10-08/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10001333</post-id>	</item>
+		<item>
+		<title>Jummah</title>
+		<link>https://www.darulislah.org/events/jummah-3/2026-09-11/</link>
+		
+		<dc:creator><![CDATA[comm]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2026 17:00:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/event/jummah-3/2025-08-29/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10000290</post-id>	</item>
+		<item>
+		<title>DI Juniors (Girls)</title>
+		<link>https://www.darulislah.org/events/di-juniors-girls-2/2026-09-11/</link>
+		
+		<dc:creator><![CDATA[comm]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2026 21:00:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/event/di-juniors-girls-2/2025-09-12/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10002116</post-id>	</item>
+		<item>
+		<title>Sisters&#8217; Halaqa</title>
+		<link>https://www.darulislah.org/events/sisters-halaqa-2/2026-09-11/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 11 Sep 2026 23:00:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/events/sisters-halaqa-2/2025-09-05/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10001594</post-id>	</item>
+		<item>
+		<title>Journey Through the Hadith</title>
+		<link>https://www.darulislah.org/events/journey-through-the-hadith-2/2026-09-12/</link>
+		
+		<dc:creator><![CDATA[comm]]></dc:creator>
+		<pubDate>Sat, 12 Sep 2026 09:45:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/events/journey-through-the-hadith-2/2025-09-06/</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10000551</post-id>	</item>
+		<item>
+		<title>Sisters&#8217; Tajweed Class</title>
+		<link>https://www.darulislah.org/events/sisters-tajweed-class/2026-09-12/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 12 Sep 2026 16:00:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/?post_type=tribe_events&#038;p=5525</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10001855</post-id>	</item>
+		<item>
+		<title>Journey through the Quran</title>
+		<link>https://www.darulislah.org/events/journey-through-the-quran/2026-09-13/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 13 Sep 2026 09:45:00 +0000</pubDate>
+				<guid isPermaLink="false">https://www.darulislah.org/event/journey-through-the-quran-2/</guid>
+
+					<description><![CDATA[Fajr Khatirah with Imam Saeed Qureshi]]></description>
+										<content:encoded><![CDATA[<p>Fajr Khatirah with Imam Saeed Qureshi</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">10000811</post-id>	</item>
+	</channel>
+</rss>

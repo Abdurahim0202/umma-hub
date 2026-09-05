@@ -1,0 +1,163 @@
+https://icpcnj.org/?mec-ical-feed=1&nc=1788630506
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+PRODID:-//WordPress - MECv7.36.3//EN
+X-ORIGINAL-URL:https://icpcnj.org/
+X-WR-CALNAME:Islamic Center of Passaic County
+X-WR-CALDESC:
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:20260308T030000
+RRULE:FREQ=YEARLY;BYMONTH=03;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:20261101T010000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-a2a6e2d65ff67c5ed23a2d6cd3beb666@icpcnj.org
+DTSTART;TZID=America/New_York:20260906T063000
+DTEND;TZID=America/New_York:20260906T064000
+DTSTAMP:20241231T230740Z
+RRULE:FREQ=DAILY
+CREATED:20241231
+LAST-MODIFIED:20250312
+PRIORITY:5
+SEQUENCE:3
+TRANSP:OPAQUE
+SUMMARY:خاطرة الفجر مع الدكتور قطناني
+DESCRIPTION:خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر\n
+URL:https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9-2/
+LOCATION:152 Derrom Ave Paterson, NJ 07504
+ATTACH;FMTTYPE=image/jpeg:https://icpcnj.org/wp-content/uploads/2024/01/fajrkhatira_post.jpg
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-785137e3cba5d6c35d9d97b30a9cd152@icpcnj.org
+DTSTART;TZID=America/New_York:20260906T060000
+DTEND;TZID=America/New_York:20260906T190000
+DTSTAMP:20241231T230525Z
+RRULE:FREQ=DAILY
+CREATED:20241231
+LAST-MODIFIED:20250312
+PRIORITY:5
+SEQUENCE:2
+TRANSP:OPAQUE
+SUMMARY:حلقة قرآنية يومية
+DESCRIPTION:
+URL:https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9/
+LOCATION:152 Derrom Ave Paterson, NJ 07504
+ATTACH;FMTTYPE=image/jpeg:https://icpcnj.org/wp-content/uploads/2024/12/quranhalaqa_post.jpg
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-36bb5c6bce2f2ae5fd7c4a555712fd14@icpcnj.org
+DTSTART;TZID=America/New_York:20260911T170000
+DTEND;TZID=America/New_York:20260911T190000
+DTSTAMP:20260424T175046Z
+RRULE:FREQ=WEEKLY
+CREATED:20260424
+LAST-MODIFIED:20260424
+PRIORITY:5
+SEQUENCE:3
+TRANSP:OPAQUE
+SUMMARY:Food Truck Hot Meal Distribution
+DESCRIPTION:ICPC is partnering with Islamic Relief USA to provide up to 600 hot meals weekly through the Food Truck Program. Meals will be distributed every Friday starting April 24th between Asr and Maghrib at ICPC Paterson.\nThis service is open to everyone with no eligibility requirements, ensuring a welcoming and dignified experience for all. To help serve as many people as possible, we ask that one meal be taken per person. Please share with those who may benefit.\n \n
+URL:https://icpcnj.org/events/food-truck-hot-meal-distribution/
+LOCATION:152 Derrom Ave Paterson, NJ 07504
+ATTACH;FMTTYPE=image/png:https://icpcnj.org/wp-content/uploads/2026/04/screenshot-2026-04-24-at-5.51.10-pm.png
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-dacbfb40ca8606ed7040dba3b1b77b64@icpcnj.org
+DTSTART;TZID=America/New_York:20260908T110000
+DTEND;TZID=America/New_York:20260908T130000
+DTSTAMP:20260420T164615Z
+RRULE:FREQ=WEEKLY
+CREATED:20260420
+LAST-MODIFIED:20260522
+PRIORITY:5
+SEQUENCE:3
+TRANSP:OPAQUE
+SUMMARY:Sisters’ Cooking Classes
+DESCRIPTION:
+URL:https://icpcnj.org/events/sisters-cooking-classes/
+CATEGORIES:Women
+LOCATION:152 Derrom Ave Paterson, NJ 07504
+ATTACH;FMTTYPE=image/jpeg:https://icpcnj.org/wp-content/uploads/2025/08/sisters_cooking_thumb-02.jpg
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-8cae37794f9542ad4fc2ba196813f859@icpcnj.org
+DTSTART;TZID=America/New_York:20260911T200000
+DTEND;TZID=America/New_York:20260911T213000
+DTSTAMP:20260421T130130Z
+RRULE:FREQ=WEEKLY
+CREATED:20260421
+LAST-MODIFIED:20260528
+PRIORITY:5
+SEQUENCE:5
+TRANSP:OPAQUE
+SUMMARY:The Friday Forum
+DESCRIPTION:
+URL:https://icpcnj.org/events/the-friday-forum-5/
+CATEGORIES:Boys Youth,Converts,Girls Youth,sisters,Youth Boys
+LOCATION:259 Pershing Rd ​Clifton, NJ 07013
+ATTACH;FMTTYPE=image/jpeg:https://icpcnj.org/wp-content/uploads/2024/08/fridayforum_post.jpg
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-6d33020a287b0f42087f7ddd96de40cb@icpcnj.org
+DTSTART;TZID=America/New_York:20260912T170000
+DTEND;TZID=America/New_York:20260912T190000
+DTSTAMP:20260421T131028Z
+RRULE:FREQ=WEEKLY
+CREATED:20260421
+LAST-MODIFIED:20260528
+PRIORITY:5
+SEQUENCE:3
+TRANSP:OPAQUE
+SUMMARY:Shabab Night
+DESCRIPTION:\n\nJoin us every Saturday from 5–7 PM for Shabab Night  — a weekly space for brothers ages 13–18 to build real brotherhood and grow in a positive environment.Each week includes engaging halaqas, meaningful discussions, and time to enjoy good food and connect with others your age. Red House @ ICPC Paterson (139 Derrom Ave, Paterson, NJ 07504)Bring a friend and be part of it.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+URL:https://icpcnj.org/events/shabab-night/
+ORGANIZER;CN=Islamic Center of Passaic County:MAILTO:
+CATEGORIES:Boys Youth,Youth Boys
+LOCATION:152 Derrom Ave Paterson, NJ 07504
+ATTACH;FMTTYPE=image/jpeg:https://icpcnj.org/wp-content/uploads/2026/04/shababnight26_post-02-scaled.jpg
+END:VEVENT
+BEGIN:VEVENT
+CLASS:PUBLIC
+UID:MEC-976d163009b94bb9275a9e460ac79f90@icpcnj.org
+DTSTART;TZID=America/New_York:20260923T080000
+DTEND;TZID=America/New_York:20260923T180000
+DTSTAMP:20260904T190449Z
+RRULE:FREQ=WEEKLY
+CREATED:20260904
+LAST-MODIFIED:20260904
+PRIORITY:5
+SEQUENCE:2
+TRANSP:OPAQUE
+SUMMARY:تدبر أسماء الله الحسنى للأخوات مع الأستاذ فريد فهمي
+DESCRIPTION:
+URL:https://icpcnj.org/events/%d8%aa%d8%af%d8%a8%d8%b1-%d8%b3%d9%88%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%84%d9%84%d8%a3%d8%ae%d9%88%d8%a7%d8%aa-%d9%85%d8%b9-%d8%a7%d9%84%d8%a3%d8%b3%d8%aa%d8%a7%d8%b0-%d9%81%d8%b1%d9%8a-3/
+ORGANIZER;CN=Islamic Center of Passaic County:MAILTO:
+LOCATION:152 Derrom Ave Paterson, NJ 07504
+ATTACH;FMTTYPE=image/jpeg:https://icpcnj.org/wp-content/uploads/2026/09/names_faridfahmy_post-scaled.jpg
+END:VEVENT
+END:VCALENDAR

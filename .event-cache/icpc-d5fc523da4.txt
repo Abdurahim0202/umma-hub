@@ -1,0 +1,65 @@
+https://icpcnj.org/feed/
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Islamic Center of Passaic County</title>
+	<atom:link href="https://icpcnj.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https://icpcnj.org</link>
+	<description></description>
+	<lastBuildDate>Wed, 19 Mar 2025 17:47:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://icpcnj.org/wp-content/uploads/2023/11/cropped-icpc_logo_noor2website-32x32.png</url>
+	<title>Islamic Center of Passaic County</title>
+	<link>https://icpcnj.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Protected: Job Opening: Early Childhood Teacher</title>
+		<link>https://icpcnj.org/job-openings/</link>
+					<comments>https://icpcnj.org/job-openings/#respond</comments>
+		
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+		<pubDate>Sat, 18 Aug 2018 02:37:06 +0000</pubDate>
+				<category><![CDATA[Jobs]]></category>
+		<category><![CDATA[Education]]></category>
+		<category><![CDATA[Hiring]]></category>
+		<category><![CDATA[Join Us]]></category>
+		<category><![CDATA[School]]></category>
+		<category><![CDATA[Teacher]]></category>
+		<guid isPermaLink="false">https://icpcnj.org/?p=17218</guid>
+
+					<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
+										<content:encoded><![CDATA[<div class="container-custom">
+<form action="https://icpcnj.org/wp-login.php?action=postpass" method="post">
+				<label>This content is password protected. To view it please enter your password below:</label><br />
+				<label for="955468207">Password:</label><br />
+				<input name="post_password" id="955468207" type="password" size="20" /></p>
+<p class="aiowps-captcha"><label for="aiowps-captcha-answer-6a9c55ce313c5">Please enter an answer in digits:</label></p>
+<div class="aiowps-captcha-equation"><strong>3 &#215; five = <input type="hidden" name="aiowps-captcha-string-info" class="aiowps-captcha-string-info" value="yw9tf8le69" /><input type="hidden" name="aiowps-captcha-temp-string" class="aiowps-captcha-temp-string" value="1788630478" /><input type="text" size="2" id="aiowps-captcha-answer-6a9c55ce313c5" class="aiowps-captcha-answer" name="aiowps-captcha-answer" value="" autocomplete="off" /></strong></div>
+<p><input type="submit" name="Submit" class="button" value="Enter" /><br />
+			</form>
+</p></div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://icpcnj.org/job-openings/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

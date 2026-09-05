@@ -1,0 +1,336 @@
+https://icpcnj.org/events/feed/
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:mec="http://webnus.net/rss/mec/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+	    >
+<channel>
+	<title>Events - Islamic Center of Passaic County</title>
+	<atom:link href="https://icpcnj.org/events/feed/" rel="self" type="application/rss+xml" />
+	<link>https://icpcnj.org</link>
+	<description></description>
+	<lastBuildDate>Fri, 04 Sep 2026 23:04:49 -0400</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+
+<image>
+	<url>https://icpcnj.org/wp-content/uploads/2023/11/cropped-icpc_logo_noor2website-32x32.png</url>
+	<title>Events - Islamic Center of Passaic County</title>
+	<link>https://icpcnj.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+    
+            <item>
+		<title>Shabab Night</title>
+		<link>https://icpcnj.org/events/shabab-night/</link>
+        
+        
+        <pubDate>Sat, 05 Sep 2026 17:00:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/events/shabab-night/</guid>
+
+        <description><![CDATA[<img width="2049" height="2560" src="https://icpcnj.org/wp-content/uploads/2026/04/shababnight26_post-02-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> Join us every Saturday from 5–7 PM for Shabab Night  — a weekly space for brothers ages 13–18 to build real brotherhood and grow in a positive environment.Each week includes engaging halaqas, meaningful discussions, and time to enjoy good food and connect with others your age. Red House @ ICPC Paterson (139 Derrom Ave, Paterson, NJ [&hellip;]]]></description>
+
+                <content:encoded><![CDATA[<div class="xyamay9 xv54qhq xsag5q8 xf7dkkf">
+<div>
+<div class="xyinxu5 xyri2b x1g2khh7 x1c1uobl"><span class="x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u" dir="auto">Join us every Saturday from 5–7 PM for Shabab Night <span class="html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od"><img class="xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t3/2/16/1f91d.png" alt="🤝" width="16" height="16" /></span> — a weekly space for brothers ages 13–18 to build real brotherhood and grow in a positive environment.<br class="html-br" /><br class="html-br" />Each week includes engaging halaqas, meaningful discussions, and time to enjoy good food and connect with others your age.<br class="html-br" /><br class="html-br" /><span class="html-span xexx8yu xyri2b x18d9i69 x1c1uobl x1hl2dhg x16tdsg8 x1vvkbs x3nfvp2 x1j61x8r x1fcty0u xdj266r xat24cr xm2jcoa x1mpyi22 xxymvpz xlup9mm x1kky2od"><img class="xz74otr x15mokao x1ga7v0g x16uus16 xbiv7yw" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tcc/2/16/1f4cd.png" alt="📍" width="16" height="16" /></span> Red House @ ICPC Paterson (139 Derrom Ave, Paterson, NJ 07504)<br class="html-br" />Bring a friend and be part of it.</span></div>
+</div>
+<div class="x17zd0t2 x78zum5">
+<div class="x3nfvp2">
+<div></div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div class="xn3w4p2 x1gslohp">
+<div class="x9f619 x1ja2u2z x78zum5 x2lah0s x1n2onr6 x1qughib x6s0dn4 xozqiw3 x1q0g3np x11lfxj5 x135b78x x18d9i69 xexx8yu x4cne27 xifccgj">
+<div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x10b6aqq x1yrsyyn"></div>
+<div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x10b6aqq x1yrsyyn"></div>
+<div class="x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w xeuugli x10b6aqq x1yrsyyn"></div>
+<div class="x9f619 x1n2onr6 x1ja2u2z xdt5ytf x2lah0s x193iq5w xeuugli x10b6aqq x1yrsyyn x6s0dn4 x78zum5 xn3w4p2 xl56j7k xvc5jky xf159sx xmzvs34"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="html-div xdj266r x14z9mp xat24cr x1lziwak xexx8yu x18d9i69 xf7dkkf xv54qhq">
+<div class="html-div xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl">
+<div class="html-div xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl x78zum5 x1n2onr6 x1nhvcw1"></div>
+</div>
+</div>
+]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-05</mec:startDate>
+                <mec:startHour>5:00 pm</mec:startHour>
+        
+        <mec:endDate>2026-09-05</mec:endDate>
+                <mec:endHour>7:00 pm</mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+                <mec:category>Boys Youth, Youth Boys</mec:category>
+        
+                        	</item>
+            <item>
+		<title>حلقة قرآنية يومية</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9/</link>
+        
+        
+        <pubDate>Sun, 06 Sep 2026 06:00:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77715</guid>
+
+        <description><![CDATA[<img width="1668" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/12/quranhalaqa_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> ]]></description>
+
+                <content:encoded><![CDATA[]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-06</mec:startDate>
+                <mec:startHour>6:00 am</mec:startHour>
+        
+        <mec:endDate>2026-09-06</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>خاطرة الفجر مع الدكتور قطناني</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9-2/</link>
+        
+        
+        <pubDate>Sun, 06 Sep 2026 06:30:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77717</guid>
+
+        <description><![CDATA[<img width="1667" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/01/fajrkhatira_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر]]></description>
+
+                <content:encoded><![CDATA[<p>خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر</p>
+]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-06</mec:startDate>
+                <mec:startHour>6:30 am</mec:startHour>
+        
+        <mec:endDate>2026-09-06</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>حلقة قرآنية يومية</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9/</link>
+        
+        
+        <pubDate>Mon, 07 Sep 2026 06:00:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77715</guid>
+
+        <description><![CDATA[<img width="1668" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/12/quranhalaqa_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> ]]></description>
+
+                <content:encoded><![CDATA[]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-07</mec:startDate>
+                <mec:startHour>6:00 am</mec:startHour>
+        
+        <mec:endDate>2026-09-07</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>خاطرة الفجر مع الدكتور قطناني</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9-2/</link>
+        
+        
+        <pubDate>Mon, 07 Sep 2026 06:30:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77717</guid>
+
+        <description><![CDATA[<img width="1667" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/01/fajrkhatira_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر]]></description>
+
+                <content:encoded><![CDATA[<p>خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر</p>
+]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-07</mec:startDate>
+                <mec:startHour>6:30 am</mec:startHour>
+        
+        <mec:endDate>2026-09-07</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>حلقة قرآنية يومية</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9/</link>
+        
+        
+        <pubDate>Tue, 08 Sep 2026 06:00:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77715</guid>
+
+        <description><![CDATA[<img width="1668" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/12/quranhalaqa_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> ]]></description>
+
+                <content:encoded><![CDATA[]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-08</mec:startDate>
+                <mec:startHour>6:00 am</mec:startHour>
+        
+        <mec:endDate>2026-09-08</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>خاطرة الفجر مع الدكتور قطناني</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9-2/</link>
+        
+        
+        <pubDate>Tue, 08 Sep 2026 06:30:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77717</guid>
+
+        <description><![CDATA[<img width="1667" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/01/fajrkhatira_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر]]></description>
+
+                <content:encoded><![CDATA[<p>خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر</p>
+]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-08</mec:startDate>
+                <mec:startHour>6:30 am</mec:startHour>
+        
+        <mec:endDate>2026-09-08</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>Sisters&#8217; Cooking Classes</title>
+		<link>https://icpcnj.org/events/sisters-cooking-classes/</link>
+        
+        
+        <pubDate>Tue, 08 Sep 2026 11:00:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=79910</guid>
+
+        <description><![CDATA[<img width="1236" height="722" src="https://icpcnj.org/wp-content/uploads/2025/08/sisters_cooking_thumb-02.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> ]]></description>
+
+                <content:encoded><![CDATA[]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-08</mec:startDate>
+                <mec:startHour>11:00 am</mec:startHour>
+        
+        <mec:endDate>2026-09-08</mec:endDate>
+                <mec:endHour>1:00 pm</mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+                <mec:category>Women</mec:category>
+        
+                        	</item>
+            <item>
+		<title>حلقة قرآنية يومية</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9/</link>
+        
+        
+        <pubDate>Wed, 09 Sep 2026 06:00:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77715</guid>
+
+        <description><![CDATA[<img width="1668" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/12/quranhalaqa_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> ]]></description>
+
+                <content:encoded><![CDATA[]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-09</mec:startDate>
+                <mec:startHour>6:00 am</mec:startHour>
+        
+        <mec:endDate>2026-09-09</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+            <item>
+		<title>خاطرة الفجر مع الدكتور قطناني</title>
+		<link>https://icpcnj.org/events/%d8%ad%d9%84%d9%82%d8%a9-%d9%82%d8%b1%d8%a2%d9%86%d9%8a%d8%a9-%d9%8a%d9%88%d9%85%d9%8a%d8%a9-2/</link>
+        
+        
+        <pubDate>Wed, 09 Sep 2026 06:30:00 -0400</pubDate>
+		<dc:creator><![CDATA[Noor Mosli]]></dc:creator>
+
+		<guid isPermaLink="false">https://icpcnj.org/?post_type=mec-events&#038;p=77717</guid>
+
+        <description><![CDATA[<img width="1667" height="1667" src="https://icpcnj.org/wp-content/uploads/2024/01/fajrkhatira_post.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر]]></description>
+
+                <content:encoded><![CDATA[<p>خاطرة مدتها ١٠ دقائق مباشرة بعد صلاة الفجر</p>
+]]></content:encoded>
+        
+        
+        
+        <mec:startDate>2026-09-09</mec:startDate>
+                <mec:startHour>6:30 am</mec:startHour>
+        
+        <mec:endDate>2026-09-09</mec:endDate>
+                <mec:endHour></mec:endHour>
+        
+                <mec:location>ICPC Paterson</mec:location>
+        
+        
+        
+                        	</item>
+    
+</channel>
+</rss>

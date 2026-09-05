@@ -1,0 +1,715 @@
+https://masjidalaisha.org/
+<!DOCTYPE html>
+<html lang="en-US" class="no-js scheme_default"
+>
+<head>
+			<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="profile" href="//gmpg.org/xfn/11">
+		<link rel="pingback" href="https://masjidalaisha.org/xmlrpc.php">
+		<title>Masjid Al Aisha &#8211; Muslim Cultural Center of Bergen County</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="Masjid Al Aisha &raquo; Feed" href="https://masjidalaisha.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Masjid Al Aisha &raquo; Comments Feed" href="https://masjidalaisha.org/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Masjid Al Aisha &raquo; iCal Feed" href="https://masjidalaisha.org/list/?ical=1" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://masjidalaisha.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmasjidalaisha.org%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://masjidalaisha.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmasjidalaisha.org%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<link property="stylesheet" rel='stylesheet' id='givewp-campaign-blocks-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&#038;display=swap&#038;ver=7.0.4' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link property="stylesheet" rel='stylesheet' id='wp-block-library-css' href='https://masjidalaisha.org/wp-includes/css/dist/block-library/style.min.css?ver=7.0.4' media='all' />
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id="givewp-campaign-comments-block-style-inline-css">
+.givewp-campaign-comment-block-card{display:flex;gap:var(--givewp-spacing-3);padding:var(--givewp-spacing-4) 0}.givewp-campaign-comment-block-card__avatar{align-items:center;border-radius:50%;display:flex;height:40px;justify-content:center;width:40px}.givewp-campaign-comment-block-card__avatar img{align-items:center;border-radius:50%;display:flex;height:auto;justify-content:center;min-width:40px;width:100%}.givewp-campaign-comment-block-card__donor-name{color:var(--givewp-neutral-700);font-size:1rem;font-weight:600;line-height:1.5;margin:0;text-align:left}.givewp-campaign-comment-block-card__details{align-items:center;color:var(--givewp-neutral-400);display:flex;font-size:.875rem;font-weight:500;gap:var(--givewp-spacing-2);height:auto;line-height:1.43;margin:2px 0 var(--givewp-spacing-3) 0;text-align:left}.givewp-campaign-comment-block-card__comment{color:var(--givewp-neutral-700);font-size:1rem;line-height:1.5;margin:0;text-align:left}.givewp-campaign-comment-block-card__read-more{background:none;border:none;color:var(--givewp-blue-500);cursor:pointer;font-size:.875rem;line-height:1.43;outline:none;padding:0}
+.givewp-campaign-comments-block-empty-state{align-items:center;background-color:var(--givewp-shades-white);border:1px solid var(--givewp-neutral-50);border-radius:.5rem;display:flex;flex-direction:column;justify-content:center;padding:var(--givewp-spacing-6)}.givewp-campaign-comments-block-empty-state__details{align-items:center;display:flex;flex-direction:column;gap:var(--givewp-spacing-1);justify-content:center;margin:.875rem 0}.givewp-campaign-comments-block-empty-state__title{color:var(--givewp-neutral-700);font-size:1rem;font-weight:500;margin:0}.givewp-campaign-comments-block-empty-state__description{color:var(--givewp-neutral-700);font-size:.875rem;line-height:1.43;margin:0}
+.givewp-campaign-comment-block{background-color:var(--givewp-shades-white);display:flex;flex-direction:column;gap:var(--givewp-spacing-2);padding:var(--givewp-spacing-6) 0}.givewp-campaign-comment-block__title{color:var(--givewp-neutral-900);font-size:18px;font-weight:600;line-height:1.56;margin:0;text-align:left}.givewp-campaign-comment-block__cta{align-items:center;background-color:var(--givewp-neutral-50);border-radius:4px;color:var(--giewp-neutral-500);display:flex;font-size:14px;font-weight:600;gap:8px;height:36px;line-height:1.43;margin:0;padding:var(--givewp-spacing-2) var(--givewp-spacing-4);text-align:left}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignCommentsBlockApp.css */
+</style>
+<style id="givewp-campaign-cover-block-style-inline-css">
+.givewp-campaign-selector{border:1px solid #e5e7eb;border-radius:5px;box-shadow:0 2px 4px 0 rgba(0,0,0,.05);display:flex;flex-direction:column;gap:20px;padding:40px 24px}.givewp-campaign-selector__label{padding-bottom:16px}.givewp-campaign-selector__select input[type=text]:focus{border-color:transparent;box-shadow:0 0 0 1px transparent;outline:2px solid transparent}.givewp-campaign-selector__logo{align-self:center}.givewp-campaign-selector__open{background:#2271b1;border:none;border-radius:5px;color:#fff;cursor:pointer;padding:.5rem 1rem}.givewp-campaign-selector__submit{background-color:#27ae60;border:0;border-radius:5px;color:#fff;font-weight:700;outline:none;padding:1rem;text-align:center;transition:.2s;width:100%}.givewp-campaign-selector__submit:disabled{background-color:#f3f4f6;color:#9ca0af}.givewp-campaign-selector__submit:hover:not(:disabled){cursor:pointer;filter:brightness(1.2)}
+.givewp-campaign-cover-block__button{align-items:center;border:1px solid #2271b1;border-radius:2px;color:#2271b1;display:flex;justify-content:center;margin-bottom:.5rem;min-height:32px;width:100%}.givewp-campaign-cover-block__image{border-radius:2px;display:flex;flex-grow:1;margin-bottom:.5rem;max-height:4.44rem;-o-object-fit:cover;object-fit:cover;width:100%}.givewp-campaign-cover-block__help-text{color:#4b5563;font-size:.75rem;font-stretch:normal;font-style:normal;font-weight:400;letter-spacing:normal;line-height:1.4;text-align:left}.givewp-campaign-cover-block__edit-campaign-link{align-items:center;display:inline-flex;font-size:.75rem;font-stretch:normal;font-style:normal;font-weight:400;gap:.125rem;line-height:1.4}.givewp-campaign-cover-block__edit-campaign-link svg{fill:currentColor;height:1.25rem;width:1.25rem}.givewp-campaign-cover-block-preview__image{align-items:center;display:flex;height:100%;justify-content:center;width:100%}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignCoverBlock.css */
+</style>
+<style id="givewp-campaign-donations-style-inline-css">
+.givewp-campaign-donations-block{padding:1.5rem 0}.givewp-campaign-donations-block *{font-family:Inter,sans-serif}.givewp-campaign-donations-block .givewp-campaign-donations-block__header{align-items:center;display:flex;justify-content:space-between;margin-bottom:.5rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__title{color:var(--givewp-neutral-900);font-size:1.125rem;font-weight:600;line-height:1.56;margin:0}.givewp-campaign-donations-block .givewp-campaign-donations-block__donations{display:grid;gap:.5rem;margin:0;padding:0}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation,.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-state{background-color:var(--givewp-shades-white);border:1px solid var(--givewp-neutral-50);border-radius:.5rem;display:flex;padding:1rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation{align-items:center;gap:.75rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-icon{align-items:center;display:flex}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-icon img{border-radius:100%;height:2.5rem;-o-object-fit:cover;object-fit:cover;width:2.5rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-info{display:flex;flex-direction:column;justify-content:center;row-gap:.25rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-description{color:var(--givewp-neutral-500);font-size:1rem;font-weight:500;line-height:1.5;margin:0}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-description strong{color:var(--givewp-neutral-700);font-weight:600}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-date{align-items:center;color:var(--givewp-neutral-400);display:flex;font-size:.875rem;font-weight:500;line-height:1.43}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-ribbon{align-items:center;border-radius:100%;color:#1f2937;display:flex;height:1.25rem;justify-content:center;margin-left:auto;width:1.25rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-ribbon[data-position="1"]{background-color:gold}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-ribbon[data-position="2"]{background-color:silver}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-ribbon[data-position="3"]{background-color:#cd7f32;color:#fffaf2}.givewp-campaign-donations-block .givewp-campaign-donations-block__donation-amount{color:var(--givewp-neutral-700);font-size:1.125rem;font-weight:600;line-height:1.56;margin-left:auto}.givewp-campaign-donations-block .givewp-campaign-donations-block__footer{display:flex;justify-content:center;margin-top:.5rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__donate-button button.givewp-donation-form-modal__open,.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-button button.givewp-donation-form-modal__open,.givewp-campaign-donations-block .givewp-campaign-donations-block__load-more-button{background:none!important;border:1px solid var(--givewp-primary-color);border-radius:.5rem;color:var(--givewp-primary-color)!important;font-size:.875rem;font-weight:600;line-height:1.43;padding:.25rem 1rem!important}.givewp-campaign-donations-block .givewp-campaign-donations-block__donate-button button.givewp-donation-form-modal__open:hover,.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-button button.givewp-donation-form-modal__open:hover,.givewp-campaign-donations-block .givewp-campaign-donations-block__load-more-button:hover{background:var(--givewp-primary-color)!important;color:var(--givewp-shades-white)!important}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-state{align-items:center;flex-direction:column;padding:1.5rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-description,.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-title{color:var(--givewp-neutral-700);margin:0}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-title{font-size:1rem;font-weight:500;line-height:1.5}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-description{font-size:.875rem;line-height:1.43;margin-top:.25rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-icon{color:var(--givewp-secondary-color);margin-bottom:.875rem;order:-1}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-button{margin-top:.875rem}.givewp-campaign-donations-block .givewp-campaign-donations-block__empty-button button.givewp-donation-form-modal__open{border-radius:.25rem;padding:.5rem 1rem!important}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignDonationsBlockApp.css */
+</style>
+<style id="givewp-campaign-donors-style-inline-css">
+.givewp-campaign-donors-block{padding:1.5rem 0}.givewp-campaign-donors-block *{font-family:Inter,sans-serif}.givewp-campaign-donors-block .givewp-campaign-donors-block__header{align-items:center;display:flex;justify-content:space-between;margin-bottom:.5rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__title{color:var(--givewp-neutral-900);font-size:1.125rem;font-weight:600;line-height:1.56;margin:0}.givewp-campaign-donors-block .givewp-campaign-donors-block__donors{display:grid;gap:.5rem;margin:0;padding:0}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor,.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-state{background-color:var(--givewp-shades-white);border:1px solid var(--givewp-neutral-50);border-radius:.5rem;display:flex;padding:1rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor{align-items:center;gap:.75rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-avatar{align-items:center;display:flex}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-avatar img{border-radius:100%;height:2.5rem;-o-object-fit:cover;object-fit:cover;width:2.5rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-info{align-items:center;display:flex;flex-wrap:wrap;row-gap:.25rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-name{color:var(--givewp-neutral-900);font-size:1rem;font-weight:600;line-height:1.5;margin:0}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-date{align-items:center;color:var(--givewp-neutral-400);display:flex;font-size:.875rem;font-weight:500;line-height:1.43}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-date:before{background:var(--givewp-neutral-100);border-radius:100%;content:"";display:block;height:.25rem;margin:0 .5rem;width:.25rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-ribbon{align-items:center;border-radius:100%;color:#1f2937;display:flex;height:1.25rem;justify-content:center;margin-left:.5rem;width:1.25rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-ribbon[data-position="1"]{background-color:gold}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-ribbon[data-position="2"]{background-color:silver}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-ribbon[data-position="3"]{background-color:#cd7f32;color:#fffaf2}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-company{color:var(--givewp-neutral-400);display:flex;flex:0 0 100%;font-size:.875rem;font-weight:500;line-height:1.43}.givewp-campaign-donors-block .givewp-campaign-donors-block__donor-amount{color:var(--givewp-neutral-700);font-size:1.125rem;font-weight:600;line-height:1.56;margin-left:auto}.givewp-campaign-donors-block .givewp-campaign-donors-block__footer{display:flex;justify-content:center;margin-top:.5rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__donate-button button.givewp-donation-form-modal__open,.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-button button.givewp-donation-form-modal__open,.givewp-campaign-donors-block .givewp-campaign-donors-block__load-more-button{background:none!important;border:1px solid var(--givewp-primary-color);border-radius:.5rem;color:var(--givewp-primary-color)!important;font-size:.875rem;font-weight:600;line-height:1.43;padding:.25rem 1rem!important}.givewp-campaign-donors-block .givewp-campaign-donors-block__donate-button button.givewp-donation-form-modal__open:hover,.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-button button.givewp-donation-form-modal__open:hover,.givewp-campaign-donors-block .givewp-campaign-donors-block__load-more-button:hover{background:var(--givewp-primary-color)!important;color:var(--givewp-shades-white)!important}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-state{align-items:center;flex-direction:column;padding:1.5rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-description,.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-title{color:var(--givewp-neutral-700);margin:0}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-title{font-size:1rem;font-weight:500;line-height:1.5}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-description{font-size:.875rem;line-height:1.43;margin-top:.25rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-icon{color:var(--givewp-secondary-color);margin-bottom:.875rem;order:-1}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-button{margin-top:.875rem}.givewp-campaign-donors-block .givewp-campaign-donors-block__empty-button button.givewp-donation-form-modal__open{border-radius:.25rem;padding:.5rem 1rem!important}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignDonorsBlockApp.css */
+</style>
+<style id="givewp-campaign-form-style-inline-css">
+.givewp-donation-form-modal{outline:none;overflow-y:scroll;padding:1rem;width:100%}.givewp-donation-form-modal[data-entering=true]{animation:modal-fade .3s,modal-zoom .6s}@keyframes modal-fade{0%{opacity:0}to{opacity:1}}@keyframes modal-zoom{0%{transform:scale(.8)}to{transform:scale(1)}}.givewp-donation-form-modal__overlay{align-items:center;background:rgba(0,0,0,.7);display:flex;flex-direction:column;height:100dvh;justify-content:center;left:0;position:fixed;top:0;width:100vw;z-index:100}.givewp-donation-form-modal__overlay[data-loading=true]{display:none}.givewp-donation-form-modal__overlay[data-entering=true]{animation:modal-fade .3s}.givewp-donation-form-modal__overlay[data-exiting=true]{animation:modal-fade .15s ease-in reverse}.givewp-donation-form-modal__open__spinner{left:50%;line-height:1;position:absolute;top:50%;transform:translate(-50%,-50%);z-index:100}.givewp-donation-form-modal__open{position:relative}.givewp-donation-form-modal__close{background:#e7e8ed;border:1px solid transparent;border-radius:50%;cursor:pointer;display:flex;padding:.75rem;position:fixed;right:25px;top:25px;transition:.2s;width:-moz-fit-content;width:fit-content;z-index:999}.givewp-donation-form-modal__close svg{height:1rem;width:1rem}.givewp-donation-form-modal__close:active,.givewp-donation-form-modal__close:focus,.givewp-donation-form-modal__close:hover{background-color:#caccd7;border:1px solid #caccd7}.admin-bar .givewp-donation-form-modal{margin-top:32px}.admin-bar .givewp-donation-form-modal__close{top:57px}
+.givewp-entity-selector{border:1px solid #e5e7eb;border-radius:5px;box-shadow:0 2px 4px 0 rgba(0,0,0,.05);display:flex;flex-direction:column;gap:20px;padding:40px 24px}.givewp-entity-selector__label{padding-bottom:16px}.givewp-entity-selector__select input[type=text]:focus{border-color:transparent;box-shadow:0 0 0 1px transparent;outline:2px solid transparent}.givewp-entity-selector__logo{align-self:center}.givewp-entity-selector__open{background:#2271b1;border:none;border-radius:5px;color:#fff;cursor:pointer;padding:.5rem 1rem}.givewp-entity-selector__submit{background-color:#27ae60;border:0;border-radius:5px;color:#fff;font-weight:700;outline:none;padding:1rem;text-align:center;transition:.2s;width:100%}.givewp-entity-selector__submit:disabled{background-color:#f3f4f6;color:#9ca0af}.givewp-entity-selector__submit:hover:not(:disabled){cursor:pointer;filter:brightness(1.2)}
+.givewp-campaign-selector{border:1px solid #e5e7eb;border-radius:5px;box-shadow:0 2px 4px 0 rgba(0,0,0,.05);display:flex;flex-direction:column;gap:20px;padding:40px 24px}.givewp-campaign-selector__label{padding-bottom:16px}.givewp-campaign-selector__select input[type=text]:focus{border-color:transparent;box-shadow:0 0 0 1px transparent;outline:2px solid transparent}.givewp-campaign-selector__logo{align-self:center}.givewp-campaign-selector__open{background:#2271b1;border:none;border-radius:5px;color:#fff;cursor:pointer;padding:.5rem 1rem}.givewp-campaign-selector__submit{background-color:#27ae60;border:0;border-radius:5px;color:#fff;font-weight:700;outline:none;padding:1rem;text-align:center;transition:.2s;width:100%}.givewp-campaign-selector__submit:disabled{background-color:#f3f4f6;color:#9ca0af}.givewp-campaign-selector__submit:hover:not(:disabled){cursor:pointer;filter:brightness(1.2)}
+.givewp-donation-form-link,.givewp-donation-form-modal__open{background:var(--givewp-primary-color,#2271b1);border:none;border-radius:5px;color:#fff;cursor:pointer;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem;font-weight:500!important;line-height:1.5;padding:.75rem 1.25rem!important;text-decoration:none!important;transition:all .2s ease;width:100%}.givewp-donation-form-link:active,.givewp-donation-form-link:focus,.givewp-donation-form-link:focus-visible,.givewp-donation-form-link:hover,.givewp-donation-form-modal__open:active,.givewp-donation-form-modal__open:focus,.givewp-donation-form-modal__open:focus-visible,.givewp-donation-form-modal__open:hover{background-color:color-mix(in srgb,var(--givewp-primary-color,#2271b1),#000 20%)}.components-input-control__label{width:100%}.wp-block-givewp-campaign-form{position:relative}.wp-block-givewp-campaign-form form[id*=give-form] #give-gateway-radio-list>li input[type=radio]{display:inline-block}.wp-block-givewp-campaign-form iframe{pointer-events:none;width:100%!important}.give-change-donation-form-btn svg{margin-top:3px}.givewp-default-form-toggle{margin-top:var(--givewp-spacing-4)}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignFormBlock.css */
+</style>
+<style id="givewp-campaign-goal-style-inline-css">
+.givewp-campaign-goal{display:flex;flex-direction:column;gap:.5rem;padding-bottom:1rem}.givewp-campaign-goal__container{display:flex;flex-direction:row;justify-content:space-between}.givewp-campaign-goal__container-item{display:flex;flex-direction:column;gap:.2rem}.givewp-campaign-goal__container-item span{color:var(--givewp-neutral-500);font-size:12px;font-weight:600;letter-spacing:.48px;line-height:1.5;text-transform:uppercase}.givewp-campaign-goal__container-item strong{color:var(--givewp-neutral-900);font-size:20px;font-weight:600;line-height:1.6}.givewp-campaign-goal__progress-bar{display:flex}.givewp-campaign-goal__progress-bar-container{background-color:#f2f2f2;border-radius:14px;box-shadow:inset 0 1px 4px 0 rgba(0,0,0,.09);display:flex;flex-grow:1;height:8px}.givewp-campaign-goal__progress-bar-progress{background:var(--givewp-secondary-color,#2d802f);border-radius:14px;box-shadow:inset 0 1px 4px 0 rgba(0,0,0,.09);display:flex;height:8px}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignGoalBlockApp.css */
+</style>
+<style id="givewp-campaign-stats-block-style-inline-css">
+.givewp-campaign-stats-block span{color:var(--givewp-neutral-500);display:block;font-size:12px;font-weight:600;letter-spacing:.48px;line-height:1.5;margin-bottom:2px;text-align:left;text-transform:uppercase}.givewp-campaign-stats-block strong{color:var(--givewp-neutral-900);font-size:20px;font-weight:600;letter-spacing:normal;line-height:1.6}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignStatsBlockApp.css */
+</style>
+<style id="givewp-campaign-donate-button-style-inline-css">
+.givewp-donation-form-link,.givewp-donation-form-modal__open{background:var(--givewp-primary-color,#2271b1);border:none;border-radius:5px;color:#fff;cursor:pointer;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:1rem;font-weight:500!important;line-height:1.5;padding:.75rem 1.25rem!important;text-decoration:none!important;transition:all .2s ease;width:100%}.givewp-donation-form-link:active,.givewp-donation-form-link:focus,.givewp-donation-form-link:focus-visible,.givewp-donation-form-link:hover,.givewp-donation-form-modal__open:active,.givewp-donation-form-modal__open:focus,.givewp-donation-form-modal__open:focus-visible,.givewp-donation-form-modal__open:hover{background-color:color-mix(in srgb,var(--givewp-primary-color,#2271b1),#000 20%)}.give-change-donation-form-btn svg{margin-top:3px}.givewp-default-form-toggle{margin-top:var(--givewp-spacing-4)}
+
+/*# sourceURL=https://masjidalaisha.org/wp-content/plugins/give/build/campaignDonateButtonBlockApp.css */
+</style>
+<link property="stylesheet" rel='stylesheet' id='dashicons-css' href='https://masjidalaisha.org/wp-includes/css/dashicons.min.css?ver=7.0.4' media='all' />
+<link property="stylesheet" rel='stylesheet' id='essgrid-blocks-editor-css-css' href='https://masjidalaisha.org/wp-content/plugins/essential-grid/admin/includes/builders/gutenberg/build/index.css?ver=1747705407' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link property="stylesheet" rel='stylesheet' id='contact-form-7-css' href='https://masjidalaisha.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link property="stylesheet" rel='stylesheet' id='componentscsss-css' href='https://masjidalaisha.org/wp-content/plugins/masjidal/public/assets/css/components.css?ver=1.0.0' media='all' />
+<link property="stylesheet" rel='stylesheet' id='trx_addons-icons-css' href='https://masjidalaisha.org/wp-content/plugins/trx_addons/css/font-icons/css/trx_addons_icons-embedded.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='swiperslider-css' href='https://masjidalaisha.org/wp-content/plugins/trx_addons/js/swiper/swiper.min.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='magnific-popup-css' href='https://masjidalaisha.org/wp-content/plugins/trx_addons/js/magnific/magnific-popup.min.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='trx_addons-css' href='https://masjidalaisha.org/wp-content/plugins/trx_addons/css/trx_addons.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='trx_addons-animation-css' href='https://masjidalaisha.org/wp-content/plugins/trx_addons/css/trx_addons.animation.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='tribe-events-v2-single-skeleton-css' href='https://masjidalaisha.org/wp-content/plugins/the-events-calendar/build/css/tribe-events-single-skeleton.css?ver=6.17.3' media='all' />
+<link property="stylesheet" rel='stylesheet' id='tribe-events-v2-single-skeleton-full-css' href='https://masjidalaisha.org/wp-content/plugins/the-events-calendar/build/css/tribe-events-single-full.css?ver=6.17.3' media='all' />
+<link property="stylesheet" rel='stylesheet' id='tec-events-elementor-widgets-base-styles-css' href='https://masjidalaisha.org/wp-content/plugins/the-events-calendar/build/css/integrations/plugins/elementor/widgets/widget-base.css?ver=6.17.3' media='all' />
+<link property="stylesheet" rel='stylesheet' id='give-styles-css' href='https://masjidalaisha.org/wp-content/plugins/give/build/assets/dist/css/give.css?ver=4.16.7.2' media='all' />
+<link property="stylesheet" rel='stylesheet' id='givewp-design-system-foundation-css' href='https://masjidalaisha.org/wp-content/plugins/give/build/assets/dist/css/design-system/foundation.css?ver=1.2.0' media='all' />
+<link property="stylesheet" rel='stylesheet' id='js_composer_front-css' href='https://masjidalaisha.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=8.4.1' media='all' />
+<link property="stylesheet" rel='stylesheet' id='tp-fontello-css' href='https://masjidalaisha.org/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=3.1.9' media='all' />
+<link property="stylesheet" rel='stylesheet' id='esg-plugin-settings-css' href='https://masjidalaisha.org/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=3.1.9' media='all' />
+<link property="stylesheet" rel='stylesheet' id='elementor-frontend-css' href='https://masjidalaisha.org/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.0' media='all' />
+<link property="stylesheet" rel='stylesheet' id='eael-general-css' href='https://masjidalaisha.org/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.1' media='all' />
+<link property="stylesheet" rel='stylesheet' id='shaha-font-google_fonts-css' href='//fonts.googleapis.com/css?family=Roboto+Slab:300,400,700%7CKatibeh:300,400,700%7CKatibeh:300,400,700%7CCinzel+Decorative:400,700&#038;subset=latin,latin-ext' media='all' />
+<link property="stylesheet" rel='stylesheet' id='fontello-icons-css' href='https://masjidalaisha.org/wp-content/themes/shaha/css/font-icons/css/fontello-embedded.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='shaha-styles-css' href='https://masjidalaisha.org/wp-content/themes/shaha/css/__styles.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='shaha-main-css' href='https://masjidalaisha.org/wp-content/themes/shaha/style.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='shaha-theme-css' href='https://masjidalaisha.org/wp-content/themes/shaha/theme-specific/theme.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='shaha-colors-css' href='https://masjidalaisha.org/wp-content/themes/shaha/css/__colors.css' media='all' />
+<link property="stylesheet" rel='stylesheet' id='mediaelement-css' href='https://masjidalaisha.org/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link property="stylesheet" rel='stylesheet' id='wp-mediaelement-css' href='https://masjidalaisha.org/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=7.0.4' media='all' />
+<link property="stylesheet" rel='stylesheet' id='shaha-responsive-css' href='https://masjidalaisha.org/wp-content/themes/shaha/css/responsive.css' media='all' />
+<script id="jquery-core-js" src="https://masjidalaisha.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://masjidalaisha.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script></script><link rel="https://api.w.org/" href="https://masjidalaisha.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://masjidalaisha.org/wp-json/wp/v2/pages/2" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://masjidalaisha.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.4" />
+<link rel="canonical" href="https://masjidalaisha.org/" />
+<link rel='shortlink' href='https://masjidalaisha.org/' />
+<style id="essential-blocks-global-styles">
+            :root {
+                --eb-global-primary-color: #101828;
+--eb-global-secondary-color: #475467;
+--eb-global-tertiary-color: #98A2B3;
+--eb-global-text-color: #475467;
+--eb-global-heading-color: #1D2939;
+--eb-global-link-color: #444CE7;
+--eb-global-background-color: #F9FAFB;
+--eb-global-button-text-color: #FFFFFF;
+--eb-global-button-background-color: #101828;
+--eb-gradient-primary-color: linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+--eb-gradient-secondary-color: linear-gradient(90deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+--eb-gradient-tertiary-color: linear-gradient(90deg, hsla(248, 21%, 15%, 1) 0%, hsla(250, 14%, 61%, 1) 100%);
+--eb-gradient-background-color: linear-gradient(90deg, rgb(250, 250, 250) 0%, rgb(233, 233, 233) 49%, rgb(244, 243, 243) 100%);
+
+                --eb-tablet-breakpoint: 1024px;
+--eb-mobile-breakpoint: 767px;
+
+            }
+            
+            
+        </style><meta name="generator" content="Site Kit by Google 1.183.0" /><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://masjidalaisha.org"><link rel="alternate" href="https://masjidalaisha.org/wp-json/tribe/events/v1/" /><meta name="generator" content="Give v4.16.7.2" />
+<meta name="generator" content="Elementor 4.2.0; settings: css_print_method-internal, google_font-enabled, font_display-auto">
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<style id="custom-background-css">
+body.custom-background { background-color: #f1f1e2; }
+</style>
+<meta name="generator" content="Powered by Slider Revolution 6.7.32 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://masjidalaisha.org/wp-content/uploads/2025/05/cropped-OrangeMasjidAlAisha512x512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://masjidalaisha.org/wp-content/uploads/2025/05/cropped-OrangeMasjidAlAisha512x512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://masjidalaisha.org/wp-content/uploads/2025/05/cropped-OrangeMasjidAlAisha512x512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://masjidalaisha.org/wp-content/uploads/2025/05/cropped-OrangeMasjidAlAisha512x512-270x270.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1775529757219{background-image: url(https://masjidalaisha.org/wp-content/uploads/2026/04/Sheikh-Zayed-Grand-Mosque-in-sepia-light.png?id=4978) !important;background-position: top right !important;background-repeat: no-repeat !important;background-size: contain !important;}.vc_custom_1748922232383{padding-top: 8.4em !important;padding-bottom: 8em !important;}.vc_custom_1748056547680{padding-top: 13.8% !important;padding-bottom: 13.7% !important;background: #15110e url(https://masjidalaisha.org/wp-content/uploads/2017/06/bg-17.jpg?id=373) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1748484519627{padding-top: 8.4em !important;padding-bottom: 6.6em !important;}.vc_custom_1749430088237{background-color: #C7821C00 !important;background-size: contain !important;}.vc_custom_1776219871224{padding-top: 12.6% !important;padding-bottom: 13% !important;background-color: #095497 !important;background-size: cover !important;}.vc_custom_1775530766151{padding-top: 12.6% !important;padding-bottom: 13% !important;background: #15110e url(https://masjidalaisha.org/wp-content/uploads/2026/04/bg-blue-18.png?id=4979) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1748056503676{margin-top: 8.4em !important;margin-bottom: 8.4em !important;}.vc_custom_1748056598002{padding-top: 2.8em !important;padding-bottom: 5.8em !important;background: #db9e30 url(https://masjidalaisha.org/wp-content/uploads/2017/07/bg.jpg?id=145) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1762655015078{background-color: #DD333300 !important;}.vc_custom_1748750342313{background-color: #8224E300 !important;border-radius: 4px !important;border-color: #81D74200 !important;}.vc_custom_1752287550816{background-color: #00000000 !important;background-size: cover !important;}.vc_custom_1570797105614{background-size: cover !important;}.vc_custom_1570797119270{background-size: cover !important;}.vc_custom_1777248490999{background: #db9e30 url(https://masjidalaisha.org/wp-content/uploads/2025/11/bg-15.jpg?id=4813) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1507734715381{margin-bottom: 0.9em !important;}.vc_custom_1747875000406{margin-top: 2em !important;}.vc_custom_1507301028237{margin-bottom: 1em !important;}.vc_custom_1748916782504{margin-top: 1.7em !important;}.vc_custom_1507819001483{margin-top: 2.5em !important;}.vc_custom_1507818842184{margin-bottom: 0.7em !important;}.vc_custom_1507818882346{margin-bottom: 3.3em !important;}.vc_custom_1507820442578{margin-top: 2.2em !important;}.vc_custom_1507821079596{margin-bottom: 0.6em !important;}.vc_custom_1499951668560{background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1748921744926{background-size: cover !important;}.vc_custom_1748913922506{padding-top: 11.3% !important;padding-bottom: 13.1% !important;background: #BB8D39 url(https://masjidalaisha.org/wp-content/uploads/2017/07/bg-13.jpg?id=361) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1507729396560{margin-bottom: 0.9em !important;}.vc_custom_1748916782504{margin-top: 1.7em !important;}.vc_custom_1784769589064{margin-top: 2.8em !important;}.vc_custom_1507895088836{margin-bottom: 0.7em !important;}.vc_custom_1775192040700{margin-bottom: 2.8em !important;}.vc_custom_1507895144453{margin-top: 2.1em !important;margin-bottom: 2.1em !important;}.vc_custom_1748913061808{margin-top: 2.8em !important;}.vc_custom_1507895088836{margin-bottom: 0.7em !important;}.vc_custom_1748055691292{margin-bottom: 2.8em !important;}.vc_custom_1507895144453{margin-top: 2.1em !important;margin-bottom: 2.1em !important;}.vc_custom_1507306720447{margin-bottom: 1.3em !important;}.vc_custom_1508770302045{margin-bottom: 1.3em !important;}.vc_custom_1508770306686{margin-top: 2em !important;}.vc_custom_1508770314861{margin-top: 2em !important;background-size: cover !important;}.vc_custom_1507304680987{padding-top: 3.7em !important;padding-right: 3.7em !important;padding-bottom: 3.7em !important;padding-left: 3.7em !important;background: #fafaf2 url(https://masjidalaisha.org/wp-content/uploads/2017/07/bg-2.jpg?id=152) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1507119191256{margin-top: 1em !important;}.vc_custom_1508770186332{margin-top: 2em !important;}.vc_custom_1508770190818{margin-top: 2em !important;}.vc_custom_1508770195761{margin-top: 2em !important;}.vc_custom_1506690084515{margin-top: 10px !important;}.vc_custom_1506686087636{background-size: cover !important;}.vc_custom_1506690093407{margin-top: 10px !important;}.vc_custom_1509107261362{background-size: cover !important;}.vc_custom_1509368259444{margin-top: 10px !important;}.vc_custom_1506686093019{background-size: cover !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style type="text/css" id="trx_addons-inline-styles-inline-css">.shaha_inline_1162458256{background-image: url(https://masjidalaisha.org/wp-content/uploads/2026/04/cropped-slider_blue_2.jpg);}.vc_custom_1506506982114{padding-top: 1.6em !important;background-size: cover !important;}.vc_custom_1506436632881{background-size: cover !important;}.vc_custom_1775533511682{background-image: url(//masjidalaisha.org/wp-content/uploads/2017/07/Blue-lit-courtyard-with-Moorish-arches.png?id=4985) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.sc_layouts_title_title{font-size:0.3em}.sc_layouts_row .custom-logo-link img,.custom-logo-link img,.sc_layouts_row .sc_layouts_logo img,.sc_layouts_logo img{max-height:160px}</style><style id="rs-plugin-settings-inline-css">
+#rs-demo-id {}
+/*# sourceURL=rs-plugin-settings-inline-css */
+</style></head>
+
+<body class="home wp-singular page-template-default page page-id-2 custom-background wp-custom-logo wp-embed-responsive wp-theme-shaha frontpage eio-default tribe-no-js give-test-mode give-page body_tag scheme_default blog_mode_front body_style_wide  is_stream blog_style_excerpt sidebar_hide expand_content remove_margins header_type_custom header_style_header-custom-644 header_position_over header_mobile_disabled menu_style_ no_layout wpb-js-composer js-comp-ver-8.4.1 vc_responsive elementor-default elementor-kit-1391">
+
+    
+	<div class="body_wrap">
+
+		<div class="page_wrap"><header class="top_panel top_panel_custom top_panel_custom_644 top_panel_custom_header-centered-without-breadcrumbs with_bg_image shaha_inline_1162458256 scheme_default"><div class="vc_row wpb_row vc_row-fluid vc_custom_1506506982114 vc_row-has-fill sc_layouts_row sc_layouts_row_type_compact scheme_dark"><div class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column sc_layouts_column_align_center sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="sc_content_318939592"
+		class="sc_content color_style_default sc_content_default sc_content_width_1_1 sc_float_center"><div class="sc_content_container"><div class="sc_layouts_item"><a href="#" id="sc_layouts_logo_1686172964" class="sc_layouts_logo sc_layouts_logo_default"><img loading="lazy" class="logo_image" src="//masjidalaisha.org/wp-content/uploads/2025/05/MAA-Logo-white-bg.png" alt="" width="1154" height="1154"></a><!-- /.sc_layouts_logo --></div></div></div><!-- /.sc_content --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1506436632881 vc_row-has-fill sc_layouts_row sc_layouts_row_type_compact sc_layouts_row_fixed scheme_dark"><div class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column sc_layouts_column_align_center sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="sc_content_1612970608"
+		class="sc_content color_style_default sc_content_default sc_content_width_1_1 sc_float_center"><div class="sc_content_container"><div class="sc_layouts_item"><nav class="sc_layouts_menu sc_layouts_menu_default menu_hover_slide_line hide_on_mobile" id="sc_layouts_menu_305531938" data-animation-in="fadeInUpSmall" data-animation-out="fadeOutDownSmall"		><ul id="menu_main" class="sc_layouts_menu_nav menu_main_nav"><li id="menu-item-4947" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4947"><a href="https://masjidalaisha.org/aboutus/"><span>About Us</span></a></li><li id="menu-item-4948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4948"><a href="https://masjidalaisha.org/expansion-project/"><span>Expansion Project</span></a></li><li id="menu-item-4949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4949"><a href="https://masjidalaisha.org/our-programs-masjid/"><span>Our Programs</span></a></li><li id="menu-item-4951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4951"><a href="https://masjidalaisha.org/contact-masjid/"><span>Contact Us</span></a></li><li id="menu-item-5009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5009"><a href="#" title="Donate Options"><span>DONATE</span></a>
+<ul class="sub-menu"><li id="menu-item-5001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5001"><a href="https://donation.masjidal.com/MasjidAlAisha/"><span>Donation Campaigns</span></a></li><li id="menu-item-4952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4952"><a href="https://masjidalaisha.org/donate-masjid/"><span>Donate Via Zelle</span></a></li></ul>
+</li></ul></nav><!-- /.sc_layouts_menu --><div class="sc_layouts_iconed_text sc_layouts_menu_mobile_button">
+		<a class="sc_layouts_item_link sc_layouts_iconed_text_link" href="#">
+			<span class="sc_layouts_item_icon sc_layouts_iconed_text_icon trx_addons_icon-menu"></span>
+		</a>
+	</div></div></div></div><!-- /.sc_content --></div></div></div></div></header><div class="menu_mobile_overlay"></div>
+<div class="menu_mobile menu_mobile_fullscreen scheme_dark">
+	<div class="menu_mobile_inner">
+		<a class="menu_mobile_close icon-cancel"></a><a class="sc_layouts_logo" href="https://masjidalaisha.org/"><img loading="lazy" src="//masjidalaisha.org/wp-content/uploads/2025/05/MAA-Logo-white-bg.png" alt="MAA-Logo-white-bg.png" width="1154" height="1154"></a><nav itemscope itemtype="//schema.org/SiteNavigationElement" class="menu_mobile_nav_area"><ul id="menu_mobile" class=" menu_mobile_nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4947"><a href="https://masjidalaisha.org/aboutus/"><span>About Us</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4948"><a href="https://masjidalaisha.org/expansion-project/"><span>Expansion Project</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4949"><a href="https://masjidalaisha.org/our-programs-masjid/"><span>Our Programs</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4951"><a href="https://masjidalaisha.org/contact-masjid/"><span>Contact Us</span></a></li><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5009"><a href="#" title="Donate Options"><span>DONATE</span></a>
+<ul class="sub-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5001"><a href="https://donation.masjidal.com/MasjidAlAisha/"><span>Donation Campaigns</span></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4952"><a href="https://masjidalaisha.org/donate-masjid/"><span>Donate Via Zelle</span></a></li></ul>
+</li></ul></nav><div class="search_wrap search_style_normal search_mobile">
+	<div class="search_form_wrap">
+		<form role="search" method="get" class="search_form" action="https://masjidalaisha.org/">
+			<input type="text" class="search_field" placeholder="Search" value="" name="s">
+			<button type="submit" class="search_submit trx_addons_icon-search"></button>
+					</form>
+	</div>
+	</div>	</div>
+</div>
+
+			<div class="page_content_wrap">
+
+								<div class="content_wrap">
+				
+									
+
+					<div class="content">
+										
+
+<article id="post-2" class="post_item_single post_type_page post-2 page type-page status-publish hentry">
+
+	
+	<div class="post_content entry-content">
+		<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_revslider_element wpb_content_element">
+			<!-- START Slider New REVOLUTION SLIDER 6.7.32 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_5_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_5_1" style="" data-version="6.7.32">
+					<rs-slides style="overflow: hidden; position: absolute;">
+						<rs-slide style="position: absolute;" data-key="rs-11" data-title="Slide" data-anim="ms:600;" data-in="o:0;" data-out="a:false;">
+							<img fetchpriority="high" fetchpriority="high" decoding="async" src="//masjidalaisha.org/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" title="cplormasjid-al-aisha-Google-Search" width="1653" height="911" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//masjidalaisha.org/wp-content/uploads/2025/05/cplormasjid-al-aisha-Google-Search.png" data-panzoom="d:10000;ss:100;se:115;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-5-slide-11-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;"
+								data-text="l:22;a:inherit;"
+								data-dim="w:[&#039;947px&#039;,&#039;947px&#039;,&#039;947px&#039;,&#039;947px&#039;];h:[&#039;247px&#039;,&#039;247px&#039;,&#039;247px&#039;,&#039;247px&#039;];"
+								data-frame_0="blu:10px;"
+								data-frame_1="sp:1500;sR:10;"
+								data-frame_999="o:0;st:w;sp:1000;sR:7490;blu:10px;"
+								style="z-index:7;"
+							><img decoding="async" src="//masjidalaisha.org/wp-content/plugins/revslider/sr6/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="947" height="247" data-lazyload="//masjidalaisha.org/wp-content/uploads/revslider/slider-1/top_img1.png" data-no-retina> 
+							</rs-layer><!--
+-->					</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script>
+					setREVStartSize({c: 'rev_slider_5_1',rl:[1240,1024,768,480],el:[970,768,800,720],gw:[1240,1024,600,480],gh:[970,768,800,720],type:'standard',justify:'',layout:'fullwidth',mh:"0"});if (window.RS_MODULES!==undefined && window.RS_MODULES.modules!==undefined && window.RS_MODULES.modules["revslider51"]!==undefined) {window.RS_MODULES.modules["revslider51"].once = false;window.revapi5 = undefined;if (window.RS_MODULES.checkMinimal!==undefined) window.RS_MODULES.checkMinimal()}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div></div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid shaha_welcome_to vc_custom_1775529757219 vc_row-has-fill vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-4 vc_col-xs-12 vc_col-has-fill sc_layouts_column_icons_position_left"><div class="vc_column-inner vc_custom_1570797105614"><div class="wpb_wrapper"><div id="sc_content_188149867"
+		class="sc_content color_style_default scheme_dark sc_content_default sc_float_center  vc_custom_1777248490999"><div class="sc_content_container"><div id="sc_icons_1659178346" 
+	class="sc_icons sc_icons_default sc_icons_size_small sc_align_center  vc_custom_1507734715381"><div class="sc_icons_item"><div id="sc_icons_1659178346_icon-icon-shaha-00" class="sc_icons_icon sc_icon_type_ icon-icon-shaha-00"
+						 style="color: #ffffff"						><span class="sc_icon_type_ icon-icon-shaha-00" style="color: #ffffff"></span></div></div></div><!-- /.sc_icons --><div id="sc_title_624345897"
+		class="sc_title color_style_default sc_title_default"><h2 class="sc_item_title sc_title_title sc_align_center sc_item_title_style_default">Prayer Times</h2></div><!-- /.sc_title -->
+	<div class="wpb_raw_code wpb_raw_html wpb_content_element shaha_prayertimes lg_resp" >
+		<div class="wpb_wrapper">
+			<iframe src="https://timing.athanplus.com/masjid/widgets/embed?theme=3&masjid_id=VL4JvVdx&color=CA922A&header=no" type="text/html" width="100%" height="525" frameborder="0" allowtransparency="true"></iframe>
+		</div>
+	</div>
+</div></div><!-- /.sc_content --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-6 vc_col-md-6 vc_col-xs-12 vc_col-has-fill sc_layouts_column_icons_position_left"><div class="vc_column-inner vc_custom_1570797119270"><div class="wpb_wrapper"><div id="sc_content_1510514026"
+		class="sc_content color_style_default sc_content_default sc_float_center"><div class="sc_content_container"><div id="sc_title_400023572"
+		class="sc_title color_style_default sc_title_default"><h2 class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default">Welcome to <br> Masjid Al Aisha</h2></div><!-- /.sc_title --><a href="/about-1/" id="sc_button_393718829" class="sc_button hide_on_mobile hide_on_tablet hide_on_notebook hide_on_desktop color_style_link2 sc_button_default  vc_custom_1747875000406 sc_button_size_normal sc_button_icon_left"><span class="sc_button_text"><span class="sc_button_title">Read More</span></span><!-- /.sc_button_text --></a><!-- /.sc_button -->
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<h5></h5>
+<h5><strong>Our Vision</strong></h5>
+<p>To establish ourselves as a center of excellence dedicated to the development and sustenance of a vibrant Islamic community, while fostering a nurturing environment for society as a whole.</p>
+<h5><strong>Our Mission</strong></h5>
+<p>To effectively serve and engage the Muslim community by promoting the core values and teachings of Islam. We are committed to advocating for interfaith harmony within a multicultural framework, in accordance with the principles established in the Qur’an and the Sunnah of Prophet Muhammad (pbuh).</p>
+
+		</div>
+	</div>
+</div></div><!-- /.sc_content --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2 vc_hidden-sm vc_hidden-xs sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid shaha_islamic_school vc_custom_1776219871224 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-6 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="sc_content_1619561779"
+		class="sc_content color_style_default scheme_dark sc_content_default sc_float_center"><div class="sc_content_container"><div id="sc_icons_1646335744" 
+	class="sc_icons sc_icons_default sc_icons_size_small sc_align_left  vc_custom_1507895088836"><div class="sc_icons_item"><div id="sc_icons_1646335744_icon-icon-shaha-00" class="sc_icons_icon sc_icon_type_ icon-icon-shaha-00"
+												><span class="sc_icon_type_ icon-icon-shaha-00"></span></div></div></div><!-- /.sc_icons --><div id="sc_title_2108564528"
+		class="sc_title color_style_default sc_title_default  vc_custom_1775192040700"><h2 class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default">Masjid Expansion Project</h2><div class="sc_item_descr sc_title_descr sc_align_left"><p>The Prophet Muhammad (pbuh) said: “Whoever builds a Masjid for Allah, Allah will build for him a home like it in Jannah”</p>
+</div></div><!-- /.sc_title -->
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p style="text-align: left;">We recognized the need for an expansion that truly reflects the growth of our vibrant community. Our goal is to create an extension with a spacious prayer area and enhanced facilities. We warmly invite your generous support for this exciting new project, designed to better serve your family, friends, and the wider community. May your contributions become a source of Sadaqa Jariya, bringing blessings and enrichment to you and your loved ones.</p>
+
+		</div>
+	</div>
+<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey vc_custom_1507895144453 wpb_content_element  vc_custom_1507895144453 wpb_content_element" ><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div><!-- /.sc_content --><div class="sc_item_button sc_button_wrap sc_align_center"><a href="https://donation.masjidal.com/MasjidAlAisha/campaign/masjid-expansion-project-4/" id="sc_button_506430332" class="sc_button color_style_default sc_button_default  vc_custom_1784769589064 sc_button_size_normal sc_button_icon_left"><span class="sc_button_text"><span class="sc_button_title">Donate</span></span><!-- /.sc_button_text --></a><!-- /.sc_button --></div><!-- /.sc_item_button --></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_images_carousel wpb_content_element vc_clearfix wpb_content_element"><div class="wpb_wrapper"><div id="vc_images-carousel-1-1788572022" data-ride="vc_carousel" data-wrap="true" style="width: 100%;" data-interval="5000" data-auto-height="yes" data-mode="vertical" data-partial="false" data-per-view="1" data-hide-on-end="false" class="vc_slide vc_images_carousel"><div class="vc_carousel-inner"><div class="vc_carousel-slideline"><div class="vc_carousel-slideline-inner"><div class="vc_item"><div class="vc_inner"><a class="" href="https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion.jpg" data-lightbox="lightbox[rel-2-3677852158]"><img decoding="async" width="1024" height="1024" src="https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion.jpg" class="attachment-full" alt="" title="Masjid_Al_Aisha Expansion" srcset="https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion.jpg 1024w, https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion-300x300.jpg 300w, https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion-150x150.jpg 150w, https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion-768x768.jpg 768w, https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion-370x370.jpg 370w, https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion-90x90.jpg 90w, https://masjidalaisha.org/wp-content/uploads/2026/04/Masjid_Al_Aisha-Expansion-760x760.jpg 760w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></div></div><div class="vc_item"><div class="vc_inner"><a class="" href="https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2.png" data-lightbox="lightbox[rel-2-3677852158]"><img loading="lazy" loading="lazy" decoding="async" width="998" height="659" src="https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2.png" class="attachment-full" alt="" title="Mosque2" srcset="https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2.png 998w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2-300x198.png 300w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2-768x507.png 768w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2-370x244.png 370w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque2-760x502.png 760w" sizes="(max-width: 998px) 100vw, 998px" /></a></div></div><div class="vc_item"><div class="vc_inner"><a class="" href="https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1-1024x902.png" data-lightbox="lightbox[rel-2-3677852158]"><img loading="lazy" loading="lazy" decoding="async" width="1123" height="989" src="https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1.png" class="attachment-full" alt="" title="Mosque1" srcset="https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1.png 1123w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1-300x264.png 300w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1-1024x902.png 1024w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1-768x676.png 768w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1-370x326.png 370w, https://masjidalaisha.org/wp-content/uploads/2026/04/Mosque1-760x669.png 760w" sizes="(max-width: 1123px) 100vw, 1123px" /></a></div></div></div></div></div><a class="vc_left vc_carousel-control" href="#vc_images-carousel-1-1788572022" data-slide="prev"><span class="icon-prev"></span></a><a class="vc_right vc_carousel-control" href="#vc_images-carousel-1-1788572022" data-slide="next"><span class="icon-next"></span></a></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid shaha_islamic_school vc_custom_1775530766151 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-6 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="sc_content_1037790246"
+		class="sc_content color_style_default scheme_dark sc_content_default sc_float_center"><div class="sc_content_container"><div id="sc_icons_718998196" 
+	class="sc_icons sc_icons_default sc_icons_size_small sc_align_left  vc_custom_1507895088836"><div class="sc_icons_item"><div id="sc_icons_718998196_icon-icon-shaha-00" class="sc_icons_icon sc_icon_type_ icon-icon-shaha-00"
+												><span class="sc_icon_type_ icon-icon-shaha-00"></span></div></div></div><!-- /.sc_icons --><div id="sc_title_543905447"
+		class="sc_title color_style_default sc_title_default  vc_custom_1748055691292"><h2 class="sc_item_title sc_title_title sc_align_left sc_item_title_style_default">Quran Classes</h2></div><!-- /.sc_title -->
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p><span style="color: rgba(255,255,255,0.5);">The Quran classes offered at the masjid are integral to our mission. These classes are meticulously designed to facilitate students in their memorization through systematic repetition and collective recitation. Furthermore, they aim to enhance the students&#8217; connection with the masjid, both spiritually and socially.</span></p>
+
+		</div>
+	</div>
+<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey vc_custom_1507895144453 wpb_content_element  vc_custom_1507895144453 wpb_content_element" ><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div>
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td><span style="color: rgba(255,255,255, 0.5);">Days</span></td>
+<td><span style="color: rgba(255,255,255, 0.5);">Fall Time</span></td>
+<td></td>
+</tr>
+<tr>
+<td><span class="trx_addons_accent">Monday</span></td>
+<td>7:00 PM to 8:00 PM</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="trx_addons_accent">Tuesday</span></td>
+<td>7:00 PM to 8:00 PM</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="trx_addons_accent">Wednesday</span></td>
+<td>7:00 PM to 8:00 PM</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+</div></div><!-- /.sc_content --><a href="/our-programs-masjid/" id="sc_button_1060562362" class="sc_button color_style_link2 sc_button_default  vc_custom_1748913061808 sc_button_size_normal sc_button_icon_left"><span class="sc_button_text"><span class="sc_button_title">Read More</span></span><!-- /.sc_button_text --></a><!-- /.sc_button --></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+</div>	</div><!-- .entry-content -->
+
+	
+</article>
+				
+					</div><!-- </.content> -->
+
+					</div><!-- </.content_wrap> -->			</div><!-- </.page_content_wrap> -->
+
+			<footer class="footer_wrap footer_custom footer_custom_17 footer_custom_footer-informed scheme_dark">
+	<div class="vc_row wpb_row vc_row-fluid vc_custom_1775533511682 vc_row-has-fill sc_layouts_row sc_layouts_row_type_normal"><div class="wpb_column vc_column_container vc_col-sm-12 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="sc_content_1541351087"
+		class="sc_content color_style_default sc_content_default sc_content_width_1_1 sc_float_center"><div class="sc_content_container"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_hidden-sm vc_hidden-xs sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space  height_large"   style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="sc_layouts_item"><div id="sc_icons_470403825" 
+	class="sc_icons sc_icons_default sc_icons_size_small sc_align_center"><div class="sc_icons_item"><div id="sc_icons_470403825_icon-icon-shaha-00" class="sc_icons_icon sc_icon_type_ icon-icon-shaha-00"
+												><span class="sc_icon_type_ icon-icon-shaha-00"></span></div></div></div><!-- /.sc_icons --></div><div class="sc_layouts_item"><div id="sc_title_475899218"
+		class="sc_title color_style_default sc_title_default"><h2 class="sc_item_title sc_title_title sc_align_center sc_item_title_style_default sc_item_title_tag">Newsletter</h2><div class="sc_item_descr sc_title_descr sc_align_center"><p>Subscribe to our mailing list</p>
+</div></div><!-- /.sc_title --></div><div class="vc_empty_space  height_tiny"   style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			
+
+		</div>
+	</div>
+<div class="vc_empty_space  height_large"   style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div  class="vc_wp_custommenu wpb_content_element"><div class="widget widget_nav_menu"><h2 class="widgettitle">Menu</h2><div class="menu-masjid-menu-container"><ul id="menu-masjid-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4947"><a href="https://masjidalaisha.org/aboutus/">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4948"><a href="https://masjidalaisha.org/expansion-project/">Expansion Project</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4949"><a href="https://masjidalaisha.org/our-programs-masjid/">Our Programs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4951"><a href="https://masjidalaisha.org/contact-masjid/">Contact Us</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5009"><a href="#" title="Donate Options">DONATE</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5001"><a href="https://donation.masjidal.com/MasjidAlAisha/">Donation Campaigns</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4952"><a href="https://masjidalaisha.org/donate-masjid/">Donate Via Zelle</a></li>
+</ul>
+</li>
+</ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_hidden-lg vc_hidden-md vc_hidden-sm vc_hidden-xs sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div  class="vc_wp_custommenu wpb_content_element"><div class="widget widget_nav_menu"><h2 class="widgettitle">Services</h2><div class="menu-services-list-container"><ul id="menu-services-list" class="menu"><li id="menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383"><a href="/services/marriage/">Marriage</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-384"><a href="/services/funeral/">Funeral</a></li>
+<li id="menu-item-385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-385"><a href="/services/shahada/">Shahada</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="https://masjidalaisha.org/our-programs-masjid/">Community</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="https://masjidalaisha.org/donate-masjid/">Donate</a></li>
+</ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div  class="vc_wp_text wpb_content_element"><div class="widget widget_text"><h2 class="widgettitle">Contact</h2>			<div class="textwidget"><p><a href="tel: (201) 374-2838">(201) 374-2838</a><br />
+<a href="mailto:mccbc786@gmail.com" target="_blank" rel="noopener">mccbc786@gmail.com</a></p>
+<p>52 E Johnson Ave,<br />
+Bergenfield, NJ 07621</p>
+</div>
+		</div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 sc_layouts_column_icons_position_left"><div class="vc_column-inner"><div class="wpb_wrapper"><div  class="vc_wp_text wpb_content_element"><div class="widget widget_text"><h2 class="widgettitle">Social</h2>			<div class="textwidget"><p><a href="https://www.facebook.com/masjidalaisha/">Facebook</a><br />
+<a href="https://www.instagram.com/masjidalaisha/">Instagram</a></p>
+</div>
+		</div></div></div></div></div></div></div></div><!-- /.sc_content --><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text wpb_content_element  wpb_content_element" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:rgb(87,166,143);border-color:rgba(87,166,143,0.2);" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:rgb(87,166,143);border-color:rgba(87,166,143,0.2);" class="vc_sep_line"></span></span>
+</div><div id="sc_content_440422488"
+		class="sc_content color_style_default sc_content_default sc_float_center"><div class="sc_content_container"><div  class="vc_wp_text wpb_content_element"><div class="widget widget_text">			<div class="textwidget"><p style="text-align: center;">Copyright © 2026 by <a href="https://masjidalaisha.org/" target="_blank" rel="noopener noreferrer">Masjid Al Aisha</a>. All rights reserved.</p>
+</div>
+		</div></div></div></div><!-- /.sc_content --></div></div></div></div></footer><!-- /.footer_wrap -->
+
+		</div><!-- /.page_wrap -->
+
+	</div><!-- /.body_wrap -->
+
+	
+	
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = false;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<a href="#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/shaha/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>var ajaxRevslider;function rsCustomAjaxContentLoadingFunction(){ajaxRevslider=function(obj){var content='',data={action:'revslider_ajax_call_front',client_action:'get_slider_html',token:'d2afb60c50',type:obj.type,id:obj.id,aspectratio:obj.aspectratio};jQuery.ajax({type:'post',url:'https://masjidalaisha.org/wp-admin/admin-ajax.php',dataType:'json',data:data,async:false,success:function(ret,textStatus,XMLHttpRequest){if(ret.success==true)content=ret.data;},error:function(e){console.log(e);}});return content;};var ajaxRemoveRevslider=function(obj){return jQuery(obj.selector+' .rev_slider').revkill();};if(jQuery.fn.tpessential!==undefined)if(typeof(jQuery.fn.tpessential.defaults)!=='undefined')jQuery.fn.tpessential.defaults.ajaxTypes.push({type:'revslider',func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});}var rsCustomAjaxContent_Once=false;if(document.readyState==="loading")document.addEventListener('readystatechange',function(){if((document.readyState==="interactive"||document.readyState==="complete")&&!rsCustomAjaxContent_Once){rsCustomAjaxContent_Once=true;rsCustomAjaxContentLoadingFunction();}});else{rsCustomAjaxContent_Once=true;rsCustomAjaxContentLoadingFunction();}</script>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script>			<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<link href="//fonts.googleapis.com/css?family=Roboto+Slab:400%7CRoboto:400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+<link property="stylesheet" rel='stylesheet' id='vc_carousel_css-css' href='https://masjidalaisha.org/wp-content/plugins/js_composer/assets/lib/vc/vc_carousel/css/vc_carousel.min.css?ver=8.4.1' media='all' />
+<link property="stylesheet" rel='stylesheet' id='lightbox2-css' href='https://masjidalaisha.org/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/lightbox2/dist/css/lightbox.min.css?ver=8.4.1' media='all' />
+<link property="stylesheet" rel='stylesheet' id='rs-plugin-settings-css' href='//masjidalaisha.org/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.32' media='all' />
+
+<script id="essential-blocks-blocks-localize-js-extra">
+var eb_conditional_localize = [];
+var EssentialBlocksLocalize = {"eb_plugins_url":"https://masjidalaisha.org/wp-content/plugins/essential-blocks/","image_url":"https://masjidalaisha.org/wp-content/plugins/essential-blocks/assets/images","eb_wp_version":"7","eb_version":"6.4.3","eb_admin_url":"https://masjidalaisha.org/wp-admin/","rest_rootURL":"https://masjidalaisha.org/wp-json/","ajax_url":"https://masjidalaisha.org/wp-admin/admin-ajax.php","nft_nonce":"0824dadeab","post_grid_pagination_nonce":"5b7f12fb21","placeholder_image":"https://masjidalaisha.org/wp-content/plugins/essential-blocks/assets/images/placeholder.png","is_pro_active":"false","upgrade_pro_url":"https://essential-blocks.com/upgrade","responsiveBreakpoints":{"tablet":1024,"mobile":767},"wp_timezone":"America/New_York","gmt_offset":"-4"};
+//# sourceURL=essential-blocks-blocks-localize-js-extra
+</script>
+<script id="essential-blocks-blocks-localize-js" src="https://masjidalaisha.org/wp-content/plugins/essential-blocks/assets/js/eb-blocks-localize.js?ver=31d6cfe0d16ae931b73c"></script>
+<script id="tec-user-agent-js" src="https://masjidalaisha.org/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="wp-hooks-js" src="https://masjidalaisha.org/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://masjidalaisha.org/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://masjidalaisha.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/masjidalaisha.org\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    },
+    "cached": 1
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://masjidalaisha.org/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script id="tp-tools-js" src="//masjidalaisha.org/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.29"></script>
+<script id="revmin-js" src="//masjidalaisha.org/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.32"></script>
+<script id="swiperslider-js" src="https://masjidalaisha.org/wp-content/plugins/trx_addons/js/swiper/swiper.jquery.min.js"></script>
+<script id="magnific-popup-js" src="https://masjidalaisha.org/wp-content/plugins/trx_addons/js/magnific/jquery.magnific-popup.min.js"></script>
+<script id="trx_addons-js-extra">
+var TRX_ADDONS_STORAGE = {"ajax_url":"https://masjidalaisha.org/wp-admin/admin-ajax.php","ajax_nonce":"4c807214fa","site_url":"https://masjidalaisha.org","post_id":"2","vc_edit_mode":"0","popup_engine":"magnific","animate_inner_links":"0","menu_collapse":"1","user_logged_in":"0","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$","msg_ajax_error":"Invalid server answer!","msg_magnific_loading":"Loading image","msg_magnific_error":"Error loading image","msg_error_like":"Error saving your like! Please, try again later.","msg_field_name_empty":"The name can't be empty","msg_field_email_empty":"Too short (or empty) email address","msg_field_email_not_valid":"Invalid email address","msg_field_text_empty":"The message text can't be empty","msg_search_error":"Search error! Try again later.","msg_send_complete":"Send message complete!","msg_send_error":"Transmit failed!","ajax_views":"","menu_cache":[".menu_mobile_inner \u003E nav \u003E ul"],"login_via_ajax":"1","msg_login_empty":"The Login field can't be empty","msg_login_long":"The Login field is too long","msg_password_empty":"The password can't be empty and shorter then 4 characters","msg_password_long":"The password is too long","msg_login_success":"Login success! The page should be reloaded in 3 sec.","msg_login_error":"Login failed!","msg_not_agree":"Please, read and check 'Terms and Conditions'","msg_email_long":"E-mail address is too long","msg_email_not_valid":"E-mail address is invalid","msg_password_not_equal":"The passwords in both fields are not equal","msg_registration_success":"Registration success! Please log in!","msg_registration_error":"Registration failed!","scroll_to_anchor":"1","update_location_from_anchor":"0","msg_sc_googlemap_not_avail":"Googlemap service is not available","msg_sc_googlemap_geocoder_error":"Error while geocode address"};
+//# sourceURL=trx_addons-js-extra
+</script>
+<script id="trx_addons-js" src="https://masjidalaisha.org/wp-content/plugins/trx_addons/js/trx_addons.js"></script>
+<script id="give-js-extra">
+var give_global_vars = {"ajaxurl":"https://masjidalaisha.org/wp-admin/admin-ajax.php","checkout_nonce":"2052077c79","currency":"USD","currency_sign":"$","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"\u003Ch3\u003EProcessing...\u003C/h3\u003E\u003Cp\u003EThis will only take a second!\u003C/p\u003E","number_decimals":"2","is_test_mode":"1","give_version":"4.16.7.2","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"https://masjidalaisha.org/wp-admin/admin-ajax.php","ajaxNonce":"e4bf6c01c0","loading":"Loading","select_option":"Please select an option","default_gateway":"manual","permalinks":"1","number_decimals":2},"cookie_hash":"e4f23a571bf8560ab5b6dbcdd2130c10","session_nonce_cookie_name":"wp-give_session_reset_nonce_e4f23a571bf8560ab5b6dbcdd2130c10","session_cookie_name":"wp-give_session_e4f23a571bf8560ab5b6dbcdd2130c10","delete_session_nonce_cookie":"0"};
+var giveApiSettings = {"root":"https://masjidalaisha.org/wp-json/give-api/v2/","rest_base":"give-api/v2"};
+//# sourceURL=give-js-extra
+</script>
+<script id="give-js" src="https://masjidalaisha.org/wp-content/plugins/give/build/assets/dist/js/give.js?ver=3d36eec5383ae95a9121"></script>
+<script id="react-js" src="https://masjidalaisha.org/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"></script>
+<script id="react-jsx-runtime-js" src="https://masjidalaisha.org/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1"></script>
+<script id="wp-url-js" src="https://masjidalaisha.org/wp-includes/js/dist/url.min.js?ver=bb0f766c3d2efe497871"></script>
+<script id="wp-api-fetch-js" src="https://masjidalaisha.org/wp-includes/js/dist/api-fetch.min.js?ver=d7efe4dc1468d36c39b8"></script>
+<script id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://masjidalaisha.org/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "67531d243f" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://masjidalaisha.org/wp-admin/admin-ajax.php?action=rest-nonce";
+(function(){if(!window.wp||!wp.apiFetch||!wp.apiFetch.use){return;}wp.apiFetch.use(function(options,next){var p=String((options&&(options.path||options.url))||"");try{var u=new URL(p,window.location.origin);p=(u.pathname||"")+(u.search||"");}catch(e){}if(p.indexOf("/wp/v2/users/me")!==-1){return Promise.resolve(null);}return next(options);});})();
+//# sourceURL=wp-api-fetch-js-after
+</script>
+<script id="react-dom-js" src="https://masjidalaisha.org/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"></script>
+<script id="wp-dom-ready-js" src="https://masjidalaisha.org/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-a11y-js" src="https://masjidalaisha.org/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="wp-blob-js" src="https://masjidalaisha.org/wp-includes/js/dist/blob.min.js?ver=198af75fe06d924090d8"></script>
+<script id="wp-block-serialization-default-parser-js" src="https://masjidalaisha.org/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=bff55bd3f1ce9df0c99c"></script>
+<script id="wp-autop-js" src="https://masjidalaisha.org/wp-includes/js/dist/autop.min.js?ver=9d0d0901b46f0a9027c9"></script>
+<script id="wp-deprecated-js" src="https://masjidalaisha.org/wp-includes/js/dist/deprecated.min.js?ver=990e85f234fee8f7d446"></script>
+<script id="wp-dom-js" src="https://masjidalaisha.org/wp-includes/js/dist/dom.min.js?ver=66a6cf58e0c4cd128af0"></script>
+<script id="wp-escape-html-js" src="https://masjidalaisha.org/wp-includes/js/dist/escape-html.min.js?ver=3f093e5cca67aa0f8b56"></script>
+<script id="wp-element-js" src="https://masjidalaisha.org/wp-includes/js/dist/element.min.js?ver=15ba804677f72a8db97b"></script>
+<script id="wp-is-shallow-equal-js" src="https://masjidalaisha.org/wp-includes/js/dist/is-shallow-equal.min.js?ver=5d84b9f3cb50d2ce7d04"></script>
+<script id="wp-keycodes-js" src="https://masjidalaisha.org/wp-includes/js/dist/keycodes.min.js?ver=aa1a141e3468afe7f852"></script>
+<script id="wp-priority-queue-js" src="https://masjidalaisha.org/wp-includes/js/dist/priority-queue.min.js?ver=1f0e89e247bc0bd3f9b9"></script>
+<script id="wp-undo-manager-js" src="https://masjidalaisha.org/wp-includes/js/dist/undo-manager.min.js?ver=27bb0ae036a2c9d4a1b5"></script>
+<script id="wp-compose-js" src="https://masjidalaisha.org/wp-includes/js/dist/compose.min.js?ver=fbe37f6b46750554f947"></script>
+<script id="wp-private-apis-js" src="https://masjidalaisha.org/wp-includes/js/dist/private-apis.min.js?ver=835912f0086b9e59aed4"></script>
+<script id="wp-redux-routine-js" src="https://masjidalaisha.org/wp-includes/js/dist/redux-routine.min.js?ver=64f9f5001aabc046c605"></script>
+<script id="wp-data-js" src="https://masjidalaisha.org/wp-includes/js/dist/data.min.js?ver=1756b6a2676c1b3369ab"></script>
+<script id="wp-data-js-after">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+//# sourceURL=wp-data-js-after
+</script>
+<script id="wp-html-entities-js" src="https://masjidalaisha.org/wp-includes/js/dist/html-entities.min.js?ver=8c6fa5b869dfeadc4af2"></script>
+<script id="wp-rich-text-js" src="https://masjidalaisha.org/wp-includes/js/dist/rich-text.min.js?ver=16449e6108f48327f368"></script>
+<script id="wp-shortcode-js" src="https://masjidalaisha.org/wp-includes/js/dist/shortcode.min.js?ver=11742fe18cc215d3d5ab"></script>
+<script id="wp-warning-js" src="https://masjidalaisha.org/wp-includes/js/dist/warning.min.js?ver=36fdbdc984d93aee8a97"></script>
+<script id="wp-blocks-js" src="https://masjidalaisha.org/wp-includes/js/dist/blocks.min.js?ver=ef38e42500165bfda301"></script>
+<script id="moment-js" src="https://masjidalaisha.org/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"></script>
+<script id="moment-js-after">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+//# sourceURL=moment-js-after
+</script>
+<script id="wp-date-js" src="https://masjidalaisha.org/wp-includes/js/dist/date.min.js?ver=c9f8e7dd3232716f34e9"></script>
+<script id="wp-date-js-after">
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago","s":"a second","ss":"%d seconds","m":"a minute","mm":"%d minutes","h":"an hour","hh":"%d hours","d":"a day","dd":"%d days","M":"a month","MM":"%d months","y":"a year","yy":"%d years"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":-4,"offsetFormatted":"-4","string":"America/New_York","abbr":"EDT"}} );
+//# sourceURL=wp-date-js-after
+</script>
+<script id="wp-primitives-js" src="https://masjidalaisha.org/wp-includes/js/dist/primitives.min.js?ver=a5c905ec27bcd76ef287"></script>
+<script id="wp-components-js" src="https://masjidalaisha.org/wp-includes/js/dist/components.min.js?ver=5dedfe13f08880193a28"></script>
+<script id="wp-keyboard-shortcuts-js" src="https://masjidalaisha.org/wp-includes/js/dist/keyboard-shortcuts.min.js?ver=2ed78d3b4c23f38804e0"></script>
+<script id="wp-commands-js" src="https://masjidalaisha.org/wp-includes/js/dist/commands.min.js?ver=e3d8bba53f4ffea4fcd2"></script>
+<script id="wp-notices-js" src="https://masjidalaisha.org/wp-includes/js/dist/notices.min.js?ver=218d0173a31ae7269246"></script>
+<script id="wp-preferences-persistence-js" src="https://masjidalaisha.org/wp-includes/js/dist/preferences-persistence.min.js?ver=e8033be98338d1861bca"></script>
+<script id="wp-preferences-js" src="https://masjidalaisha.org/wp-includes/js/dist/preferences.min.js?ver=035813168e404aa30193"></script>
+<script id="wp-preferences-js-after">
+( function() {
+				var serverData = false;
+				var userId = "0";
+				var persistenceLayer = wp.preferencesPersistence.__unstableCreatePersistenceLayer( serverData, userId );
+				var preferencesStore = wp.preferences.store;
+				wp.data.dispatch( preferencesStore ).setPersistenceLayer( persistenceLayer );
+			} ) ();
+//# sourceURL=wp-preferences-js-after
+</script>
+<script id="wp-style-engine-js" src="https://masjidalaisha.org/wp-includes/js/dist/style-engine.min.js?ver=faa37ce61b7ec8394b2a"></script>
+<script id="wp-theme-js" src="https://masjidalaisha.org/wp-includes/js/dist/theme.min.js?ver=e22ce547a4420507b323"></script>
+<script id="wp-token-list-js" src="https://masjidalaisha.org/wp-includes/js/dist/token-list.min.js?ver=16f0aebdd39d87c2a84b"></script>
+<script id="wp-upload-media-js" src="https://masjidalaisha.org/wp-includes/js/dist/upload-media.min.js?ver=d359c2cccf866d7082d2"></script>
+<script id="wp-block-editor-js" src="https://masjidalaisha.org/wp-includes/js/dist/block-editor.min.js?ver=f3d941bcb2e86c269881"></script>
+<script id="wp-core-data-js" src="https://masjidalaisha.org/wp-includes/js/dist/core-data.min.js?ver=89931f90e4df5eb5f8a3"></script>
+<script id="givewp-entities-public-js" src="https://masjidalaisha.org/wp-content/plugins/give/build/entitiesPublic.js?ver=b759f2adda1f29c50713"></script>
+<script id="superfish-js" src="https://masjidalaisha.org/wp-content/plugins/trx_addons/components/cpt/layouts/shortcodes/menu/superfish.min.js"></script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https://masjidalaisha.org/wp-admin/admin-ajax.php","nonce":"da3bc4c5a1","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https://masjidalaisha.org/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}};
+//# sourceURL=eael-general-js-extra
+</script>
+<script id="eael-general-js" src="https://masjidalaisha.org/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.8.1"></script>
+<script id="shaha-init-js-extra">
+var SHAHA_STORAGE = {"ajax_url":"https://masjidalaisha.org/wp-admin/admin-ajax.php","ajax_nonce":"4c807214fa","site_url":"https://masjidalaisha.org","theme_url":"https://masjidalaisha.org/wp-content/themes/shaha","site_scheme":"scheme_default","user_logged_in":"","mobile_layout_width":"767","mobile_device":"","menu_side_stretch":"","menu_side_icons":"","background_video":"","use_mediaelements":"1","comment_maxlength":"1000","admin_mode":"","email_mask":"^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$","strings":{"ajax_error":"Invalid server answer!","error_global":"Error data validation!","name_empty":"The name can&#039;t be empty","name_long":"Too long name","email_empty":"Too short (or empty) email address","email_long":"Too long email address","email_not_valid":"Invalid email address","text_empty":"The message text can&#039;t be empty","text_long":"Too long message text"},"alter_link_color":"#db9e30","button_hover":"slide_left"};
+//# sourceURL=shaha-init-js-extra
+</script>
+<script id="shaha-init-js" src="https://masjidalaisha.org/wp-content/themes/shaha/js/__scripts.js"></script>
+<script id="mediaelement-core-js-before">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+//# sourceURL=mediaelement-core-js-before
+</script>
+<script id="mediaelement-core-js" src="https://masjidalaisha.org/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17"></script>
+<script id="mediaelement-migrate-js" src="https://masjidalaisha.org/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=7.0.4"></script>
+<script id="mediaelement-js-extra">
+var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+//# sourceURL=mediaelement-js-extra
+</script>
+<script id="wp-mediaelement-js" src="https://masjidalaisha.org/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=7.0.4"></script>
+<script id="wpb_composer_front_js-js" src="https://masjidalaisha.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=8.4.1"></script>
+<script id="vc_transition_bootstrap_js-js" src="https://masjidalaisha.org/wp-content/plugins/js_composer/assets/lib/vc/vc_carousel/js/transition.min.js?ver=8.4.1"></script>
+<script id="vc_carousel_js-js" src="https://masjidalaisha.org/wp-content/plugins/js_composer/assets/lib/vc/vc_carousel/js/vc_carousel.min.js?ver=8.4.1"></script>
+<script id="lightbox2-js" src="https://masjidalaisha.org/wp-content/plugins/js_composer/assets/lib/vendor/node_modules/lightbox2/dist/js/lightbox.min.js?ver=8.4.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://masjidalaisha.org/wp-includes/js/wp-emoji-release.min.js?ver=7.0.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://masjidalaisha.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script></script><script id="rs-initialisation-scripts">
+		var	tpj = jQuery;
+
+		var	revapi5;
+
+		if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+		if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+		RS_MODULES.modules["revslider51"] = {once: RS_MODULES.modules["revslider51"]!==undefined ? RS_MODULES.modules["revslider51"].once : undefined, init:function() {
+			window.revapi5 = window.revapi5===undefined || window.revapi5===null || window.revapi5.length===0  ? document.getElementById("rev_slider_5_1") : window.revapi5;
+			if(window.revapi5 === null || window.revapi5 === undefined || window.revapi5.length==0) { window.revapi5initTry = window.revapi5initTry ===undefined ? 0 : window.revapi5initTry+1; if (window.revapi5initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider51"].init()}); return;}
+			window.revapi5 = jQuery(window.revapi5);
+			if(window.revapi5.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_5_1"); return;}
+			revapi5.revolutionInit({
+					revapi:"revapi5",
+					DPR:"dpr",
+					sliderLayout:"fullwidth",
+					visibilityLevels:"1240,1024,768,480",
+					gridwidth:"1240,1024,600,480",
+					gridheight:"970,768,800,720",
+					lazyType:"all",
+					spinner:"spinner0",
+					perspective:600,
+					perspectiveType:"local",
+					editorheight:"970,768,800,720",
+					responsiveLevels:"1240,1024,768,480",
+					progressBar:{disableProgressBar:true},
+					navigation: {
+						mouseScrollNavigation:false,
+						wheelCallDelay:1000,
+						onHoverStop:false,
+						touch: {
+							touchenabled:true,
+							touchOnDesktop:true
+						}
+					},
+					viewPort: {
+						global:true,
+						globalDist:"-200px",
+						enable:false,
+						visible_area:"20%"
+					},
+					fallbacks: {
+						allowHTML5AutoPlayOnAndroid:true
+					},
+			});
+							
+revapi5.bind("revolution.slide.onloaded",function (e) {
+
+revapi5.revredraw();
+
+});
+
+			
+		}} // End of RevInitScript
+
+		if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+	</script>
+
+</body>
+</html>
+
+<!-- Page cached by LiteSpeed Cache 7.9.1 on 2026-09-04 21:33:42 -->
