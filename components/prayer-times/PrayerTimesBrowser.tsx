@@ -2,7 +2,7 @@
 
 import { ChevronDown, Info } from 'lucide-react';
 import { useState } from 'react';
-import { useHomeMosque } from '@/lib/hooks/useHomeMosque';
+import { useHomeMosque } from '@/providers/HomeMosqueProvider';
 import { DEFAULT_PRAYER_TIMES } from '@/lib/config';
 import type { Mosque } from '@/lib/types';
 

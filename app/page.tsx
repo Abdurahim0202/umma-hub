@@ -5,13 +5,10 @@ import { APP_CONFIG } from '@/lib/config';
 import { ymdInTz } from '@/lib/utils';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
 import { mosques } from '@/lib/data/mosques';
-import { withLivePrayerTimes } from '@/lib/prayer-sources/all-mosques';
 import { HomeCommunitySection } from '@/app/HomeCommunitySection';
 import { EventCard } from '@/components/cards/EventCard';
 import { MosqueCard } from '@/components/cards/MosqueCard';
 import { ResourceCard } from '@/components/cards/ResourceCard';
-import { ZakatCalculator } from '@/components/zakat/ZakatCalculator';
-import { fetchMetalPrices } from '@/lib/zakat/metals';
 import type { Event, Resource } from '@/lib/types';
 
 export const revalidate = 3600;
@@ -71,11 +68,7 @@ function deriveRecurringPrograms(upcoming: Event[], limit: number): Resource[] {
 }
 
 export default async function HomePage() {
-  const [{ events }, liveMosques, metalPrices] = await Promise.all([
-    fetchAllMosqueEvents(),
-    withLivePrayerTimes(mosques),
-    fetchMetalPrices(),
-  ]);
+  const { events } = await fetchAllMosqueEvents();
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
   const todayLabel = format(new Date(), 'EEEE, MMMM d, yyyy');
 
@@ -138,7 +131,7 @@ export default async function HomePage() {
             { href: '/mosques', emoji: '🕌', label: 'Mosques' },
             { href: '/calendar', emoji: '📅', label: 'Events' },
             { href: '/resources?category=education', emoji: '📚', label: 'Classes' },
-            { href: '#zakat-calculator', emoji: '🧮', label: 'Zakat' },
+            { href: '/zakat', emoji: '🧮', label: 'Zakat' },
             { href: '/announcements', emoji: '📢', label: 'Announcements' },
             { href: '/community', emoji: '💬', label: 'Community' },
           ].map(action => (
@@ -209,7 +202,7 @@ export default async function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {liveMosques.map(mosque => (
+        {mosques.map(mosque => (
             <MosqueCard key={mosque.id} mosque={mosque} />
           ))}
         </div>
@@ -284,9 +277,6 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
-
-      {/* ─── ZAKAT CALCULATOR ────────────────────────────────── */}
-      <ZakatCalculator goldPerGram={metalPrices.goldPerGram} silverPerGram={metalPrices.silverPerGram} />
 
       {/* ─── CTA FOOTER ──────────────────────────────────────── */}
       <section className="bg-stone-900 rounded-3xl p-8 text-center text-white">

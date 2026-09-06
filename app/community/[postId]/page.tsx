@@ -35,6 +35,21 @@ export default function PostDetailPage() {
     setCommenting(true);
     setCommentError(null);
     try {
+      const modRes = await fetch('/api/moderate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ body: commentText.trim() }),
+      });
+      const mod = await modRes.json();
+      if (mod.blocked) {
+        setCommentError(mod.reason ?? 'This comment violates our community guidelines.');
+        setCommenting(false);
+        return;
+      }
+    } catch {
+      // Moderation service unavailable — don't block a legitimate comment.
+    }
+    try {
       await createComment({
         postId,
         userId:     user.uid,
@@ -85,7 +100,7 @@ export default function PostDetailPage() {
           <div className="flex-1 min-w-0">
             <div className="flex items-center flex-wrap gap-1.5 mb-2">
               <span className="category-pill bg-emerald-100 text-emerald-700">
-                r/{FORUM_CATEGORY_LABELS[post.community] ?? post.community}
+                m/{FORUM_CATEGORY_LABELS[post.community] ?? post.community}
               </span>
               <span className="text-xs text-stone-400">
                 Posted by <strong className="text-stone-600">{post.authorName}</strong>

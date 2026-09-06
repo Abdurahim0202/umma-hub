@@ -1,6 +1,6 @@
 import { Search, MapPin } from 'lucide-react';
 import { mosques } from '@/lib/data/mosques';
-import { withLivePrayerTimes } from '@/lib/prayer-sources/all-mosques';
+import { hasKnownPrayerSource } from '@/lib/prayer-sources/all-mosques';
 import { MosqueCard } from '@/components/cards/MosqueCard';
 import type { Metadata } from 'next';
 
@@ -12,8 +12,6 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function MosquesPage() {
-  const liveMosques = await withLivePrayerTimes(mosques);
-
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6">
       {/* Header */}
@@ -45,9 +43,9 @@ export default async function MosquesPage() {
       {/* Stats */}
       <div className="grid grid-cols-3 gap-3 mb-6">
         {[
-          { label: 'Mosques listed', value: liveMosques.length },
-          { label: 'Verified', value: liveMosques.filter(m => m.verified).length },
-          { label: "With Jumu'ah times", value: liveMosques.filter(m => m.jummahTimes).length },
+          { label: 'Mosques listed', value: mosques.length },
+          { label: 'Verified', value: mosques.filter(m => m.verified).length },
+          { label: 'Publish prayer times', value: mosques.filter(m => hasKnownPrayerSource(m.id)).length },
         ].map(stat => (
           <div key={stat.label} className="bg-white rounded-xl border border-stone-100 p-3 text-center shadow-sm">
             <p className="text-2xl font-bold text-emerald-600">{stat.value}</p>
@@ -58,7 +56,7 @@ export default async function MosquesPage() {
 
       {/* Mosque grid — already sorted by distance in the data file */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {liveMosques.map(mosque => (
+        {mosques.map(mosque => (
           <MosqueCard key={mosque.id} mosque={mosque} />
         ))}
       </div>

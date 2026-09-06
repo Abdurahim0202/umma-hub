@@ -49,6 +49,23 @@ export default function NewPostPage() {
     }
 
     try {
+      const modRes = await fetch('/api/moderate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, body }),
+      });
+      const mod = await modRes.json();
+      if (mod.blocked) {
+        setError(mod.reason ?? 'This post violates our community guidelines.');
+        setLoading(false);
+        return;
+      }
+    } catch {
+      // If the moderation check itself fails, let the post through rather
+      // than blocking a legitimate user on an infrastructure hiccup.
+    }
+
+    try {
       await createPost({
         userId:     user!.uid,
         authorName: user!.displayName ?? user!.email?.split('@')[0] ?? 'Community Member',
@@ -91,7 +108,7 @@ export default function NewPostPage() {
             >
               {CATEGORIES.map(cat => (
                 <option key={cat} value={cat}>
-                  r/{FORUM_CATEGORY_LABELS[cat] ?? cat}
+                  m/{FORUM_CATEGORY_LABELS[cat] ?? cat}
                 </option>
               ))}
             </select>

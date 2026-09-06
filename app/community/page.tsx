@@ -149,7 +149,7 @@ function CommunityPageContent() {
         <div className="lg:col-span-1 space-y-4">
           {/* About */}
           <div className="bg-emerald-600 rounded-2xl p-4 text-white">
-            <h2 className="font-bold mb-1">r/TeaneckMuslims</h2>
+            <h2 className="font-bold mb-1">m/TeaneckMuslims</h2>
             <p className="text-emerald-100 text-xs mb-3">
               The Muslim community hub for Teaneck, NJ. Ask questions, share resources, and connect.
             </p>
@@ -175,7 +175,7 @@ function CommunityPageContent() {
                       : 'text-stone-600 hover:bg-stone-50 hover:text-emerald-700'
                   }`}
                 >
-                  r/{FORUM_CATEGORY_LABELS[community] ?? community}
+                  m/{FORUM_CATEGORY_LABELS[community] ?? community}
                 </Link>
               ))}
               {category && (

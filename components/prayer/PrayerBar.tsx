@@ -1,10 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { DEFAULT_PRAYER_TIMES } from '@/lib/config';
 import { getNextPrayer, formatMinutesUntil } from '@/lib/utils';
-import { useHomeMosque } from '@/lib/hooks/useHomeMosque';
-import { Clock, MapPin, ChevronDown, Check } from 'lucide-react';
+import { useHomeMosque } from '@/providers/HomeMosqueProvider';
+import { Clock, MapPin, ChevronDown, Check, Loader2 } from 'lucide-react';
 import type { PrayerTime } from '@/lib/types';
 
 const PRAYER_DISPLAY = [
@@ -18,27 +18,59 @@ const PRAYER_DISPLAY = [
 interface MosqueOption {
   id: string;
   name: string;
-  hasData: boolean;
 }
 
 interface PrayerBarProps {
-  prayerTimesByMosque: Record<string, PrayerTime>;
   mosqueOptions: MosqueOption[];
 }
 
-export function PrayerBar({ prayerTimesByMosque, mosqueOptions }: PrayerBarProps) {
+export function PrayerBar({ mosqueOptions }: PrayerBarProps) {
   const { mosqueId, setMosqueId, hydrated } = useHomeMosque();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [prayerTimes, setPrayerTimes] = useState<PrayerTime | null>(null);
 
-  // Fall back gracefully: selected mosque's live times, else Darul Islah's
-  // (our best-covered source), else the static estimate — never a blank bar.
-  const prayerTimes =
-    prayerTimesByMosque[mosqueId] ??
-    prayerTimesByMosque['darul-islah'] ??
-    DEFAULT_PRAYER_TIMES;
+  // Per-mosque cache so switching back to a mosque already fetched this
+  // session doesn't re-hit the API (and the 3 Groq-backed mosques don't
+  // get re-queried every time the user flips between mosques).
+  const cache = useRef<Map<string, PrayerTime | null>>(new Map());
+
+  useEffect(() => {
+    if (!hydrated) return;
+
+    const cached = cache.current.get(mosqueId);
+    if (cached !== undefined) {
+      setPrayerTimes(cached);
+      setLoading(false);
+      return;
+    }
+
+    let cancelled = false;
+    setLoading(true);
+    fetch(`/api/prayer-times?mosqueId=${encodeURIComponent(mosqueId)}`)
+      .then(res => (res.ok ? res.json() : null))
+      .then(data => {
+        if (cancelled) return;
+        const times: PrayerTime | null = data?.prayerTimes ?? null;
+        cache.current.set(mosqueId, times);
+        setPrayerTimes(times);
+      })
+      .catch(() => {
+        if (!cancelled) cache.current.set(mosqueId, null);
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => { cancelled = true; };
+  }, [mosqueId, hydrated]);
+
+  // Fall back gracefully: selected mosque's live times, else the static
+  // estimate — never a blank bar, even while the fetch is in flight.
+  const displayTimes = prayerTimes ?? DEFAULT_PRAYER_TIMES;
 
   const selectedMosque = mosqueOptions.find(m => m.id === mosqueId);
-  const next = getNextPrayer(prayerTimes);
+  const next = getNextPrayer(displayTimes);
 
   return (
     <div className="prayer-bar-gradient text-white relative">
@@ -46,32 +78,39 @@ export function PrayerBar({ prayerTimesByMosque, mosqueOptions }: PrayerBarProps
         <div className="flex items-center justify-between h-[52px] gap-3">
           {/* Prayer times */}
           <div className="flex items-center gap-4 sm:gap-6 flex-shrink-0 overflow-x-auto">
-            {PRAYER_DISPLAY.map(({ key, label }) => {
-              const isNext = next?.name.toLowerCase() === label.toLowerCase();
-              return (
-                <div key={key} className="flex flex-col items-center">
-                  <span
-                    className={`text-[10px] uppercase tracking-wide font-medium ${
-                      isNext ? 'text-yellow-300' : 'text-emerald-200'
-                    }`}
-                  >
-                    {label}
-                  </span>
-                  <span
-                    className={`text-xs font-semibold ${
-                      isNext ? 'text-yellow-300 prayer-pulse' : 'text-white'
-                    }`}
-                  >
-                    {prayerTimes[key as keyof PrayerTime]}
-                  </span>
-                </div>
-              );
-            })}
+            {loading ? (
+              <div className="flex items-center gap-2 text-emerald-100 text-xs">
+                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                Loading prayer times…
+              </div>
+            ) : (
+              PRAYER_DISPLAY.map(({ key, label }) => {
+                const isNext = next?.name.toLowerCase() === label.toLowerCase();
+                return (
+                  <div key={key} className="flex flex-col items-center">
+                    <span
+                      className={`text-[10px] uppercase tracking-wide font-medium ${
+                        isNext ? 'text-yellow-300' : 'text-emerald-200'
+                      }`}
+                    >
+                      {label}
+                    </span>
+                    <span
+                      className={`text-xs font-semibold ${
+                        isNext ? 'text-yellow-300 prayer-pulse' : 'text-white'
+                      }`}
+                    >
+                      {displayTimes[key as keyof PrayerTime]}
+                    </span>
+                  </div>
+                );
+              })
+            )}
           </div>
 
           <div className="flex items-center gap-2 flex-shrink-0">
             {/* Next prayer countdown */}
-            {next && (
+            {!loading && next && (
               <div className="hidden sm:flex items-center gap-1.5 bg-white/10 rounded-full px-3 py-1 text-xs">
                 <Clock className="w-3 h-3 text-yellow-300" />
                 <span className="text-emerald-100">
@@ -108,10 +147,7 @@ export function PrayerBar({ prayerTimesByMosque, mosqueOptions }: PrayerBarProps
                         onClick={() => { setMosqueId(m.id); setMenuOpen(false); }}
                         className="w-full flex items-center justify-between gap-2 px-3 py-2 text-left text-sm text-stone-700 hover:bg-emerald-50 transition-colors"
                       >
-                        <span className="flex flex-col">
-                          <span>{m.name}</span>
-                          {!m.hasData && <span className="text-[10px] text-stone-400">No live data yet</span>}
-                        </span>
+                        <span>{m.name}</span>
                         {mosqueId === m.id && <Check className="w-4 h-4 text-emerald-600 flex-shrink-0" />}
                       </button>
                     ))}

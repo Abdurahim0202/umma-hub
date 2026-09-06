@@ -1,9 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { MapPin, Phone, Globe, Clock, CheckCircle, Navigation, Home } from 'lucide-react';
-import type { Mosque } from '@/lib/types';
+import { useEffect, useState } from 'react';
+import { MapPin, Phone, Globe, Clock, CheckCircle, Navigation, Home, Loader2 } from 'lucide-react';
+import type { IqamahTime, Mosque } from '@/lib/types';
 import { cn } from '@/lib/utils';
+import { useHomeMosque } from '@/providers/HomeMosqueProvider';
 
 interface MosqueCardProps {
   mosque: Mosque;
@@ -12,7 +14,38 @@ interface MosqueCardProps {
 }
 
 export function MosqueCard({ mosque, variant = 'default', className }: MosqueCardProps) {
-  const nextIqamah = mosque.iqamahTimes;
+  const { mosqueId: selectedMosqueId, hydrated } = useHomeMosque();
+  const isSelected = hydrated && mosque.id === selectedMosqueId;
+
+  // Only the selected home mosque's card fetches live iqamah times — the
+  // rest of the directory shows no time panel at all, so we never fetch
+  // (let alone display) prayer data for mosques the user isn't following.
+  const [liveIqamah, setLiveIqamah] = useState<IqamahTime | null | undefined>(mosque.iqamahTimes);
+  const [loadingIqamah, setLoadingIqamah] = useState(false);
+
+  useEffect(() => {
+    if (!isSelected) return;
+    let cancelled = false;
+    // Kicking off a fetch is exactly what this effect exists to do — the
+    // loading flag just mirrors that fetch being in flight, not state we
+    // could compute during render (network requests can't run there).
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoadingIqamah(true);
+    fetch(`/api/prayer-times?mosqueId=${encodeURIComponent(mosque.id)}`)
+      .then(res => (res.ok ? res.json() : null))
+      .then(data => {
+        if (!cancelled) setLiveIqamah(data?.iqamahTimes ?? null);
+      })
+      .catch(() => {
+        if (!cancelled) setLiveIqamah(null);
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingIqamah(false);
+      });
+    return () => { cancelled = true; };
+  }, [isSelected, mosque.id]);
+
+  const nextIqamah = isSelected ? liveIqamah : null;
 
   if (variant === 'compact') {
     return (
@@ -97,34 +130,42 @@ export function MosqueCard({ mosque, variant = 'default', className }: MosqueCar
             </div>
           )}
 
-          {/* Today's Iqamah preview */}
-          {nextIqamah ? (
-            <div className="mt-3 pt-3 border-t border-stone-100">
-              <p className="text-xs font-medium text-stone-600 mb-1.5 flex items-center gap-1">
-                <Clock className="w-3 h-3 text-emerald-600" />
-                Today&apos;s Iqamah
-              </p>
-              <div className="grid grid-cols-5 gap-1 text-center">
-                {[
-                  { label: 'Fajr', time: nextIqamah.fajr },
-                  { label: 'Dhuhr', time: nextIqamah.dhuhr },
-                  { label: 'Asr', time: nextIqamah.asr },
-                  { label: 'Maghrib', time: nextIqamah.maghrib },
-                  { label: 'Isha', time: nextIqamah.isha },
-                ].map(p => (
-                  <div key={p.label}>
-                    <p className="text-[9px] text-stone-400 uppercase">{p.label}</p>
-                    <p className="text-[11px] font-semibold text-stone-700">
-                      {p.time.replace(' AM', '').replace(' PM', '')}
-                    </p>
-                  </div>
-                ))}
+          {/* Today's Iqamah preview — selected home mosque only. Other
+              mosques' cards show no time panel and fetch nothing. */}
+          {isSelected && (
+            loadingIqamah ? (
+              <div className="mt-3 pt-3 border-t border-stone-100 flex items-center gap-1.5 text-xs text-stone-400">
+                <Loader2 className="w-3 h-3 animate-spin" />
+                Loading prayer times…
               </div>
-            </div>
-          ) : (
-            <div className="mt-3 pt-3 border-t border-stone-100">
-              <p className="text-xs text-stone-400 italic">Prayer times not available yet</p>
-            </div>
+            ) : nextIqamah ? (
+              <div className="mt-3 pt-3 border-t border-stone-100">
+                <p className="text-xs font-medium text-stone-600 mb-1.5 flex items-center gap-1">
+                  <Clock className="w-3 h-3 text-emerald-600" />
+                  Today&apos;s Iqamah
+                </p>
+                <div className="grid grid-cols-5 gap-1 text-center">
+                  {[
+                    { label: 'Fajr', time: nextIqamah.fajr },
+                    { label: 'Dhuhr', time: nextIqamah.dhuhr },
+                    { label: 'Asr', time: nextIqamah.asr },
+                    { label: 'Maghrib', time: nextIqamah.maghrib },
+                    { label: 'Isha', time: nextIqamah.isha },
+                  ].map(p => (
+                    <div key={p.label}>
+                      <p className="text-[9px] text-stone-400 uppercase">{p.label}</p>
+                      <p className="text-[11px] font-semibold text-stone-700">
+                        {p.time.replace(' AM', '').replace(' PM', '')}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div className="mt-3 pt-3 border-t border-stone-100">
+                <p className="text-xs text-stone-400 italic">Prayer times not available yet</p>
+              </div>
+            )
           )}
 
           {/* Tags */}

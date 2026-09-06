@@ -13,19 +13,30 @@ service cloud.firestore {
       return isSignedIn() && request.auth.uid == userId;
     }
 
+    // Backstop only — catches explicit profanity/slurs by direct text match.
+    // This is NOT a substitute for the app's Groq-based moderation check
+    // (app/api/moderate), which also catches hate speech, harassment, and
+    // coded language that no regex can reliably match. Rules can't call an
+    // external API, so this list is deliberately small and literal.
+    function hasBlockedTerm(text) {
+      return text.lower().matches('.*\\b(fuck|fucking|fucker|motherfucker|shit|bullshit|asshole|bitch|bastard|cunt|dick|pussy|cock|slut|whore|nigger|nigga|faggot|fag|retard|retarded|kike|spic|chink|gook|wetback|towelhead|raghead|paki|tranny|dyke)\\b.*');
+    }
+
     function isValidPost() {
       let data = request.resource.data;
       return data.keys().hasAll(['userId', 'title', 'body', 'category', 'createdAt'])
           && data.title is string && data.title.size() >= 3 && data.title.size() <= 300
           && data.body  is string && data.body.size()  >= 1 && data.body.size()  <= 10000
-          && data.userId == request.auth.uid;
+          && data.userId == request.auth.uid
+          && !hasBlockedTerm(data.title) && !hasBlockedTerm(data.body);
     }
 
     function isValidComment() {
       let data = request.resource.data;
       return data.keys().hasAll(['userId', 'body', 'createdAt'])
           && data.body is string && data.body.size() >= 1 && data.body.size() <= 5000
-          && data.userId == request.auth.uid;
+          && data.userId == request.auth.uid
+          && !hasBlockedTerm(data.body);
     }
 
     // ── PROFILES ─────────────────────────────────────────────────

@@ -44,6 +44,15 @@ const MOSQUE_SOURCES: Record<string, SourceConfig> = {
   'diyanet-bergen': { kind: 'none' }, // page confirmed gone; no current URL to check
 };
 
+/** Whether a mosque has a *configured* prayer-time source at all (structured
+ *  widget/API or the Groq fallback) — a static, no-fetch fact, distinct from
+ *  whether that source actually returned data just now. Used for listing
+ *  pages that want a rough "who publishes times" signal without fetching
+ *  every mosque's live data. */
+export function hasKnownPrayerSource(mosqueId: string): boolean {
+  return (MOSQUE_SOURCES[mosqueId]?.kind ?? 'none') !== 'none';
+}
+
 async function fetchOne(mosqueId: string, mosqueName: string, config: SourceConfig): Promise<MosquePrayerResult> {
   const fetchedAt = new Date().toISOString();
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);

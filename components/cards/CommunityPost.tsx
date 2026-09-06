@@ -46,7 +46,7 @@ export function CommunityPost({ post, className }: CommunityPostProps) {
         <Link href={`/community/${post.id}`} className="flex-1 min-w-0 block">
           {/* Meta */}
           <div className="flex items-center flex-wrap gap-1.5 mb-1.5">
-            <span className={cn('category-pill', communityColor)}>r/{communityLabel}</span>
+            <span className={cn('category-pill', communityColor)}>m/{communityLabel}</span>
             {post.isPinned && (
               <span className="flex items-center gap-0.5 text-[10px] text-stone-400">
                 <Pin className="w-3 h-3" /> Pinned
