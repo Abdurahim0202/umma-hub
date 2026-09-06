@@ -36,3 +36,6 @@ next-env.d.ts
 
 # Archive backups — never commit, they blow past GitHub's 100MB limit
 *.zip
+
+# Scraped-page cache — a runtime artifact, not source code
+.event-cache
