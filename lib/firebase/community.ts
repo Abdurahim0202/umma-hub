@@ -85,6 +85,16 @@ export async function getPosts(opts?: {
   ];
 }
 
+// ─── GET POSTS BY USER ───────────────────────────────────────
+
+export async function getUserPosts(userId: string): Promise<ForumPost[]> {
+  // A single-field `where` (no `orderBy`) needs no composite index — sort
+  // client-side instead since a user's own post count is always small.
+  const q = query(collection(db, 'posts'), where('userId', '==', userId));
+  const snap = await getDocs(q);
+  return snap.docs.map(docToPost).sort((a, b) => b.postedAt.localeCompare(a.postedAt));
+}
+
 // ─── GET SINGLE POST ─────────────────────────────────────────
 
 export async function getPost(postId: string): Promise<ForumPost | null> {
@@ -112,6 +122,18 @@ export async function createPost(data: {
     updatedAt:    serverTimestamp(),
   });
   return ref.id;
+}
+
+// ─── UPDATE POST ─────────────────────────────────────────────
+
+export async function updatePost(
+  postId: string,
+  data: { title: string; body: string },
+): Promise<void> {
+  await updateDoc(doc(db, 'posts', postId), {
+    ...data,
+    updatedAt: serverTimestamp(),
+  });
 }
 
 // ─── DELETE POST ─────────────────────────────────────────────

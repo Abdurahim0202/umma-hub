@@ -73,7 +73,7 @@ export function PrayerBar({ mosqueOptions }: PrayerBarProps) {
   const next = getNextPrayer(displayTimes);
 
   return (
-    <div className="prayer-bar-gradient text-white relative">
+    <div className="prayer-bar-gradient text-white sticky top-16 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-[52px] gap-3">
           {/* Prayer times */}

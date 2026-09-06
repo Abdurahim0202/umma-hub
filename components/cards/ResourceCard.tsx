@@ -32,8 +32,18 @@ export function ResourceCard({ resource, className }: ResourceCardProps) {
   const categoryLabel = RESOURCE_CATEGORY_LABELS[resource.category] ?? resource.category;
   const categoryColor = CATEGORY_COLORS[resource.category] ?? 'bg-gray-50 text-gray-700';
 
+  // Whole card is clickable through to the resource's website when it has
+  // one — no need to hunt for the "Visit" link specifically.
+  const CardTag = (resource.website ? 'a' : 'div') as 'a';
+  const cardProps = resource.website
+    ? { href: resource.website, target: '_blank', rel: 'noopener noreferrer' }
+    : {};
+
   return (
-    <div className={cn('bg-white rounded-2xl shadow-sm border border-stone-100 p-4 card-hover', className)}>
+    <CardTag
+      {...cardProps}
+      className={cn('group bg-white rounded-2xl shadow-sm border border-stone-100 p-4 card-hover block', className)}
+    >
       {/* Category */}
       <div className="flex items-start justify-between gap-2 mb-2">
         <span className={cn('category-pill', categoryColor)}>{categoryLabel}</span>
@@ -86,19 +96,12 @@ export function ResourceCard({ resource, className }: ResourceCardProps) {
       {/* Action */}
       <div className="mt-3 pt-3 border-t border-stone-100 flex items-center justify-between">
         <p className="text-xs text-stone-400">{resource.city}</p>
-        <div className="flex gap-2">
-          {resource.website && (
-            <a
-              href={resource.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1 text-xs text-emerald-600 hover:text-emerald-800 font-medium"
-            >
-              Visit <ExternalLink className="w-3 h-3" />
-            </a>
-          )}
-        </div>
+        {resource.website && (
+          <span className="flex items-center gap-1 text-xs text-emerald-600 group-hover:text-emerald-800 font-medium">
+            Visit <ExternalLink className="w-3 h-3" />
+          </span>
+        )}
       </div>
-    </div>
+    </CardTag>
   );
 }

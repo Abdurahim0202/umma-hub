@@ -1,17 +1,23 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { User, Heart, MapPin, LogOut, LogIn, Check, X, Pencil } from 'lucide-react';
+import { User, Heart, MapPin, LogOut, LogIn, Check, X, Pencil, MessageSquare, Trash2, ArrowUp, ArrowDown, Home } from 'lucide-react';
 import Link from 'next/link';
 import { signOut } from 'firebase/auth';
 import { auth } from '@/lib/firebase/config';
-import { getProfile, updateProfile } from '@/lib/firebase/community';
+import { getProfile, updateProfile, getUserPosts, deletePost } from '@/lib/firebase/community';
 import { useAuth } from '@/providers/AuthProvider';
+import { useHomeMosque } from '@/providers/HomeMosqueProvider';
+import { mosques } from '@/lib/data/mosques';
+import { FORUM_CATEGORY_LABELS, formatRelativeTime } from '@/lib/utils';
+import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
+import type { ForumPost } from '@/lib/types';
 
 const SUGGESTED_INTERESTS = ['Quran', 'Youth', 'Volunteering', 'Sisters', 'Education', 'Sports', 'Marriage', 'Finance'];
 
 export default function ProfilePage() {
   const { user, loading } = useAuth();
+  const { mosqueId: homeMosqueId, hydrated: mosqueHydrated } = useHomeMosque();
   const [profile, setProfile] = useState<{
     displayName?: string;
     city?: string;
@@ -24,13 +30,32 @@ export default function ProfilePage() {
   const [interestDraft, setInterestDraft] = useState('');
   const [saving, setSaving] = useState(false);
 
+  const [myPosts, setMyPosts] = useState<ForumPost[] | null>(null);
+  const [deleteTarget, setDeleteTarget] = useState<ForumPost | null>(null);
+  const [deleting, setDeleting] = useState(false);
+
   useEffect(() => {
     if (user) {
       getProfile(user.uid).then(data => {
         if (data) setProfile(data as typeof profile);
       });
+      getUserPosts(user.uid).then(setMyPosts);
     }
   }, [user]);
+
+  async function confirmDeletePost() {
+    if (!deleteTarget) return;
+    setDeleting(true);
+    try {
+      await deletePost(deleteTarget.id);
+      setMyPosts(posts => posts?.filter(p => p.id !== deleteTarget.id) ?? null);
+      setDeleteTarget(null);
+    } finally {
+      setDeleting(false);
+    }
+  }
+
+  const homeMosque = mosques.find(m => m.id === homeMosqueId);
 
   const displayName = profile?.displayName ?? user?.displayName ?? 'Guest User';
   const city        = profile?.city ?? 'Teaneck';
@@ -142,6 +167,91 @@ export default function ProfilePage() {
         )}
       </div>
 
+      {/* Home mosque */}
+      <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 mb-4">
+        <h2 className="font-semibold text-stone-900 mb-3 flex items-center gap-2">
+          <Home className="w-4 h-4 text-emerald-600" />
+          My Home Mosque
+        </h2>
+        {mosqueHydrated && homeMosque ? (
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2 min-w-0">
+              <MapPin className="w-4 h-4 text-emerald-600 flex-shrink-0" />
+              <div className="min-w-0">
+                <p className="text-sm font-medium text-stone-800 truncate">{homeMosque.name}</p>
+                <p className="text-xs text-stone-400 truncate">{homeMosque.city}, {homeMosque.state}</p>
+              </div>
+            </div>
+            <Link
+              href={`/mosques/${homeMosque.slug}`}
+              className="text-xs font-medium text-emerald-600 hover:underline flex-shrink-0"
+            >
+              View
+            </Link>
+          </div>
+        ) : (
+          <p className="text-sm text-stone-400">No home mosque selected yet.</p>
+        )}
+        <p className="text-xs text-stone-400 mt-2">
+          Change this any time from the prayer times bar at the top of the page.
+        </p>
+      </div>
+
+      {/* My Posts */}
+      {user && (
+        <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 mb-4">
+          <h2 className="font-semibold text-stone-900 mb-3 flex items-center gap-2">
+            <MessageSquare className="w-4 h-4 text-emerald-600" />
+            My Posts
+          </h2>
+          {myPosts === null ? (
+            <p className="text-sm text-stone-400">Loading your posts...</p>
+          ) : myPosts.length === 0 ? (
+            <p className="text-sm text-stone-400">
+              You haven&apos;t posted anything yet. <Link href="/community/new" className="text-emerald-600 hover:underline">Create a post</Link>
+            </p>
+          ) : (
+            <div className="divide-y divide-stone-100">
+              {myPosts.map(post => (
+                <div key={post.id} className="py-3 flex items-start justify-between gap-3">
+                  <Link href={`/community/${post.id}`} className="min-w-0 flex-1 group">
+                    <div className="flex items-center gap-1.5 mb-0.5">
+                      <span className="text-[10px] font-medium text-stone-400">
+                        m/{FORUM_CATEGORY_LABELS[post.community] ?? post.community}
+                      </span>
+                      <span className="text-[10px] text-stone-300">·</span>
+                      <span className="text-[10px] text-stone-400">{formatRelativeTime(post.postedAt)}</span>
+                    </div>
+                    <p className="text-sm font-medium text-stone-800 truncate group-hover:text-emerald-700">{post.title}</p>
+                    <div className="flex items-center gap-3 mt-0.5 text-[11px] text-stone-400">
+                      <span className="flex items-center gap-0.5"><ArrowUp className="w-3 h-3" />{post.upvotes}</span>
+                      <span className="flex items-center gap-0.5"><ArrowDown className="w-3 h-3" />{post.downvotes}</span>
+                      <span className="flex items-center gap-0.5"><MessageSquare className="w-3 h-3" />{post.commentCount}</span>
+                    </div>
+                  </Link>
+                  <div className="flex items-center gap-1 flex-shrink-0">
+                    <Link
+                      href={`/community/${post.id}`}
+                      className="p-1.5 rounded-lg text-stone-400 hover:text-emerald-700 hover:bg-emerald-50 transition-colors"
+                      title="Edit"
+                    >
+                      <Pencil className="w-3.5 h-3.5" />
+                    </Link>
+                    <button
+                      onClick={() => setDeleteTarget(post)}
+                      className="p-1.5 rounded-lg text-stone-400 hover:text-red-600 hover:bg-red-50 transition-colors"
+                      title="Delete"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Interests */}
       <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-4 mb-4">
         <h2 className="font-semibold text-stone-900 mb-3 flex items-center gap-2">
@@ -209,6 +319,17 @@ export default function ProfilePage() {
           <> · <Link href="/auth" className="text-emerald-600 hover:underline">Sign in to access all features</Link></>
         )}
       </p>
+
+      <ConfirmDialog
+        open={!!deleteTarget}
+        title="Delete this post?"
+        description={deleteTarget ? `"${deleteTarget.title}" and its comments will be permanently removed. This can't be undone.` : ''}
+        confirmLabel="Delete"
+        danger
+        pending={deleting}
+        onConfirm={confirmDeletePost}
+        onCancel={() => setDeleteTarget(null)}
+      />
     </div>
   );
 }
