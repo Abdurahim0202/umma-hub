@@ -5,7 +5,9 @@ import { Navbar } from '@/components/layout/Navbar';
 import { MobileNav } from '@/components/layout/MobileNav';
 import { PrayerBar } from '@/components/prayer/PrayerBar';
 import { APP_CONFIG } from '@/lib/config';
-import { fetchDarulIslahPrayerTimes, toPrayerTime } from '@/lib/prayer-sources/darul-islah';
+import { mosques } from '@/lib/data/mosques';
+import { withLivePrayerTimes } from '@/lib/prayer-sources/all-mosques';
+import type { PrayerTime } from '@/lib/types';
 import { AuthProvider } from '@/providers/AuthProvider';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -24,17 +26,19 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const prayerResult = await fetchDarulIslahPrayerTimes();
-  const prayerTimes  = prayerResult.status === 'ok' && prayerResult.today
-    ? toPrayerTime(prayerResult.today)
-    : undefined;
+  const liveMosques = await withLivePrayerTimes(mosques);
+  const prayerTimesByMosque: Record<string, PrayerTime> = {};
+  for (const m of liveMosques) {
+    if (m.prayerTimes) prayerTimesByMosque[m.id] = m.prayerTimes;
+  }
+  const mosqueOptions = liveMosques.map(m => ({ id: m.id, name: m.name, hasData: !!m.prayerTimes }));
 
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-stone-50 text-stone-900 antialiased">
         <AuthProvider>
           <Navbar />
-          <PrayerBar prayerTimes={prayerTimes} />
+          <PrayerBar prayerTimesByMosque={prayerTimesByMosque} mosqueOptions={mosqueOptions} />
           <main className="min-h-screen pb-20 md:pb-0">
             {children}
           </main>

@@ -1,6 +1,6 @@
 import { Search as SearchIcon } from 'lucide-react';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
-import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
+import { withLivePrayerTimes } from '@/lib/prayer-sources/all-mosques';
 import { mosques } from '@/lib/data/mosques';
 import { resources } from '@/lib/data/resources';
 import { ymdInTz } from '@/lib/utils';
@@ -18,7 +18,7 @@ export const revalidate = 3600;
 export default async function SearchPage() {
   const [{ events }, liveMosques] = await Promise.all([
     fetchAllMosqueEvents(),
-    withLiveDarulIslahTimes(mosques),
+    withLivePrayerTimes(mosques),
   ]);
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
   const upcoming = events.filter(e => e.date >= todayStr);

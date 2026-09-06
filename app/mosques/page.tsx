@@ -1,6 +1,6 @@
 import { Search, MapPin } from 'lucide-react';
 import { mosques } from '@/lib/data/mosques';
-import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
+import { withLivePrayerTimes } from '@/lib/prayer-sources/all-mosques';
 import { MosqueCard } from '@/components/cards/MosqueCard';
 import type { Metadata } from 'next';
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function MosquesPage() {
-  const liveMosques = await withLiveDarulIslahTimes(mosques);
+  const liveMosques = await withLivePrayerTimes(mosques);
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6">

@@ -6,7 +6,7 @@
  * API — the widget itself is the data source, so we parse the page).
  */
 
-import type { PrayerTime, IqamahTime, JummahTime, Mosque } from '@/lib/types';
+import type { PrayerTime, IqamahTime, JummahTime } from '@/lib/types';
 
 const SOURCE_URL = 'https://www.darulislah.org/salah/';
 const MOSQUE_ID = 'darul-islah';
@@ -128,19 +128,4 @@ export function toJummahTime(day: PrayerDay): JummahTime {
     mosqueId: MOSQUE_ID,
     khutbahs: day.jumuah.map(j => ({ label: j.label, time: j.time })),
   };
-}
-
-/** Returns `mosques` with Darul Islah's prayer/iqamah/Jumu'ah fields filled
- *  in from the live source. Leaves every other mosque untouched — we only
- *  have a real feed for our home mosque. Falls back silently to the input
- *  array (no live fields) if the source can't be reached. */
-export async function withLiveDarulIslahTimes(mosques: Mosque[]): Promise<Mosque[]> {
-  const result = await fetchDarulIslahPrayerTimes();
-  if (result.status !== 'ok' || !result.today) return mosques;
-  const { today } = result;
-  return mosques.map(m =>
-    m.id === MOSQUE_ID
-      ? { ...m, prayerTimes: toPrayerTime(today), iqamahTimes: toIqamahTime(today), jummahTimes: toJummahTime(today) }
-      : m
-  );
 }

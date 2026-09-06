@@ -2,7 +2,7 @@ import { Map } from 'lucide-react';
 import { mosques } from '@/lib/data/mosques';
 import { resources } from '@/lib/data/resources';
 import { fetchAllMosqueEvents } from '@/lib/event-sources';
-import { withLiveDarulIslahTimes } from '@/lib/prayer-sources/darul-islah';
+import { withLivePrayerTimes } from '@/lib/prayer-sources/all-mosques';
 import { ExploreBrowser } from '@/components/explore/ExploreBrowser';
 import { ymdInTz } from '@/lib/utils';
 import { APP_CONFIG } from '@/lib/config';
@@ -18,7 +18,7 @@ export const revalidate = 3600;
 export default async function ExplorePage() {
   const [{ events }, liveMosques] = await Promise.all([
     fetchAllMosqueEvents(),
-    withLiveDarulIslahTimes(mosques),
+    withLivePrayerTimes(mosques),
   ]);
   const todayStr = ymdInTz(new Date(), APP_CONFIG.timezone);
   const upcoming = events
