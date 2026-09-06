@@ -9,6 +9,7 @@ Instead of checking individual mosque websites, scrolling through social media, 
 **Repository:** [Abdurahim0202/umma-hub](https://github.com/Abdurahim0202/umma-hub)  
 **Project stage:** Functional hackathon prototype  
 **Local demo:** [http://localhost:3000](http://localhost:3000)
+**Live Application:** [https://umma-hub.vercel.app/](https://umma-hub.vercel.app/)
 
 ## Contents
 
